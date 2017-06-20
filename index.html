@@ -40,12 +40,18 @@
 				<li><span>產品特寫3</span></li>
 				<li><span>技術交流4</span></li>
 			</ul>
-			<button id="nav-toggle" class="nav-hide"><i class="fa fa-bars" aria-hidden="true"></i></button>
 		</nav>
 	</div>
 </header>
 <main></main>
 <footer></footer>
+<script>
+$(function(){
+	$(document).on('click','nav li',function(){
+		$(this).toggleClass('act');
+	})
+})
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>
