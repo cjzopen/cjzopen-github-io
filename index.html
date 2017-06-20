@@ -49,9 +49,7 @@
 $(function(){
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
-		$this.siblings().fadeOut(function(){
-			$this.addClass('act')
-		})
+		$this.siblings().fadeOut().end().addClass('act');
 	})
 	$(document).on('click','nav li.act',function(){
 		var $this = $(this);
