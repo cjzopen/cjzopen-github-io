@@ -169,8 +169,8 @@ nav ul{
             left: 0;
             z-index: 97;
             &.act{
-                top:0;
-                bottom:auto;
+                // top:0;
+                bottom:calc(100vh - 3rem);
                 z-index: 100;
             }
         }
