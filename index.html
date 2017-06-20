@@ -55,7 +55,7 @@ $(function(){
 	})
 	$(document).on('click','nav li.act',function(){
 		var $this = $(this);
-		$this.removeClass('act').end().siblings().fadeIn();
+		$this.siblings().fadeIn().end().removeClass('act');
 	})
 })
 </script>
