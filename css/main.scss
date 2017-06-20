@@ -162,11 +162,6 @@ nav ul{
             top: 0;
             left: 0;
             z-index: 99;
-            &.act{
-                
-                transform:rotate(0deg);
-                transition:all .3s ease;
-            }
         }
         &:nth-child(3){
             top: auto;
@@ -176,6 +171,7 @@ nav ul{
             &.act{
                 top:0;
                 bottom:auto;
+                z-index: 100;
             }
         }
         &:nth-child(2){
@@ -187,8 +183,10 @@ nav ul{
             right: calc(-50vh + 1.75rem);
             top: calc(50vh - 1.75rem);
             &.act{
+                width: 100vw;
                 top:0;
                 right: 0;
+                z-index: 100;
             }
         }
         &:nth-child(4){
@@ -200,8 +198,10 @@ nav ul{
             left: calc(-50vh + 1.75rem);
             top: calc(50vh - 1.75rem);
             &.act{
+                width: 100vw;
                 top:0;
                 left: 0;
+                z-index: 100;
             }
         }
         &.act{
@@ -211,7 +211,7 @@ nav ul{
             background-repeat: no-repeat;
             transform:rotate(0deg);
             transition:all .3s ease;
-            }
+        }
     }
 
 } 

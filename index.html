@@ -48,7 +48,14 @@
 <script>
 $(function(){
 	$(document).on('click','nav li',function(){
-		$(this).toggleClass('act');
+		var $this = $(this);
+		$this.siblings().fadeOut(function(){
+			$this.addClass('act')
+		})
+	})
+	$(document).on('click','nav li.act',function(){
+		var $this = $(this);
+		$this.removeClass('act').end().siblings().fadeIn();
 	})
 })
 </script>
