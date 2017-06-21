@@ -52,43 +52,42 @@ $(function(){
     var gotRigth =0;
     var gotBottom =0;
     var gotLeft =0;
-	function got(url){
-		$.ajax({
-            type: "GET",
-            // dataType: "script",
-            url: url,
-            beforeSend: function(){
-                $main.fadeOut()
-            }
-        }).done(function(data){
-            console.log(data)
-            $main.html(data)
-        }).fail(function(jqXHR, status, errorThrown) {
-            console.log('header load Error: ' + errorThrown)
-            console.log('Status: ' + status)
-            console.dir(jqXHR)
-            var errMsg;
-            if (jqXHR.status === 0) {
-                errMsg = 'Not connect./n Verify Network.';
-            } else if (jqXHR.status == 404) {
-                errMsg = 'Requested page not found. [404]';
-            } else if (jqXHR.status == 500) {
-                errMsg = 'Internal Server Error [500].';
-            } else if (status === 'parsererror') {
-                errMsg = 'Requested JSON parse failed.';
-            } else if (status === 'timeout') {
-                errMsg = 'Time out error.';
-            } else if (status === 'abort') {
-                errMsg = 'Ajax request aborted.';
-            } else {
-                errMsg = 'Uncaught Error./n' + jqXHR.responseText;
-            }
-            $main.text(errMsg)
-        }).always(function(){
-            $main.fadeIn()
-        });
-	}
-    got('str/home.html');
+    var hhome = '';
+	$.ajax({
+        type: "GET",
+        // dataType: "script",
+        url: '/str/home.html',
+        beforeSend: function(){
+            $main.fadeOut()
+        }
+    }).done(function(data){
+        console.log('homepage loaded')
+        hhome = data;
+        $main.html(hhome)
+    }).fail(function(jqXHR, status, errorThrown) {
+        console.log('header load Error: ' + errorThrown)
+        console.log('Status: ' + status)
+        console.dir(jqXHR)
+        var errMsg;
+        if (jqXHR.status === 0) {
+            errMsg = 'Not connect./n Verify Network.';
+        } else if (jqXHR.status == 404) {
+            errMsg = 'Requested page not found. [404]';
+        } else if (jqXHR.status == 500) {
+            errMsg = 'Internal Server Error [500].';
+        } else if (status === 'parsererror') {
+            errMsg = 'Requested JSON parse failed.';
+        } else if (status === 'timeout') {
+            errMsg = 'Time out error.';
+        } else if (status === 'abort') {
+            errMsg = 'Ajax request aborted.';
+        } else {
+            errMsg = 'Uncaught Error./n' + jqXHR.responseText;
+        }
+        $main.text(errMsg)
+    }).always(function(){
+        $main.fadeIn()
+    });
 
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
@@ -98,8 +97,9 @@ $(function(){
 
 		}else if($this.not('.act').attr('id') == 'bottom'){
             if(!gotBottom){
-                $.getScript( "str/bottom.js",function(success){
+                $.getScript( "/str/bottom.js",function(success){
                     gotBottom = 1;
+                    ga('send', 'pageview', 'bottom');
                 })
             }else{
                 $main.html('<section class="container"></section>');
@@ -113,7 +113,7 @@ $(function(){
 	})
 	$(document).on('click','nav li.act',function(){
 		var $this = $(this);
-		got('str/home.html');
+		$main.html(hhome)
 		$this.siblings().fadeIn().end().removeClass('act');
 	})
 })
