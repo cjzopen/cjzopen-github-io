@@ -95,6 +95,8 @@ $(function(){
 
 		}else if($this.attr('id') == 'bottom'){
 			$.getScript( "str/bottom.js")
+            $main.html('<section class="container"></section>')
+            $main.find('section').html(arr);
 		}else if($this.attr('id') == 'left'){
 
 		}
