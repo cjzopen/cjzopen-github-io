@@ -48,6 +48,10 @@ $(function(){
     console.log('%c幹嘛偷看倫家','color:red;font-size:20px;');
     console.log('這是專門提供給開發人員的瀏覽器功能。你想變工程師嗎(大哭)')
 	var $main = $('main');
+    var gotTop =0;
+    var gotRigth =0;
+    var gotBottom =0;
+    var gotLeft =0;
 	function got(url){
 		$.ajax({
             type: "GET",
@@ -93,17 +97,21 @@ $(function(){
 		}else if($this.not('.act').attr('id') == 'right'){
 
 		}else if($this.not('.act').attr('id') == 'bottom'){
-			$.getScript( "str/bottom.js",function(success){
+            if(!gotBottom){
+                $.getScript( "str/bottom.js",function(success){
+                    gotBottom = 1;
+                })
+            }else{
                 $main.html('<section class="container"></section>');
-                $main.find('section').html(arr);
-            })
+                $main.find('section').html(hcss);
+            }
+			
 		}else if($this.not('.act').attr('id') == 'left'){
 
 		}
         $this.siblings().fadeOut().end().addClass('act');
 	})
 	$(document).on('click','nav li.act',function(){
-        if(typeof arr !== 'undefined')arr='';
 		var $this = $(this);
 		got('str/home.html');
 		$this.siblings().fadeIn().end().removeClass('act');
