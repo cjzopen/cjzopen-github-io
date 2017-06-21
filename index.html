@@ -88,7 +88,6 @@ $(function(){
 
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
-		$this.siblings().fadeOut().end().addClass('act');
 		if($this.not('.act').attr('id') == 'top'){
 
 		}else if($this.not('.act').attr('id') == 'right'){
@@ -101,6 +100,7 @@ $(function(){
 		}else if($this.not('.act').attr('id') == 'left'){
 
 		}
+        $this.siblings().fadeOut().end().addClass('act');
 	})
 	$(document).on('click','nav li.act',function(){
         if(typeof arr !== 'undefined')arr='';
