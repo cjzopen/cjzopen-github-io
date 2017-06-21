@@ -100,6 +100,7 @@ $(function(){
 		}
 	})
 	$(document).on('click','nav li.act',function(){
+        $main.html('');
 		var $this = $(this);
 		got('str/home.html');
 		$this.siblings().fadeIn().end().removeClass('act');
