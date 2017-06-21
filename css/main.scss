@@ -216,6 +216,24 @@ nav ul{
     }
 
 } 
+article{
+    margin-bottom: 1.5rem;
+    p{
+        text-align: justify;
+        margin-bottom: 1rem;
+        letter-spacing: 1px;
+        line-height: 1.5
+    }
+    &.list{
+        h2{
+            margin:.5rem 0;
+        }
+        p{
+            margin-top: .5rem;
+            line-height: 1.4;
+        }
+    } 
+} 
 main{padding: 4rem;}
 @media (max-width: 767px) {
     nav ul li{
