@@ -104,7 +104,7 @@ $(function(){
 		}
 	})
 	$(document).on('click','nav li.act',function(){
-        if(arr)arr='';
+        if(arr != null)arr='';
 		var $this = $(this);
 		got('str/home.html');
 		$this.siblings().fadeIn().end().removeClass('act');
