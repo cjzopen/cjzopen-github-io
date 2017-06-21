@@ -89,17 +89,16 @@ $(function(){
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
 		$this.siblings().fadeOut().end().addClass('act');
-		if($this.attr('id') == 'top'){
+		if($this.not('.act').attr('id') == 'top'){
 
-		}else if($this.attr('id') == 'right'){
+		}else if($this.not('.act').attr('id') == 'right'){
 
-		}else if($this.attr('id') == 'bottom'){
+		}else if($this.not('.act').attr('id') == 'bottom'){
 			$.getScript( "str/bottom.js",function(success){
-                console.log(success)
                 $main.html('<section class="container"></section>');
                 $main.find('section').html(arr);
             })
-		}else if($this.attr('id') == 'left'){
+		}else if($this.not('.act').attr('id') == 'left'){
 
 		}
 	})
