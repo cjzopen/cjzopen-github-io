@@ -32,27 +32,71 @@
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <div class="loading" data-text="cj 的個人網頁"></div>
 <header>
-	<div class="sticky">
-		<nav class="wrap">
-			<ul class="text-center">
-				<li><span>產品特寫1</span></li>
-				<li><span>產品特寫2</span></li>
-				<li><span>產品特寫3</span></li>
-				<li><span>技術交流4</span></li>
-			</ul>
-		</nav>
-	</div>
+	<nav>
+		<ul class="text-center">
+			<li id="top"><span>產品特寫1</span></li>
+			<li id="right"><span>產品特寫2</span></li>
+			<li id="bottom"><span>技術交流</span></li>
+			<li id="left"><span>技術交流4</span></li>
+		</ul>
+	</nav>
 </header>
 <main></main>
 <footer></footer>
 <script>
 $(function(){
+	var $main = $('main');
+	function got(url){
+		$.ajax({
+            type: "GET",
+            url: url,
+            beforeSend: function(){
+                $main.fadeOut()
+            }
+        }).done(function(data){
+            console.log(data)
+            $main.html(data)
+        }).fail(function(jqXHR, status, errorThrown) {
+            console.log('header load Error: ' + errorThrown)
+            console.log('Status: ' + status)
+            console.dir(jqXHR)
+            var errMsg;
+            if (jqXHR.status === 0) {
+                errMsg = 'Not connect./n Verify Network.';
+            } else if (jqXHR.status == 404) {
+                errMsg = 'Requested page not found. [404]';
+            } else if (jqXHR.status == 500) {
+                errMsg = 'Internal Server Error [500].';
+            } else if (status === 'parsererror') {
+                errMsg = 'Requested JSON parse failed.';
+            } else if (status === 'timeout') {
+                errMsg = 'Time out error.';
+            } else if (status === 'abort') {
+                errMsg = 'Ajax request aborted.';
+            } else {
+                errMsg = 'Uncaught Error./n' + jqXHR.responseText;
+            }
+            $main.text(errMsg)
+        }).always(function(){
+            $main.fadeIn()
+        });
+	}
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
 		$this.siblings().fadeOut().end().addClass('act');
+		if($this.attr('id') == 'top'){
+
+		}else if($this.attr('id') == 'right'){
+
+		}else if($this.attr('id') == 'bottom'){
+			got('str/bottom.php');
+		}else if($this.attr('id') == 'left'){
+
+		}
 	})
 	$(document).on('click','nav li.act',function(){
 		var $this = $(this);
+		got('str/home.html');
 		$this.siblings().fadeIn().end().removeClass('act');
 	})
 })
