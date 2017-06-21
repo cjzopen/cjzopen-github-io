@@ -51,7 +51,7 @@ $(function(){
 	function got(url){
 		$.ajax({
             type: "GET",
-            dataType: "script",
+            // dataType: "script",
             url: url,
             beforeSend: function(){
                 $main.fadeOut()
@@ -94,7 +94,7 @@ $(function(){
 		}else if($this.attr('id') == 'right'){
 
 		}else if($this.attr('id') == 'bottom'){
-			got('str/bottom.js');
+			$.getScript( "str/bottom.js")
 		}else if($this.attr('id') == 'left'){
 
 		}
