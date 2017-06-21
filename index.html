@@ -45,10 +45,13 @@
 <footer></footer>
 <script>
 $(function(){
+    console.log('幹嘛偷看倫家','color:red;font-size:20px;');
+    console.log('這是專門提供給開發人員的瀏覽器功能。你想變工程師嗎(大哭)')
 	var $main = $('main');
 	function got(url){
 		$.ajax({
             type: "GET",
+            dataType: "script",
             url: url,
             beforeSend: function(){
                 $main.fadeOut()
@@ -81,6 +84,8 @@ $(function(){
             $main.fadeIn()
         });
 	}
+    got('str/home.html');
+
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
 		$this.siblings().fadeOut().end().addClass('act');

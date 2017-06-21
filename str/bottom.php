@@ -22,4 +22,3 @@ foreach ($css as $row) {
 		</article>';
 }
 echo '</section>';
-?>

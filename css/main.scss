@@ -215,7 +215,18 @@ nav ul{
     }
 
 } 
-@media (max-width: 767px) {}
+main{padding: 4rem;}
+@media (max-width: 767px) {
+    nav ul li{
+        position: static;
+        transform:rotate(0deg);
+        width: 100vw!important;
+    }
+    main{
+        padding-left:12px;
+        padding-right:12px
+    }
+}
 @media (max-device-width: 992px) {}
 // @supports (){}
 .if-ie{}
