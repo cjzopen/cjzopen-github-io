@@ -94,9 +94,11 @@ $(function(){
 		}else if($this.attr('id') == 'right'){
 
 		}else if($this.attr('id') == 'bottom'){
-			$.getScript( "str/bottom.js")
-            $main.html('<section class="container"></section>')
-            $main.find('section').html(arr);
+			$.getScript( "str/bottom.js",function(success){
+                console.log(success)
+                $main.html('<section class="container"></section>');
+                $main.find('section').html(arr);
+            })
 		}else if($this.attr('id') == 'left'){
 
 		}
