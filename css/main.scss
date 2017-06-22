@@ -250,7 +250,13 @@ footer{
 }
 pre{
     background-color: #232323;
-    color: #9a91f2;
+    color: #dcdcdc;
+    b{
+        color:#ffc375
+    }
+    i{
+        color: #9a91f2;
+    }
 }
 @media (max-width: 767px) {
     nav ul li{
