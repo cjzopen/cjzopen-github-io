@@ -4,7 +4,7 @@ var dcss = {
     a1:{
         "img": noImg,
         "link": "/exp/sticky.html",
-        "title": "display: sticky;",
+        "title": "position: sticky;",
         "date": "2017-06-13",
         "preface": "css 語法 sticky 在今年能用嗎？能！只要你不考慮 IE 或 Edge ..."
     },
