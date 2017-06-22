@@ -66,7 +66,7 @@
   	</nav>
   </header>
   <main></main>
-  <footer class="text-center main-bg fff-color">
+  <footer class="text-center main-bg fff-color" style="display: none">
     <small>Copyright &copy; 2017 cj. All rights reserved.</small>
   </footer>
 </div>
@@ -137,11 +137,13 @@ $(function(){
 
 		}
         $this.siblings().fadeOut().end().addClass('act');
+        $('footer').fadeIn();
 	})
 	$(document).on('click','nav li.act',function(){
 		var $this = $(this);
 		$main.html(hhome)
 		$this.siblings().fadeIn().end().removeClass('act');
+    $('footer').fadeOut();
 	})
 })
 </script>

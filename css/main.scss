@@ -121,8 +121,9 @@ li{font-size: 1rem;}
 .decimal>li{list-style-type: decimal;}
 .main-bg {background-color:$main-color;}
 .main-color {color: $main-color;}
-.gray {color:$gray;}
+.gray-color {color:$gray;}
 .gray-bg {background-color:$gray;}
+.fff-color{color:$fff;}
 .fff-bg {background-color: $fff;}
 .fl {float: left;}
 .fr{float: right;}
@@ -243,6 +244,7 @@ main{
     padding: 4rem;
     min-height: calc(100vh - 2rem);
 }
+footer{padding:1rem;}
 @media (max-width: 767px) {
     nav ul li{
         position: static;
