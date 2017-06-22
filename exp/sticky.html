@@ -71,15 +71,25 @@
     <br><br>
     <article>
     	<p>
-    		在經歷了只有行動裝置裡的 safari 有支援這個語法黑暗期之後，2016 年 google 正試宣佈<a href="https://developers.google.com/web/updates/2016/12/position-sticky" rel="external">新版的 chrome 將會再次支援 sticky 這項 css 語法</a>。其實不只是 chrme ，各家瀏覽器也相繼支援，連從來都不鳥這項語法的 IE ( Edge ) 也將在 Edge 16 開始支援。
+    		在經歷了只有行動裝置裡的 safari 有支援這項語法的黑暗期之後，2016 年 google 正試宣佈<a class="main-color" href="https://developers.google.com/web/updates/2016/12/position-sticky" rel="external">新版的 chrome 將會再次支援 sticky 這項 css 語法</a>。其實不只是 chrme ，各家瀏覽器也相繼支援，連從來都不鳥這項語法的 IE ( Edge ) 也將在 Edge 16 開始支援 ( 6 月時最新的版本為 15 )。
     	</p>
     	<h2>功能</h2>
     	<p>
     		這項語法的功能很簡單：在螢幕範圍內時是 <code>position: static;</code> ，超過範圍時變成 <code>position: fixed;</code> ，而且其它物件不會因此跑版，把原本寫 js 的判斷 scrollTop 的時間都省下來了。 <br>
     		最常應用且最簡單的地方應該就是傳統 fixed 在上方的 menu bar 了。
     	</p>
+      <pre>
+      
+        position: -webkit-sticky;
+        position: sticky;
+
+        /* 一定要給定位置它才會理你 */
+        top: 0;
+
+      </pre>
     	<p>
-    		<a href="http://jsbin.com/sexiwe/edit?output" rel="external">sticky 與 js 的應用。</a>from: <a href="https://developers.google.com/web/updates/2016/12/performant-parallaxing" rel="external">google update</a>
+    		<a class="main-color" href="http://jsbin.com/sexiwe/edit?output" rel="external">sticky 與 js 的應用。</a><br>
+        from: <a class="main-color" href="https://developers.google.com/web/updates/2016/12/performant-parallaxing" rel="external">google update</a>
     	</p>
     </article>
     <br>
