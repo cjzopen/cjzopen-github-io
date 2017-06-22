@@ -7,13 +7,13 @@
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<title>cj 的個人網站</title>
 	<meta name="description" content="關於 front-end ( 前端 ) 工程師 CJ 的心路歷程。給我圖片就可以把網站刻出來。">
-	<link rel="shortcut icon" href="img/favicon.ico" />
-    <meta property="og:url" content="https://marketing.ares.com.tw/dm/newsletter-2017-06-osc/focus" />
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+    <meta property="og:url" content="https://cjzopen.github.io/exp/sticky.html" />
     <meta property="og:title" content="cj 的個人網站" />
     <meta property="og:description" content="關於 front-end ( 前端 ) 工程師 CJ 的心路歷程" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="https://cjzopen.github.io/img/rrr.jpg" />
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="/css/main.css">
 <!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -34,32 +34,6 @@
 </script>
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<div class="loading" data-text="cj 的個人網頁"></div>
-<h1>position: sticky;</h1>
-<time class="main-color" datetime="2017-06-13">2017-06-13</time>
-<div
-  class="fb-like"
-  data-share="true"
-  data-layout="button_count" 
-  data-size="large" 
-  data-width="450"
-  data-show-faces="true">
-</div>
-<article>
-	<p>
-		在經歷了只有行動裝置裡的 safari 有支援這個語法黑暗期之後，2016 年 google 正試宣佈<a href="https://developers.google.com/web/updates/2016/12/position-sticky" rel="external">新版的 chrome 將會再次支援 sticky 這項 css 語法</a>。其實不只是 chrme ，各家瀏覽器也相繼支援，連從來都不鳥這項語法的 IE ( Edge ) 也將在 Edge 16 開始支援。
-	</p>
-	<h2>功能</h2>
-	<p>
-		這項語法的功能很簡單：在螢幕範圍內時是 <code>position: static;</code> ，超過範圍時變成 <code>position: fixed;</code> ，而且其它物件不會因此跑版，把原本寫 js 的判斷 scrollTop 的時間都省下來了。 <br>
-		最常應用且最簡單的地方應該就是傳統 fixed 在上方的 menu bar 了。
-	</p>
-	<p>
-		<a href="http://jsbin.com/sexiwe/edit?output" rel="external">sticky 與 js 的應用。</a>from: <a href="https://developers.google.com/web/updates/2016/12/performant-parallaxing" rel="external">google update</a>
-	</p>
-	
-</article>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -78,6 +52,37 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<div class="loading" data-text="cj 的個人網頁"></div>
+<div id="all">
+  <h1>position: sticky;</h1>
+  <time class="main-color" datetime="2017-06-13">2017-06-13</time>
+  <div
+    class="fb-like"
+    data-share="true"
+    data-layout="button_count" 
+    data-size="large" 
+    data-width="450"
+    data-show-faces="true">
+  </div>
+  <article>
+  	<p>
+  		在經歷了只有行動裝置裡的 safari 有支援這個語法黑暗期之後，2016 年 google 正試宣佈<a href="https://developers.google.com/web/updates/2016/12/position-sticky" rel="external">新版的 chrome 將會再次支援 sticky 這項 css 語法</a>。其實不只是 chrme ，各家瀏覽器也相繼支援，連從來都不鳥這項語法的 IE ( Edge ) 也將在 Edge 16 開始支援。
+  	</p>
+  	<h2>功能</h2>
+  	<p>
+  		這項語法的功能很簡單：在螢幕範圍內時是 <code>position: static;</code> ，超過範圍時變成 <code>position: fixed;</code> ，而且其它物件不會因此跑版，把原本寫 js 的判斷 scrollTop 的時間都省下來了。 <br>
+  		最常應用且最簡單的地方應該就是傳統 fixed 在上方的 menu bar 了。
+  	</p>
+  	<p>
+  		<a href="http://jsbin.com/sexiwe/edit?output" rel="external">sticky 與 js 的應用。</a>from: <a href="https://developers.google.com/web/updates/2016/12/performant-parallaxing" rel="external">google update</a>
+  	</p>
+  	
+  </article>
+  <footer class="text-center">
+    <small>Copyright &copy; 2017 cj. All rights reserved.</small>
+  </footer>
+</div>
 <script src="/js/main.js"></script>
 </body>
 </html>

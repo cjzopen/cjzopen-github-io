@@ -34,20 +34,40 @@
 </script>
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '900597923418842',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_TW/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <div class="loading" data-text="cj 的個人網頁"></div>
-<header>
-	<nav>
-		<ul class="text-center">
-			<li id="top"><span>產品特寫1</span></li>
-			<li id="right"><span>產品特寫2</span></li>
-			<li id="bottom"><span>技術交流</span></li>
-			<li id="left"><span>技術交流4</span></li>
-		</ul>
-	</nav>
-</header>
-<main></main>
-<footer></footer>
+<div id="all">
+  <header>
+  	<nav>
+  		<ul class="text-center">
+  			<li id="top"><span>產品特寫1</span></li>
+  			<li id="right"><span>產品特寫2</span></li>
+  			<li id="bottom"><span>技術交流</span></li>
+  			<li id="left"><span>技術交流4</span></li>
+  		</ul>
+  	</nav>
+  </header>
+  <main></main>
+  <footer></footer>
+</div>
 <script>
 $(function(){
     console.log('%c幹嘛偷看倫家','color:red;font-size:20px;');
@@ -122,24 +142,6 @@ $(function(){
 		$this.siblings().fadeIn().end().removeClass('act');
 	})
 })
-</script>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '900597923418842',
-      xfbml      : true,
-      version    : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/zh_TW/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
 </script>
 <script src="js/main.js"></script>
 </body>

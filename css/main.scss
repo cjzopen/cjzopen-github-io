@@ -137,6 +137,11 @@ li{font-size: 1rem;}
 .m-size{font-size: $m-size;}
 .s-size{font-size: $s-size;}
 
+#all{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav ul{
     margin: 0;
     padding: 0;
@@ -234,7 +239,10 @@ article{
         }
     } 
 } 
-main{padding: 4rem;}
+main{
+    padding: 4rem;
+    min-height: calc(100vh - 2rem);
+}
 @media (max-width: 767px) {
     nav ul li{
         position: static;
