@@ -2,7 +2,7 @@ var $main = $('main');
 var noImg ='/img/rrr.jpg';
 var dcss = {
     a1:{
-        "img": noImg,
+        "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=sticky',
         "link": "/exp/sticky.html",
         "title": "position: sticky;",
         "date": "2017-06-13",
