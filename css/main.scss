@@ -252,8 +252,10 @@ main{
 #nav{
     padding:.125rem 1rem;
     background-color: $sub-color;
+    opacity: .8;
     &:hover{
         background-color: $sub-color;
+        opacity: 1;
     }
     ul{
         margin: 0;
