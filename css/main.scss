@@ -138,6 +138,7 @@ li{font-size: 1rem;}
 .m-size{font-size: $m-size;}
 .s-size{font-size: $s-size;}
 .sticky{position: sticky;top: 0;}
+.fixed{position: fixed;top: 0;left: 0;width: 100px;z-index: 100;}
 
 #all{
     max-width: 1920px;
@@ -250,6 +251,10 @@ main{
 }
 #nav{
     padding:.5rem 1rem;
+    background-color: $sub-color;
+    &:hover{
+        background-color: $sub-color;
+    }
     li{
         position: static;
         width: auto;
@@ -272,7 +277,7 @@ pre{
         color:#ffc375
     }
     i{
-        color: #9a91f2;
+        color: $sub-color;
     }
 }
 @media (max-width: 767px) {
