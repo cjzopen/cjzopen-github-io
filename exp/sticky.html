@@ -75,9 +75,16 @@
         css 語法 <code>position: sticky;</code> 從原本的行動裝置再次(? 回歸各大瀏覽器，除了用在傳統的上下方 menu bar 之外，還可以用在與 scroll bar 之間的互動。
       </p>
       <br>
+      <h2>現況</h2>
     	<p>
     		在經歷了只有行動裝置裡的 safari 有支援這項語法的黑暗期之後，2016 年 google 正試宣佈<a class="main-color" href="https://developers.google.com/web/updates/2016/12/position-sticky" rel="external">新版的 chrome 將會再次支援 sticky 這項 css 語法</a>。其實不只是 chrme ，各家瀏覽器也相繼支援，連從來都不鳥這項語法的 IE ( Edge ) 也將在 Edge 16 開始支援 ( 6 月時最新的版本為 15 )。
     	</p>
+      <figure class="text-center">
+        <picture>
+          <img class="img-responsive center-block" src="/img/exp/2017/sticky-1.png" alt="sticky 的相容性">
+        </picture>
+        <figcaption>各大瀏覽器對於 sticky 的相容性 ( caniuse.com )</figcaption>
+      </figure>
     	<h2>功能</h2>
     	<p>
     		這項語法的功能很簡單：在螢幕範圍內時是 <code>position: static;</code> ，超過範圍時變成 <code>position: fixed;</code> ，而且其它物件不會因此跑版。第一個想到的地方就是傳統 fixed 在上方的 menu bar 了，它把原本寫 js 判斷 scrollTop 的時間都省下來了。
