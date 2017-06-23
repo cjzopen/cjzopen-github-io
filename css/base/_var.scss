@@ -41,6 +41,12 @@ $s-size:.75rem;
       color: $color;
   }
 }
+@mixin setColorAndHover($baseColor) {
+  color: $baseColor;
+  &:hover {
+    background: lighten($baseColor, 8%);
+  }
+}
 // @include placeholder(#000);
 
 // .borr{

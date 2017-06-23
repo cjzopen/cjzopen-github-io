@@ -137,6 +137,7 @@ li{font-size: 1rem;}
 .l-size{font-size: $l-size;}
 .m-size{font-size: $m-size;}
 .s-size{font-size: $s-size;}
+.sticky{position: sticky;top: 0;}
 
 #all{
     max-width: 1920px;
@@ -238,11 +239,22 @@ article{
             margin-top: .5rem;
             line-height: 1.4;
         }
-    } 
+    }
+    a{
+        @include setColorAndHover($main-color)
+    }
 } 
 main{
     padding: 4rem;
     min-height: calc(100vh - 3.5rem);
+}
+#nav{
+    padding:.5rem 1rem;
+    li{
+        position: static;
+        width: auto;
+        height: auto;
+    }
 }
 footer{
     padding:1rem;
