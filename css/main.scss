@@ -261,6 +261,9 @@ main{
             position: static;
             width: auto;
             height: auto;
+            &:hover{
+                background-color:inherit;
+            }
         }
     }
 }
