@@ -242,7 +242,7 @@ article{
         }
     }
     a{
-        @include setColorAndHover($main-color)
+        @include setColorAndHover($main-color, $fff)
     }
 } 
 main{
@@ -250,7 +250,7 @@ main{
     min-height: calc(100vh - 3.5rem);
 }
 #nav{
-    padding:.25rem 1rem;
+    padding:.125rem 1rem;
     background-color: $sub-color;
     &:hover{
         background-color: $sub-color;

@@ -42,10 +42,11 @@ $s-size:.75rem;
       color: $color;
   }
 }
-@mixin setColorAndHover($baseColor) {
+@mixin setColorAndHover($baseColor , $textColor) {
   color: $baseColor;
   &:hover {
     background: lighten($baseColor, 8%);
+    color: $textColor;
   }
 }
 // @include placeholder(#000);
