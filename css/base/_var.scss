@@ -10,11 +10,16 @@ $s-size:.75rem;
 
 
 
-@mixin transition($e) {
-  -webkit-transition: $e;
-  -moz-transition: $e;
-  transition: $e;
+@mixin transition($e, $s, $easing:"") {
+  -webkit-transition: $e $s unquote($easing);
+  -moz-transition: $e $s unquote($easing);
+  transition: $e $s unquote($easing);
 }
+// @mixin transition($e) {
+//   -webkit-transition: $e;
+//   -moz-transition: $e;
+//   transition: $e;
+// }
 @mixin box-sizing($border-box) {
   -webkit-box-sizing: $border-box;
   -moz-box-sizing: $border-box;
@@ -42,7 +47,7 @@ $s-size:.75rem;
       color: $color;
   }
 }
-@mixin setColorAndHover($baseColor , $textColor) {
+@mixin setColorAndHover($baseColor , $textColor:$fff) {
   color: $baseColor;
   &:hover {
     background: lighten($baseColor, 8%);

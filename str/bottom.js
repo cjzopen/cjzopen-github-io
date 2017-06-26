@@ -9,11 +9,11 @@ var dcss = {
         "preface": "css 語法 sticky 在今年能用嗎？能！只要你不考慮 IE 或 Edge ..."
     },
     a2:{
-        "img": noImg,
-        "link": "#",
-        "title": "test",
-        "date": "2017-06-13",
-        "preface": "test preface"
+        "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=picture',
+        "link": "/exp/picture.html",
+        "title": "HTML5 picture tag",
+        "date": "2017-06-26",
+        "preface": "換圖用不再勞煩 css"
     }
 }
 var hcss='';
