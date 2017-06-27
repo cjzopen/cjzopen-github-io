@@ -14,6 +14,13 @@ var dcss = {
         "title": "HTML5 picture tag",
         "date": "2017-06-26",
         "preface": "換圖用不再勞煩 css"
+    },
+    a3:{
+        "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=DevTool+59',
+        "link": "/exp/devtool59.html",
+        "title": "DevTools (Chrome 59)",
+        "date": "2017-06-27",
+        "preface": "一起來看 DevTools 在 Chrome 59 更新了什麼功能"
     }
 }
 var hcss='';
