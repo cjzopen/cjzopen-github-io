@@ -264,6 +264,7 @@ main{
             position: static;
             width: auto;
             height: auto;
+            transform: rotate(0deg);
             &:hover{
                 background-color:inherit;
             }
