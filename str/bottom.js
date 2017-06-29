@@ -21,6 +21,13 @@ var dcss = {
         "title": "DevTools (Chrome 59)",
         "date": "2017-06-27",
         "preface": "一起來看 DevTools 在 Chrome 59 更新了什麼功能"
+    },
+    a4:{
+        "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=CSS+Variables',
+        "link": "/exp/css-variables.html",
+        "title": "CSS Variables",
+        "date": "2017-06-29",
+        "preface": "你知道 CSS3 其實有原生的變數系統嗎"
     }
 }
 var hcss='';
