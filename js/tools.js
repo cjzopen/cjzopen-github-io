@@ -102,13 +102,27 @@ $(function(){
 		htools += str;
 	}
 	$('#tool-data').html(htools);
-	$('#tool-data .col-xs-12').shuffle();
-	jQuery.fn.shuffle = function () {
-	    var j;
-	    for (var i = 0; i < this.length; i++) {
-	        j = Math.floor(Math.random() * this.length);
-	        $(this[i]).before($(this[j]));
+
+	var orig = $('#tool-data').children();
+
+	reorder();
+
+	function reorder() {
+	    var grp = $('#tool-data').children();
+	    var cnt = grp.length;
+
+	    var temp, x;
+	    for (var i = 0; i < cnt; i++) {
+	        temp = grp[i];
+	        x = Math.floor(Math.random() * cnt);
+	        grp[i] = grp[x];
+	        grp[x] = temp;
 	    }
-	    return this;
-	};
+	    $(grp).remove();
+	    $('#tool-data').append($(grp));
+	}
+
+	function orderPosts() {
+	    $('#tool-data').html(orig);
+	}
 })
