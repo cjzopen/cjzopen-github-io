@@ -86,17 +86,23 @@
 .masonry{
   column-width: 320px;
   column-gap: 15px;
-  margin: 50px auto;
+  margin: 3rem auto;
 }
 .masonry>div{
   background: #fefefe;
-  border: 2px solid #fcfcfc;
+  border: 1px solid #ddd;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
   margin: 0 2px 15px;
   padding: 15px; padding-bottom: 10px;
-  transition: opacity .4s ease-in-out;
   column-break-inside: avoid;
   display:inline-block;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.masonry>div:hover{
+  box-shadow: 4px 4px 5px #d2d2d2, 5px 5px 5px #e2e2e2, 6px 6px 5px #e9e9e9, 7px 7px 5px #efefef, 8px 8px 5px #fafafa;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 </style>
     <article>
