@@ -146,7 +146,7 @@ $(function(){
             gotBottom = 1;
             hleft = data;
             $main.html('<section class="container"></section>');
-            $main.find('section').html(hleft);
+            $main.find('section').html(hleft).end().fadeIn();
           })
       }else{
           $main.html('<section class="container"></section>');
