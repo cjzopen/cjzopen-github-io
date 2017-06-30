@@ -13,7 +13,7 @@ var dcss = {
         "link": "/exp/picture.html",
         "title": "HTML5 picture tag",
         "date": "2017-06-26",
-        "preface": "換圖用不再勞煩 css"
+        "preface": "&lt;img&gt; 換圖從此不再勞煩 css"
     },
     a3:{
         "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=DevTool+59',
