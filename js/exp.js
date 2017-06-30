@@ -1,7 +1,7 @@
 $(function(){
 	$.ajax({
 		type: "GET",
-        url: '/exp/str/nav.html',
+        url: '/str/nav.html',
     }).done(function(data){
         console.log('menu loaded')
         nav = data;
