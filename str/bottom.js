@@ -42,6 +42,13 @@ var dcss = {
         "title": "background-attachment: fixed",
         "date": "2017-06-30",
         "preface": "note"
+    },
+    a7:{
+        "img": noImg,
+        "link": "/exp/csv-export.html",
+        "title": "CSV export",
+        "date": "2017-06-30",
+        "preface": "note"
     }
 }
 var hcss='';
