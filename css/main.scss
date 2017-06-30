@@ -137,7 +137,7 @@ li{font-size: 1rem;}
 .l-size{font-size: $l-size;}
 .m-size{font-size: $m-size;}
 .s-size{font-size: $s-size;}
-.sticky{position: sticky;top: 0;}
+.sticky{position: sticky;top: 0;z-index: 1030;}
 .fixed{position: fixed;top: 0;left: 0;width: 100px;z-index: 100;}
 
 #all{
