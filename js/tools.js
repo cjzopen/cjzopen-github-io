@@ -95,16 +95,20 @@ $(function(){
 	        "preface": "圖片轉成 data-URI"
 	    }
 	}
-	function shuffle(a,b) {
-	  var num = Math.random() > 0.5 ? -1:1;
-	  return num;
-	}
-	var ranTools = tools.sort(shuffle);
 	var htools ='';
 	var str ='';
-	for(var i=Object.keys(ranTools).length;i>=1;i--){
-		str = '<div class="col-xs-12 col-sm-6 col-md-3"><a class="thumbnail" href="'+ranTools[Object.keys(ranTools)[i - 1]].link+'" title="'+ranTools[Object.keys(ranTools)[i - 1]].title+'"><img src="'+img+'" alt="*"><h2 class="main-color">'+ranTools[Object.keys(ranTools)[i - 1]].title+'</h2><p class="text-left">'+ranTools[Object.keys(ranTools)[i - 1]].preface+'</p></div>';
+	for(var i=Object.keys(tools).length;i>=1;i--){
+		str = '<div class="col-xs-12 col-sm-6 col-md-3"><a class="thumbnail" href="'+tools[Object.keys(tools)[i - 1]].link+'" title="'+tools[Object.keys(tools)[i - 1]].title+'"><img src="'+img+'" alt="*"><h2 class="main-color">'+tools[Object.keys(tools)[i - 1]].title+'</h2><p class="text-left">'+tools[Object.keys(tools)[i - 1]].preface+'</p></div>';
 		htools += str;
 	}
 	$('#tool-data').html(htools);
+	$('#tool-data .col-xs-12').shuffle();
+	$.fn.shuffle = function () {
+	    var j;
+	    for (var i = 0; i < this.length; i++) {
+	        j = Math.floor(Math.random() * this.length);
+	        $(this[i]).before($(this[j]));
+	    }
+	    return this;
+	};
 })
