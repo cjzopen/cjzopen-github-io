@@ -37,7 +37,7 @@ $(function(){
 	    a6:{
 	        "link": "https://developers.facebook.com/docs/plugins/",
 	        "title": "FB social API",
-	        "preface": "更詳細請自己去看 graph.js"
+	        "preface": "更詳細請自己去看 graph API"
 	    },
 	    a7:{
 	        "link": "https://developers.facebook.com/tools/debug/",
