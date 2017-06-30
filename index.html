@@ -61,7 +61,7 @@
   			<li id="top"><span>準備中</span></li>
   			<li id="right"><span>準備中</span></li>
   			<li id="bottom"><span>技術交流</span></li>
-  			<li id="left"><span>準備中</span></li>
+  			<li id="left"><span>常用工具</span></li>
   		</ul>
   	</nav>
   </header>
@@ -134,6 +134,24 @@ $(function(){
             }
 			
 		}else if($this.not('.act').attr('id') == 'left'){
+      if(!gotLeft){
+          $.ajax({
+            type: "GET",
+            // dataType: "script",
+            url: '/str/left.html',
+            beforeSend: function(){
+                $main.fadeOut()
+            }
+          }).done(function(data){
+            gotBottom = 1;
+            hleft = data;
+            $main.html('<section class="container"></section>');
+            $main.find('section').html(hleft);
+          })
+      }else{
+          $main.html('<section class="container"></section>');
+          $main.find('section').html(hleft);
+      }
 
 		}
         $this.siblings().fadeOut().end().addClass('act');
