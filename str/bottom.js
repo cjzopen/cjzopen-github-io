@@ -1,33 +1,47 @@
 var $main = $('main');
 var noImg ='/img/rrr.jpg';
 var dcss = {
-    a1:{
+    {
         "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=sticky',
         "link": "/exp/sticky.html",
         "title": "position: sticky;",
         "date": "2017-06-13",
         "preface": "css 語法 sticky 在今年能用嗎？能！只要你不考慮 IE 或 Edge ..."
     },
-    a2:{
+    {
         "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=picture',
         "link": "/exp/picture.html",
         "title": "HTML5 picture tag",
         "date": "2017-06-26",
         "preface": "換圖用不再勞煩 css"
     },
-    a3:{
+    {
         "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=DevTool+59',
         "link": "/exp/devtool59.html",
         "title": "DevTools (Chrome 59)",
         "date": "2017-06-27",
         "preface": "一起來看 DevTools 在 Chrome 59 更新了什麼功能"
     },
-    a4:{
+    {
         "img": 'https://api.fnkr.net/testimg/360x205/9a91f2/FEFEFE/?text=CSS+Variables',
         "link": "/exp/css-variables.html",
         "title": "CSS Variables",
         "date": "2017-06-29",
         "preface": "你知道 CSS3 其實有原生的變數系統嗎"
+    },
+    {
+        "img": noImg,
+        "link": "/exp/column-masonry.html",
+        "title": "column masonry",
+        "date": "2017-06-30",
+        "preface": "note"
+    },
+    {
+        "img": noImg,
+        "link": "/exp/background-attachment.html",
+        "title": "background-attachment: fixed",
+        "date": "2017-06-30",
+        "preface": "note"
     }
 }
 var hcss='';
