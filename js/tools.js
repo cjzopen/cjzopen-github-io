@@ -103,7 +103,7 @@ $(function(){
 	}
 	$('#tool-data').html(htools);
 	$('#tool-data .col-xs-12').shuffle();
-	$.fn.shuffle = function () {
+	jQuery.fn.shuffle = function () {
 	    var j;
 	    for (var i = 0; i < this.length; i++) {
 	        j = Math.floor(Math.random() * this.length);
