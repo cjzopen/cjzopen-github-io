@@ -7,6 +7,10 @@ $(function(){
     var gotBottom =0;
     var gotLeft =0;
     var hhome = '';
+    var htop = '';
+    var hleft = '';
+    var hright = '';
+    var hbottom = '';
 	$.ajax({
         type: "GET",
         // dataType: "script",
