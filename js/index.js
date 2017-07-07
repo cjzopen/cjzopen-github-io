@@ -46,8 +46,46 @@ $(function(){
 	$(document).on('click','nav li',function(){
 		var $this = $(this);
 		if($this.not('.act').attr('id') == 'top'){
+            if(!gotTop){
+                $.ajax({
+                  type: "GET",
+                  // dataType: "script",
+                  url: '/str/top.html',
+                  beforeSend: function(){
+                      $main.fadeOut()
+                  }
+                }).done(function(data){
+                  gotTop = 1;
+                  htop = data;
+                  $main.html('<section class="container"></section>');
+                  $main.find('section').html(htop).end().fadeIn();
+                  ga('send', 'pageview', 'top');
+                })
+            }else{
+                $main.html('<section class="container"></section>');
+                $main.find('section').html(htop);
+            }
 
 		}else if($this.not('.act').attr('id') == 'right'){
+            if(!gotTop){
+                $.ajax({
+                  type: "GET",
+                  // dataType: "script",
+                  url: '/str/right.html',
+                  beforeSend: function(){
+                      $main.fadeOut()
+                  }
+                }).done(function(data){
+                  gotRight = 1;
+                  hright = data;
+                  $main.html('<section class="container"></section>');
+                  $main.find('section').html(hright).end().fadeIn();
+                  ga('send', 'pageview', 'right');
+                })
+            }else{
+                $main.html('<section class="container"></section>');
+                $main.find('section').html(hright);
+            }
 
 		}else if($this.not('.act').attr('id') == 'bottom'){
             if(!gotBottom){
@@ -61,25 +99,25 @@ $(function(){
             }
 			
 		}else if($this.not('.act').attr('id') == 'left'){
-      if(!gotLeft){
-          $.ajax({
-            type: "GET",
-            // dataType: "script",
-            url: '/str/left.html',
-            beforeSend: function(){
-                $main.fadeOut()
-            }
-          }).done(function(data){
-            gotLeft = 1;
-            hleft = data;
-            $main.html('<section class="container"></section>');
-            $main.find('section').html(hleft).end().fadeIn();
-            ga('send', 'pageview', 'left');
-          })
-      }else{
-          $main.html('<section class="container"></section>');
-          $main.find('section').html(hleft);
-      }
+          if(!gotLeft){
+              $.ajax({
+                type: "GET",
+                // dataType: "script",
+                url: '/str/left.html',
+                beforeSend: function(){
+                    $main.fadeOut()
+                }
+              }).done(function(data){
+                gotLeft = 1;
+                hleft = data;
+                $main.html('<section class="container"></section>');
+                $main.find('section').html(hleft).end().fadeIn();
+                ga('send', 'pageview', 'left');
+              })
+          }else{
+              $main.html('<section class="container"></section>');
+              $main.find('section').html(hleft);
+          }
 
 		}
         $this.siblings().fadeOut().end().addClass('act');
