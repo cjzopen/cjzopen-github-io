@@ -49,6 +49,13 @@ var dcss = {
         "title": "CSV export",
         "date": "2017-06-30",
         "preface": "note"
+    },
+    a8:{
+        "img": noImg,
+        "link": "/exp/csv-export.html",
+        "title": "GTM 自訂事件",
+        "date": "2017-07-13",
+        "preface": "善用 datalayer 中的資料，任何事件都能自訂，GTM 變數一下子就豐富了起來"
     }
 }
 var hcss='';
