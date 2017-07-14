@@ -22,7 +22,7 @@ $(function(){
 	    a3:{
 	        "link": "https://www.google.com/webmasters/tools/home?hl=zh-TW",
 	        "title": "Search Console",
-	        "preface": "."
+	        "preface": "google 的網站 debug 工具"
 	    },
 	    a4:{
 	        "link": "https://developers.google.com/speed/pagespeed/insights/",
@@ -47,7 +47,7 @@ $(function(){
 	    a8:{
 	        "link": "http://cubic-bezier.com/",
 	        "title": "cubic-bezier",
-	        "preface": "."
+	        "preface": "cubic-bezier 產生器"
 	    },
 	    a9:{
 	        "link": "http://bennettfeely.com/clippy/",
@@ -93,6 +93,11 @@ $(function(){
 	        "link": "https://websemantics.uk/tools/image-to-data-uri-converter/",
 	        "title": "image to data-URI converter",
 	        "preface": "圖片轉成 data-URI"
+	    },
+	    a18:{
+	        "link": "https://developers.google.com/+/web/+1button/",
+	        "title": "Google social 指南",
+	        "preface": "G+ 社交的簡單運用"
 	    }
 	}
 	var htools ='';

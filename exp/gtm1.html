@@ -6,10 +6,10 @@
 	<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<title>GTM 自訂事件</title>
-	<meta name="description" content="善用 dataLayer 中的資料，任何事件都能自訂，GTM 變數一下子就豐富了起來。">
+	<meta name="description" content="善用 dataLayer 中的資料，任何事件(觸發條件)都能自訂，GTM 變數一下子就豐富了起來。">
 	<link rel="shortcut icon" href="/img/favicon.ico" />
     <meta property="og:title" content="GTM 自訂事件" />
-    <meta property="og:description" content="善用 dataLayer 中的資料，任何事件都能自訂，GTM 變數一下子就豐富了起來。" />
+    <meta property="og:description" content="善用 dataLayer 中的資料，任何事件(觸發條件)都能自訂，GTM 變數一下子就豐富了起來。" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="https://cjzopen.github.io/img/rrr.jpg" />
     <meta name="twitter:card" content="summary" />
@@ -121,7 +121,7 @@
         <figcaption>「變數」新增一個「資料層變數」，名稱就是剛才 push 進去的 "menu_text"。選版本 1 是因為 menu_text 在第一層。</figcaption>
       </figure>
       <p>
-        如果想要抓的東西在更深的子層，可以選版本 2 往子層找。<br>example: <code>gtm.element.children.0.alt</code>( 抓取點擊的圖片裡的 alt 屬性 )
+        如果想要抓的東西在更深的子層，可以選版本 2 往子層找。<br>example: <code>gtm.element.children.0.alt</code>( 抓取元素裡圖片的 alt 屬性 )，這個通常運用在單一元素的點擊事件。
       </p>
       <figure class="text-center">
         <picture>
@@ -132,7 +132,7 @@
       <br>
       <p>
         以前單純用 GA 的時候，其實程式端只要在 js 加寫一行當前網址 $url，然後 push 的地方改成 <br>
-        <code>ga('sent','event','電子報 menu click',$text, $url)</code> 就把上面的事情都做完了。所以如果你是不碰 code 的 GTM 管理者，還請多體諒一下 工程師 或 coder。
+        <code>ga('sent','event','電子報 menu click',$text, $url)</code> 就把上面的事情都做完了。現在如果觸發條件或變數不是 GTM 裡頭的預設值時，那就使用 dataLayer 吧，所有事件都可以以此類推。
       </p>
 
     </article>
