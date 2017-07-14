@@ -55,7 +55,7 @@ var dcss = {
         "link": "/exp/gtm1.html",
         "title": "GTM 自訂事件",
         "date": "2017-07-13",
-        "preface": "善用 datalayer 中的資料，任何事件都能自訂，GTM 變數一下子就豐富了起來"
+        "preface": "運用 dataLayer 自訂觸發條件與變數，想要追蹤網頁上的什麼事情都可以。"
     }
 }
 var hcss='';
