@@ -77,7 +77,8 @@
         在 GTM 裡，如果要追蹤某個元素的點擊狀況大家都會；但如果要追蹤網頁中某個區塊的點擊狀況 ( 類似熱點 )，難不成要一個元素下一個 tag，下到整個版面都是嗎？那還要用 GTM 幹嘛。
       </p>
       <p>
-        這時候就換 自訂事件 + dataLayer 登場了。
+        這時候就換 自訂事件 + dataLayer 登場了。<br>
+        <code>ga('sent','event', ...)</code> → <code>dataLayer.push({...})</code> See the Pen <a href="https://codepen.io/cjzopen/pen/dRaWPX/">dataLayer</a>。
       </p>
       <br>
       <h2>push 資料進 dataLayer</h2>
