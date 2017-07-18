@@ -50,7 +50,7 @@ $(function(){
 	        "preface": "cubic-bezier 產生器"
 	    },
 	    a9:{
-	        "link": "http://bennettfeely.com/clippy/",
+	        "link": "https://bennettfeely.com/clippy/",
 	        "title": "clip-path",
 	        "preface": "clip-path 產生器"
 	    },
@@ -65,7 +65,7 @@ $(function(){
 	        "preface": "regex 語法測試"
 	    },
 	    a12:{
-	        "link": "http://graphemica.com/unicode/characters",
+	        "link": "https://graphemica.com/unicode/characters",
 	        "title": "unicode",
 	        "preface": "unicode 查詢"
 	    },
@@ -75,12 +75,12 @@ $(function(){
 	        "preface": "破壞性壓縮 (會改變變數名稱)"
 	    },
 	    a14:{
-	        "link": "http://csscompressor.com/",
-	        "title": "csscompressor",
+	        "link": "https://csscompressor.com/",
+	        "title": "CSScompressor",
 	        "preface": "css 壓縮"
 	    },
 	    a15:{
-	        "link": "http://caniuse.com/",
+	        "link": "https://caniuse.com/",
 	        "title": "caniuse.com",
 	        "preface": "相容性查詢"
 	    },
@@ -98,6 +98,16 @@ $(function(){
 	        "link": "https://developers.google.com/+/web/+1button/",
 	        "title": "Google social 指南",
 	        "preface": "G+ 社交的簡單運用"
+	    },
+	    a19:{
+	        "link": "https://testmysite.thinkwithgoogle.com/intl/en-us",
+	        "title": "Mobile Website Test",
+	        "preface": "Google 推出的手機網頁測速"
+	    },
+	    a20:{
+	        "link": "https://gifs.com/",
+	        "title": "gifs",
+	        "preface": "video to gif"
 	    }
 	}
 	var htools ='';
