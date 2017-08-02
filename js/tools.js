@@ -108,6 +108,11 @@ $(function(){
 	        "link": "https://gifs.com/",
 	        "title": "gifs",
 	        "preface": "video to gif"
+	    },
+	    a21:{
+	        "link": "https://varvy.com/",
+	        "title": "Varvy",
+	        "preface": "SEO tool"
 	    }
 	}
 	var htools ='';
