@@ -55,7 +55,7 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <style>
-main article a{
+main article #ex{
     border:none;
     text-decoration:none;
     box-shadow:0 -1px 0 #2858aa inset;
@@ -63,7 +63,7 @@ main article a{
     -ms-transition:box-shadow .2s ease-in-out;
     transition:box-shadow .2s ease-in-out;
 }
-main article a:hover{
+main article #ex:hover{
     /*color:#2858aa;*/
     box-shadow:0 -1px 0 rgba(0,0,0,0) inset,
                0 3px 0 #2858aa;
@@ -92,18 +92,19 @@ main article a:hover{
     <article>
       <h2>inset 與 hover 之後 inset 透明</h2>
 <pre>
-main article a{
+main article span{
     box-shadow:0 -1px 0 #2858aa inset;
     transition:box-shadow .2s ease-in-out;
 }
-main article a:hover{
+main article span:hover{
     box-shadow:0 -1px 0 rgba(0,0,0,0) inset,
                0 3px 0 #2858aa;
     transition:box-shadow .2s ease-in-out;
 }
 </pre>
 <br><br>
-  <a href="#">EXAMPLE</a>
+  <span id="ex">EXAMPLE</span>
+  <br>
       
 
     </article>
