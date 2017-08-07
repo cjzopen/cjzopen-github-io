@@ -56,6 +56,13 @@ var dcss = {
         "title": "GTM 自訂事件",
         "date": "2017-07-13",
         "preface": "運用 dataLayer 自訂觸發條件與變數，想要追蹤網頁上的什麼事情都可以。"
+    },
+    a9:{
+        "img": noImg,
+        "link": "/exp/underline-by-box-shadow.html",
+        "title": "underline by box-shadow",
+        "date": "2017-08-07",
+        "preface": "CSS, use box-shadow only on bottom side."
     }
 }
 var hcss='';
