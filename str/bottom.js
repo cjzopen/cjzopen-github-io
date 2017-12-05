@@ -42,13 +42,6 @@ var dcss = {
         "title": "background-attachment: fixed",
         "date": "2017-06-30",
         "preface": "note"
-    },
-    a7:{
-        "img": noImg,
-        "link": "/exp/gtm1.html",
-        "title": "GTM 自訂事件",
-        "date": "2017-07-13",
-        "preface": "運用 dataLayer 自訂觸發條件與變數，想要追蹤網頁上的什麼事情都可以。"
     }
 }
 var hcss='';
