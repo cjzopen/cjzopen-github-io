@@ -38,25 +38,41 @@ html,body{
   padding:1rem;
   margin:0 auto;
 }
+ul,ol {
+  list-style-image: none;
+  list-style: none;
+}
+
+ul.disc,ul.decimal,ol.disc,ol.decimal {
+  padding: .5rem 0 .5rem 1.375rem;
+}
+
+.disc>li {
+  list-style-type: disc;
+}
+
+.decimal>li {
+  list-style-type: decimal;
+}
 .flexbox{
   display:flex;
 }
-ul{
+.flexbox ul{
   border-right:1px solid #000;
   border-bottom:1px solid #000;
   width:calc(100% / 7);
 }
-ul:first-child{
+.flexbox ul:first-child{
   border-left: 1px solid #000;
 }
-li{
+.flexbox li{
   padding:6px;
   border-bottom:1px solid #000;
 }
-li:last-child{
+.flexbox li:last-child{
   border-bottom:none;
 }
-ul>li:first-child{
+.flexbox ul>li:first-child{
   color:#f1f1f1;
   background-color:#415261;
   text-align:center;
@@ -142,6 +158,16 @@ ul>li:first-child{
       <li>百錬の覇王と聖約の戦乙女</li>
     </ul>
   </div>
+  <br><br>
+  <details>
+    <summary>相關連結</summary>
+    <ol class="disc">
+      <li><a href="http://www.nicovideo.jp/watch/sm33396401" target="_blank">PV導覽(6/23)</a></li>
+      <li><a href="https://www.bilibili.com/video/av24049574" target="_blank">lex簡覽</a></li>
+      <li><a href="https://www.livechart.me/summer-2018/tv" target="_blank">LiveChart.me</a></li>
+      <li><a href="https://www.animen.com.tw/animen_web/web/animation_list?animation_list_id=16" target="_blank">Animen</a></li>
+    </ol>
+  </details>
 </div>
 </body>
 </html>
