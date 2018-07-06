@@ -14,13 +14,11 @@
   <meta property="og:type" content="website" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77969491-3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-77969491-3');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-77969491-3');
 </script>
-
 </head>
 <style>
 *{
@@ -193,5 +191,18 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
     </ol>
   </details>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+var gt=0;
+$(window).scroll(function(){
+  if(!gt){
+    gtag('event', 'ok', {
+      'event_category' : 'bbb',
+      'event_label' : 'ccc'
+    });
+    gt=1;
+  }
+})
+</script>
 </body>
 </html>
