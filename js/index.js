@@ -1,6 +1,6 @@
 $(function(){
     console.log('%c幹嘛偷看倫家','color:red;font-size:20px;');
-    console.log('這是專門提供給開發人員的瀏覽器功能。你想變工程師嗎(大哭)')
+    console.log('這是專門提供給開發人員的瀏覽器功能。你想變工程師嗎(😭)')
 	var $main = $('main');
     var gotTop =0;
     var gotRigth =0;
@@ -63,7 +63,11 @@ $(function(){
                   htop = data;
                   $main.html('<section class="container"></section>');
                   $main.find('section').html(htop).end().fadeIn();
-                  ga('send', 'pageview', 'top');
+                  // ga('send', 'pageview', 'top');
+                  gtag('config', 'UA-77969491-3', {
+                    'page_title' : 'about',
+                    'page_path': '/top'
+                  });
                 })
             }else{
                 $main.html('<section class="container"></section>');
@@ -84,7 +88,11 @@ $(function(){
                   hright = data;
                   $main.html('<section class="container"></section>');
                   $main.find('section').html(hright).end().fadeIn();
-                  ga('send', 'pageview', 'right');
+                  // ga('send', 'pageview', 'right');
+                  gtag('config', 'UA-77969491-3', {
+                    'page_title' : 'nothing',
+                    'page_path': '/right'
+                  });
                 })
             }else{
                 $main.html('<section class="container"></section>');
@@ -94,14 +102,17 @@ $(function(){
 		}else if($this.not('.act').attr('id') == 'bottom'){
             if(!gotBottom){
                 $.getScript( "/str/bottom.js",function(success){
-                    gotBottom = 1;
-                    ga('send', 'pageview', 'bottom');
+                  gotBottom = 1;
+                  // ga('send', 'pageview', 'bottom');
+                  gtag('config', 'UA-77969491-3', {
+                    'page_title' : 'communicate',
+                    'page_path': '/bottom'
+                  });
                 })
             }else{
                 $main.html('<section class="container"></section>');
                 $main.find('section').html(hcss);
             }
-			
 		}else if($this.not('.act').attr('id') == 'left'){
           if(!gotLeft){
               $.ajax({
@@ -116,7 +127,11 @@ $(function(){
                 hleft = data;
                 $main.html('<section class="container"></section>');
                 $main.find('section').html(hleft).end().fadeIn();
-                ga('send', 'pageview', 'left');
+                // ga('send', 'pageview', 'left');
+                gtag('config', 'UA-77969491-3', {
+                  'page_title' : 'tools',
+                  'page_path': '/left'
+                });
               })
           }else{
               $main.html('<section class="container"></section>');
