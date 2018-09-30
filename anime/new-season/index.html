@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>動畫新番表</title>
-  <meta name="description" content="日本動畫新番列表">
+  <meta name="description" content="2018 秋番動畫列表">
   <link rel="canonical" href="https://cjzopen.github.io/anime/new-season/">
   <meta property="og:title" content="動畫新番表" />
-  <meta property="og:description" content="日本動畫新番列表" />
+  <meta property="og:description" content="2018 秋番動畫列表" />
   <meta property="og:image" content="https://cjzopen.github.io/img/og.jpg" />
   <meta property="og:url" content="https://cjzopen.github.io/anime/new-season/" />
   <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77969491-3"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -25,9 +26,10 @@ gtag('config', 'UA-77969491-3');
   margin: 0;
   padding: 0;
   list-style:none;
+  display: none;
 }
-html,body{
-  font-family:"微軟正黑體";
+body{
+  font-family:"-apple-system", BlinkMacSystemFont, "Yu Gothic Medium", "游ゴシック Medium", YuGothic,"微軟正黑體";
   font-weight:600;
   font-size: 16px;
 }
@@ -72,136 +74,199 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   right: 0;
   margin: 0 auto;
 }
-@media (min-width: 768px) {
-  .flexbox{
-    display:flex;
-  }
-  .flexbox ul{
-    border-right:1px solid #000;
-    border-bottom:1px solid #000;
-    width:calc(100% / 7);
-  }
-  .flexbox ul:first-child{
-    border-left: 1px solid #000;
-  }
-  .flexbox li{
-    padding:6px;
-    border-bottom:1px solid #000;
-  }
-  .flexbox li:last-child{
-    border-bottom:none;
-  }
-  .flexbox ul>li:first-child{
-    color:#f1f1f1;
-    background-color:#415261;
-    text-align:center;
-  }
-}
 </style>
 <body>
 <div id="wrapper">
   <h1>2018夏季新番表</h1>
-  <div>
-    update: <time>2018-07-01</time>
-  </div><br>
-  <div class="flexbox">
-    <ul>
-      <li>一</li>
-      <li>Phantom in the Twilight</li>
-      <li>BEATLESS Final Stage</li>
-      <li>銀魂 銀ノ魂篇 後半戦</li>
-    </ul>
-    <ul>
-      <li>二</li>
-      <li>前進吧！登山少女 S3</li>
-      <li>One Room S2</li>
-      <li>邪神ちゃんドロップキック</li>
-      <li>京都寺町三条的福爾摩斯</li>
-      <li>千銃士</li>
-      <li>OVERLORD S3</li>
-      <li>Angolmois 元寇合戰記</li>
-      <li>偶像大師灰姑娘女孩劇場 S3</li>
-    </ul>
-    <ul>
-      <li>三</li>
-      <li>後街女孩</li>
-      <li>深夜！天才バカボン</li>
-      <li>Free! -Dive to the Future-</li>
-      <li>殭屍少女的災難</li>
-      <li>重神機潘多拉</li>
-      <li>中間管理錄利根川</li>
-      <li>Fate/EXTRA Last Encore Illustrius 天動説</li>
-    </ul>
-    <ul>
-      <li>四</li>
-      <li>天狼 Sirius the Jaeger</li>
-      <li>BANANA FISH</li>
-      <li>BanG Dream! ガルパ☆ピコ</li>
-      <li>夢王国と眠れる100人の王子様</li>
-      <li>異世界魔王と召喚少女の奴隷魔術</li>
-      <li>春原荘的管理人</li>
-    </ul>
-    <ul>
-      <li>五</li>
-      <li>遙的接球</li>
-      <li>殺戮の天使</li>
-      <li>千緒的通學路</li>
-      <li>高分少女</li>
-      <li>魔法律事務所</li>
-      <li>少女☆歌劇 レヴュースタァライト</li>
-      <li>音樂少女</li>
-      <li>七星のスバル</li>
-      <li>奴隸區 The Animation</li>
-      <li>異世界居酒屋</li>
-    </ul>
-    <ul>
-      <li>六</li>
-      <li>闇芝居 S6</li>
-      <li>機獸創世紀 Zoids Wild</li>
-      <li>Happy Sugar Life</li>
-      <li>GRAND BLUE</li>
-      <li>搖曳莊的幽奈小姐</li>
-      <li>LORD of VERMILION 紅蓮之王</li>
-      <li>工作細胞</li>
-      <li>未來卡搭檔對戰</li>
-    </ul>
-    <ul>
-      <li>日</li>
-      <li>進撃の巨人 S3</li>
-      <li>羽球戰爭！</li>
-      <li>ISLAND</li>
-      <li>遊戲3人娘</li>
-      <li>刃牙</li>
-      <li>付喪神出租中</li>
-      <li>Planet With</li>
-      <li>百錬の覇王と聖約の戦乙女</li>
-    </ul>
+  <div class="mb-5">update: <time>2018-10-01</time></div>
+  <div class="container-fluid">
+    <div class="row list">
+      <template v-for="(item, index) in items">
+        <div :class="'col-12 col-sm-6 col-md-4 col-lg-3 mb-3 '+ item.day">
+          <a :href="item.link" target="_blank">
+            <div class="card h-100">
+                <figure class="ratio-box card-img-top">
+                  <img class="img-fluid" :src="item.img" :alt="item.title">
+                </figure>
+              <div class="card-body pt-0">
+                <h2 class="card-title h5">{{ item.title }}</h2>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </template>
+    </div>
   </div>
-  <br><br>
-  <details>
-    <summary>相關連結</summary>
-    <ol class="disc">
-      <li>
-        <a href="http://www.nicovideo.jp/watch/sm33396401" target="_blank">PV導覽(6/23)</a>
-      </li>
-      <li><a href="https://www.bilibili.com/video/av24049574" target="_blank">lex簡覽</a></li>
-      <li><a href="https://www.livechart.me/summer-2018/tv" target="_blank">LiveChart.me</a></li>
-      <li><a href="https://www.animen.com.tw/animen_web/web/animation_list?animation_list_id=16" target="_blank">Animen</a></li>
-    </ol>
-  </details>
+  <aside class="mt-5">
+    <details open>
+      <summary>相關連結</summary>
+      <ol class="disc">
+        <li>
+          <a href="http://www.nicovideo.jp/watch/sm33396401" target="_blank">PV導覽(6/23)</a>
+        </li>
+        <li><a href="https://www.bilibili.com/video/av24049574" target="_blank">lex簡覽</a></li>
+        <li><a href="https://www.livechart.me/summer-2018/tv" target="_blank">LiveChart.me</a></li>
+        <li><a href="https://www.animen.com.tw/animen_web/web/animation_list?animation_list_id=16" target="_blank">Animen</a></li>
+      </ol>
+    </details>
+  </aside>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 <script>
-var gt=0;
-$(window).scroll(function(){
-  if(!gt){
-    gtag('event', 'ok', {
-      'event_category' : 'bbb',
-      'event_label' : 'ccc'
-    });
-    gt=1;
+var vue2 = new Vue({
+  el: '#wrapper',
+  data: {
+        // img:'/img/tool.svg',
+    items:[
+      {
+        day: 'w1',
+        img: 'img/あかねさす少女.jpg',
+        title: 'あかねさす少女',
+        link: 'http://akanesasushojo.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '關於我轉生變成史萊姆這檔事',
+        link: 'http://www.ten-sura.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '青春豬頭少年不做兔女郎學姐的夢',
+        link: 'https://ao-buta.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '末班電車後、膠囊旅館、給上司微熱的夜晚。',
+        link: 'https://shucap.cf-anime.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '書店裡的骷髏店員本田',
+        link: 'http://gaikotsu-honda-anime.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '直感×アルゴリズム',
+        link: 'http://project-algorhythm.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '黃金神威2期',
+        link: 'http://www.kamuy-anime.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '蒼天の拳REGENESIS 2期',
+        link: 'http://www.souten-regenesis.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '聖闘士星矢 セインティア翔',
+        link: 'https://www.saintia-sho.com/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+      {
+        day: 'w1',
+        img: 'https://picsum.photos/400/300/?random',
+        title: '東離劍遊紀 2',
+        link: 'http://thunderboltfantasy.com.tw/session2/'
+      },
+    ]
+  },
+  methods:{
+    reorder:function(){
+      var _area = $('.list');
+      var grp = _area.children();
+      var cnt = grp.length;
+      var temp, x;
+      for (var i = 0; i < cnt; i++) {
+        temp = grp[i];
+        x = Math.floor(Math.random() * cnt);
+        grp[i] = grp[x];
+        grp[x] = temp;
+      }
+      $(grp).remove();
+      _area.append($(grp));
+    }
   }
-})
+});
+vue2.reorder();
+
 </script>
 </body>
 </html>
