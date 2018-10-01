@@ -26,7 +26,7 @@ gtag('config', 'UA-77969491-3');
   margin: 0;
   padding: 0;
   list-style:none;
-  display: none;
+  text-decoration: none;
 }
 body{
   font-family:"-apple-system", BlinkMacSystemFont, "Yu Gothic Medium", "游ゴシック Medium", YuGothic,"微軟正黑體";
@@ -57,22 +57,42 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
 .decimal>li {
   list-style-type: decimal;
 }
-
+.card{
+  max-width: 22.5rem;
+  transition: all .4s;
+}
+.card:hover,.card:focus{
+  box-shadow: 0 0 1px 1px #ddd, 4px 4px 5px #d2d2d2, 5px 5px 5px #e2e2e2, 6px 6px 5px #e9e9e9, 7px 7px 5px #efefef, 8px 8px 5px #fafafa;
+  transition: all .4s;
+}
 .ratio-box {
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 52.5%;
   position: relative;
+  overflow: hidden;
+  min-height: 10rem;
+  background-color: snow;
 }
 .ratio-box>img,.ratio-box>iframe{
   position: absolute;
-  max-width:100%;
   width:100%!important;
-  height:100%!important;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   margin: 0 auto;
+}
+@supports (object-fit: cover) {
+  .ratio-box{
+    padding-top: 0;
+    height: 10rem;
+  }
+  .ratio-box>img{
+    position: static;
+    object-fit: cover;
+    object-position: 50% 46%;
+    height: 100%;
+  }
 }
 </style>
 <body>
@@ -86,7 +106,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
           <a :href="item.link" target="_blank">
             <div class="card h-100">
                 <figure class="ratio-box card-img-top">
-                  <img class="img-fluid" :src="item.img" :alt="item.title">
+                  <img class="img-fluid lazyload" :data-src="item.img" :alt="item.title">
                 </figure>
               <div class="card-body pt-0">
                 <h2 class="card-title h5">{{ item.title }}</h2>
@@ -98,7 +118,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
       </template>
     </div>
   </div>
-  <aside class="mt-5">
+<!--   <aside class="mt-5">
     <details open>
       <summary>相關連結</summary>
       <ol class="disc">
@@ -110,163 +130,11 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
         <li><a href="https://www.animen.com.tw/animen_web/web/animation_list?animation_list_id=16" target="_blank">Animen</a></li>
       </ol>
     </details>
-  </aside>
+  </aside> -->
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-<script>
-var vue2 = new Vue({
-  el: '#wrapper',
-  data: {
-        // img:'/img/tool.svg',
-    items:[
-      {
-        day: 'w1',
-        img: 'img/あかねさす少女.jpg',
-        title: 'あかねさす少女',
-        link: 'http://akanesasushojo.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '關於我轉生變成史萊姆這檔事',
-        link: 'http://www.ten-sura.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '青春豬頭少年不做兔女郎學姐的夢',
-        link: 'https://ao-buta.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '末班電車後、膠囊旅館、給上司微熱的夜晚。',
-        link: 'https://shucap.cf-anime.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '書店裡的骷髏店員本田',
-        link: 'http://gaikotsu-honda-anime.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '直感×アルゴリズム',
-        link: 'http://project-algorhythm.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '黃金神威2期',
-        link: 'http://www.kamuy-anime.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '蒼天の拳REGENESIS 2期',
-        link: 'http://www.souten-regenesis.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '聖闘士星矢 セインティア翔',
-        link: 'https://www.saintia-sho.com/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-      {
-        day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
-        title: '東離劍遊紀 2',
-        link: 'http://thunderboltfantasy.com.tw/session2/'
-      },
-    ]
-  },
-  methods:{
-    reorder:function(){
-      var _area = $('.list');
-      var grp = _area.children();
-      var cnt = grp.length;
-      var temp, x;
-      for (var i = 0; i < cnt; i++) {
-        temp = grp[i];
-        x = Math.floor(Math.random() * cnt);
-        grp[i] = grp[x];
-        grp[x] = temp;
-      }
-      $(grp).remove();
-      _area.append($(grp));
-    }
-  }
-});
-vue2.reorder();
-
-</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js" defer></script>
+<script src="script.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.2/lazysizes.min.js" defer></script>
 </body>
 </html>
