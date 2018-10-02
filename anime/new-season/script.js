@@ -9,7 +9,7 @@ var vue2 = new Vue({
     items:[
       {
         day: 'w1',
-        img: 'img/あかねさす少女.jpg',
+        img: 'img/2018-aki/あかねさす少女.jpg',
         title: 'あかねさす少女',
         link: 'http://akanesasushojo.com/'
       },
@@ -45,7 +45,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w1',
-        img: 'http://project-algorhythm.com/img/top.jpg',
+        img: 'img/2018-aki/直感.jpg',
         title: '直感×アルゴリズム',
         link: 'http://project-algorhythm.com/'
       },
@@ -93,7 +93,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w2',
-        img: 'http://hashiyoka.com/img/main.jpg',
+        img: 'img/2018-aki/走り.jpg',
         title: '走り続けてよかったって。',
         link: 'http://hashiyoka.com/'
       },
@@ -117,7 +117,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w3',
-        img: 'https://jingaisan.com/wp-content/uploads/2018/08/top_img.jpg',
+        img: 'img/2018-aki/人外.jpg',
         title: '人外さんの嫁',
         link: 'https://jingaisan.com/'
       },
@@ -147,7 +147,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w3',
-        img: 'http://imo-imo.jp/images/top-kv_smp.jpg',
+        img: 'img/2018-aki/妹妹.jpg',
         title: '我喜歡的妹妹不是妹妹',
         link: 'http://imo-imo.jp/'
       },
@@ -225,7 +225,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w5',
-        img: 'http://toaru-project.com/index_3/core_sys/images/main/common/logo.png',
+        img: 'http://toaru-project.com/index_3/ogp/ogp.jpg',
         title: '魔法禁書目錄Ⅲ',
         link: 'http://toaru-project.com/index_3/'
       },
@@ -249,7 +249,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w5',
-        img: 'http://uzamaid.com/images/top/visual02.jpg',
+        img: 'http://uzamaid.com/ogp.jpg',
         title: '我家的女僕有夠煩！',
         link: 'http://uzamaid.com/'
       },
@@ -309,7 +309,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w6',
-        img: 'img/sao.jpg',
+        img: 'img/2018-aki/sao.jpg',
         title: '刀劍神域 Alicization',
         link: 'https://sao-alicization.net/'
       },
@@ -388,15 +388,15 @@ var vue2 = new Vue({
     ],
     lasts:[
       {
-        img: 'img/少女歌劇.jpg',
+        img: 'img/2018-aki/少女歌劇.jpg',
         title: '少女☆歌劇レヴュー・スタァライト'
       },
       {
-        img: 'img/高分少女.jpg',
+        img: 'img/2018-aki/高分少女.jpg',
         title: '高分少女'
       },
       {
-        img: 'img/planetwith.jpg',
+        img: 'img/2018-aki/planetwith.jpg',
         title: 'Planet With'
       }
     ]
