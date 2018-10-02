@@ -11,133 +11,133 @@ var vue2 = new Vue({
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://thunderboltfantasy.com.tw/session2/images/mainpic0914.png',
         title: '東離劍遊紀2',
         link: 'http://thunderboltfantasy.com.tw/session2/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://www.ten-sura.com/4GfGdAp7/wp-content/themes/_s/img/home/kv.jpg',
         title: '關於我轉生變成史萊姆這檔事',
         link: 'http://www.ten-sura.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://ao-buta.com/ogp.png',
         title: '青春豬頭少年不做兔女郎學姐的夢',
         link: 'https://ao-buta.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://shucap.cf-anime.com/wp-content/themes/shucap/img/og_image.jpg',
         title: '末班電車後、膠囊旅館、給上司微熱的夜晚。',
         link: 'https://shucap.cf-anime.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://gaikotsu-honda-anime.com/common/images/common/ogp03.jpg',
         title: '書店裡的骷髏店員本田',
         link: 'http://gaikotsu-honda-anime.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://project-algorhythm.com/img/top.jpg',
         title: '直感×アルゴリズム',
         link: 'http://project-algorhythm.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://www.kamuy-anime.com/core_sys/images/others/ogp.jpg',
         title: '黃金神威2期',
         link: 'http://www.kamuy-anime.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://www.souten-regenesis.com/wp/wp-content/themes/souten_2018_cms_v2/images/mv_new_sp.jpg',
         title: '蒼天の拳REGENESIS 2期',
         link: 'http://www.souten-regenesis.com/'
       },
       {
         day: 'w1',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://www.saintia-sho.com/lib/images/fb.jpg',
         title: '聖闘士星矢 セインティア翔',
         link: 'https://www.saintia-sho.com/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://tiramisu-anime.com/wp/wp-content/uploads/2018/09/ogp_1809.png',
         title: '宇宙戰艦提拉米蘇 2期',
         link: 'http://tiramisu-anime.com/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://xuanyuansword.net/tw/images/sp/img_logo.png',
         title: '軒轅劍 蒼之曜',
         link: 'http://xuanyuansword.net/tw/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://www.toei-anim.co.jp/tv/bbh/ogp.jpg',
         title: '爆釣バーハンター',
         link: 'http://www.toei-anim.co.jp/tv/bbh/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://ganma.jp/g/anime/otonabougu/img/fb1200x630.png',
         title: '大人的防具店',
         link: 'https://ganma.jp/g/anime/otonabougu/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://hashiyoka.com/img/main.jpg',
         title: '走り続けてよかったって。',
         link: 'http://hashiyoka.com/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://sidem-wakemini.com/lib/images/ogp.png',
         title: '偶像大師SideM 理由（ワケ）あってMini!',
         link: 'http://sidem-wakemini.com/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://www.marv.jp/special/tokyoghoul/ogp.png',
         title: '東京喰種:re 2期',
         link: 'http://www.marv.jp/special/tokyoghoul/'
       },
       {
         day: 'w2',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/images/facebook_icon.jpg',
         title: '足球小將翼 中學生篇',
         link: 'http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/'
       },
       {
         day: 'w3',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://jingaisan.com/wp-content/uploads/2018/08/top_img.jpg',
         title: '人外さんの嫁',
         link: 'https://jingaisan.com/'
       },
       {
         day: 'w3',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://kazetsuyo-anime.com/images/ogp3.jpg',
         title: '強風吹拂',
         link: 'http://kazetsuyo-anime.com/'
       },
       {
         day: 'w3',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'https://www.yte.co.jp/yte/public/assets/img/bangumi/0c4c0d164b1ff05e4b85543a516d272f.jpg',
         title: '喂，看見耳朵啦！',
         link: 'https://www.yte.co.jp/program/detail.php?id=107'
       },
       {
         day: 'w3',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://soraumi-anime.com/og.png',
         title: '轉吧！小海女！~在天空與海洋之間~',
         link: 'http://soraumi-anime.com/'
       },
       {
         day: 'w3',
-        img: 'https://picsum.photos/400/300/?random',
+        img: 'http://conception-anime.com/images/fb_image.png',
         title: 'Conception 產子救世錄',
         link: 'http://conception-anime.com/'
       },
@@ -381,6 +381,20 @@ var vue2 = new Vue({
         title: '弦音－風舞高中弓道部－',
         link: 'http://tsurune.com/'
       }
+    ],
+    lasts:[
+      {
+        img: 'img/少女歌劇.jpg',
+        title: '少女☆歌劇レヴュー・スタァライト'
+      },
+      {
+        img: 'img/高分少女.jpg',
+        title: '高分少女'
+      },
+      {
+        img: 'img/planetwith.jpg',
+        title: 'Planet With'
+      }
     ]
   },
   methods:{
@@ -401,3 +415,13 @@ var vue2 = new Vue({
   }
 });
 vue2.reorder();
+$('#select').change(function(){
+  var wDay = $(this).val();
+  var _list = $('.list');
+  _list.find('.col-lg-3').hide();
+  _list.find('.'+wDay).fadeIn('200');
+  gtag('config', 'UA-77969491-3', {
+    'page_title' : '動畫新番表',
+    'page_path': '/anime/new-season/'+ wDay
+  });
+});
