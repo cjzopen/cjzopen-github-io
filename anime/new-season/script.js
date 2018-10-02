@@ -1,7 +1,11 @@
 var vue2 = new Vue({
   el: '#wrapper',
   data: {
-        // img:'/img/tool.svg',
+    ItemList:'http://schema.org/ItemList',
+    ListItem:'http://schema.org/ListItem',
+    itemUrl:'item url',
+    itemImage:'image',
+    itemName:'name',
     items:[
       {
         day: 'w1',

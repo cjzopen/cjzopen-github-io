@@ -134,15 +134,15 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
     </div>
     <div class="row list" itemprop="mainEntity" itemscope itemtype="http://schema.org/ItemList">
       <template v-for="(item, index) in items">
-        <div :class="'col-12 col-sm-6 col-md-4 col-lg-3 mb-3 '+ item.day" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a :href="item.link" target="_blank" itemprop="item url">
+        <div :class="'col-12 col-sm-6 col-md-4 col-lg-3 mb-3 '+ item.day" itemprop="itemListElement" itemscope :itemtype="ListItem">
+          <a :href="item.link" target="_blank" :itemprop="itemUrl">
             <div class="card h-100">
-              <meta itemprop="image" :content="item.img">
+              <meta :itemprop="itemImage" :content="item.img">
               <figure class="ratio-box card-img-top">
                 <img class="img-fluid lazyload" :data-src="item.img" :alt="item.title">
               </figure>
               <div class="card-body pt-0">
-                <h2 class="card-title h5" itemprop="name">{{ item.title }}</h2>
+                <h2 class="card-title h5" :itemprop="itemName">{{ item.title }}</h2>
                 <p class="card-text" itemprop="description"></p>
               </div>
             </div>
