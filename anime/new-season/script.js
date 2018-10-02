@@ -309,7 +309,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w6',
-        img: 'https://sao-alicization.net/ogp.png',
+        img: 'img/sao.jpg',
         title: '刀劍神域 Alicization',
         link: 'https://sao-alicization.net/'
       },
