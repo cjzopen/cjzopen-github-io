@@ -26,7 +26,7 @@ var vue2 = new Vue({
         link: 'http://www.ten-sura.com/'
       },
       {
-        day: 'w1',
+        day: 'w3',
         img: 'https://ao-buta.com/ogp.png',
         title: '青春豬頭少年不做兔女郎學姐的夢',
         link: 'https://ao-buta.com/'
