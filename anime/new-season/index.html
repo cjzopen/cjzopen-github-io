@@ -29,7 +29,7 @@ gtag('config', 'UA-77969491-3');
   text-decoration: none;
 }
 body{
-  font-family:"-apple-system", BlinkMacSystemFont, "Yu Gothic Medium", "游ゴシック Medium", YuGothic,"微軟正黑體";
+  font-family:"-apple-system", BlinkMacSystemFont, Microsoft JhengHei, "Yu Gothic Medium", "游ゴシック Medium", YuGothic;
   font-weight:600;
   font-size: 16px;
   color: #494949;
@@ -44,8 +44,18 @@ summary{
   margin:0 auto;
 }
 select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  min-width: 15rem;
   height: 3rem;
   border-radius: .75rem 1.5rem;
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat;
+  background-position: right .125rem bottom 50%;
+  background-size: 1rem 1.5rem;
+  background-color: #FFF;
+  padding:.5rem .875rem .5rem .5rem;
 }
 select:focus{
   border-radius: .5rem .5rem 0 0;
@@ -118,9 +128,9 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
 <body>
 <div id="wrapper">
   <h1>2018秋季新番表</h1>
-  <div class="mb-5">update: <time>2018-10-01</time></div>
+  <div class="mb-5">update: <time>2018-10-02</time></div>
   <section class="container-fluid mb-5">
-    <div class="text-right py-5">
+    <div class="text-right pb-5">
       <select name="sel" id="select">
         <option value="" selected disabled hidden>Choose the day of the week</option>
         <option value="w7">週日</option>
@@ -135,7 +145,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
     <div class="row list">
       <template v-for="(item, index) in items">
         <div :class="'col-12 col-sm-6 col-md-4 col-lg-3 mb-3 '+ item.day">
-          <a :href="item.link" target="_blank">
+          <a :href="item.link" target="_blank" title="官網">
             <div class="card h-100">
               <figure class="ratio-box card-img-top">
                 <img class="img-fluid lazyload" :data-src="item.img" :alt="item.title">
