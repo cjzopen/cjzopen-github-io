@@ -134,24 +134,14 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
 }
 </style>
 <body>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '900597923418842',
-      xfbml      : true,
-      version    : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/zh_TW/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
   <h1>2018秋季新番表</h1>
   <div class="mb-5">update: <time>2018-10-02</time></div>
