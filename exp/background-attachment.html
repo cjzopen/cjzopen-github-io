@@ -5,15 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<title>background-attachment: fixed</title>
+	<title>CSS background-attachment: fixed</title>
 	<meta name="description" content="css 屬性：background-attachment: fixed; 背景圖片隨著滾輪滾動。">
 	<link rel="shortcut icon" href="/img/favicon.ico" />
-    <meta property="og:title" content="background-attachment: fixed" />
-    <meta property="og:description" content="background-attachment: fixed; 背景圖片隨著滾輪滾動。" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="https://cjzopen.github.io/img/rrr.jpg" />
-    <meta name="twitter:card" content="summary" />
+  <meta property="og:title" content="background-attachment: fixed" />
+  <meta property="og:description" content="background-attachment: fixed; 背景圖片隨著滾輪滾動。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://cjzopen.github.io/img/rrr.jpg" />
+  <meta name="twitter:card" content="summary" />
 	<link rel="stylesheet" href="/css/main.css">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": "cj",
+  "headline": "CSS background-attachment: fixed",
+  "datePublished": "2017-06-30",
+  "dateModified": "2017-06-30",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cjzopen.github.io/exp/background-attachment.html"
+  },
+  "image": "https://cjzopen.github.io/img/exp/2017/taiper101.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "github",
+    "logo": [{
+      "@type" : "ImageObject",
+      "url": "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+    }]
+  }
+}
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77969491-3"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -22,7 +45,22 @@ gtag('js', new Date());
 gtag('config', 'UA-77969491-3');
 </script>
 </head>
-<style>section{max-width:992px;}</style>
+<style>
+section{max-width:992px;}
+.background-attachment{
+  background-color: #335A8E;
+  background-image: url(/img/exp/2017/taiper101.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0px;
+  min-height: 480px;
+}
+.background-attachment-mobile{
+  background-image:none!important;
+}
+</style>
 <body id="exp">
 <script>
   window.fbAsyncInit = function() {
@@ -42,81 +80,35 @@ gtag('config', 'UA-77969491-3');
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <div class="loading" data-text="cj 的個人網頁"></div>
 <div id="all">
 <header class="sticky"></header>
   <main>
   <section class="center-block">
     <h1>background-attachment: fixed</h1>
-    <time class="main-color" datetime=""></time><br>
-    <div
-      class="fb-like"
-      data-share="true"
-      data-layout="button_count" 
-      data-size="large" 
-      data-width="450"
-      data-show-faces="true">
-    </div>
+    <time class="main-color" datetime="2017-06-30">2017-06-30</time><br>
+    <div class="fb-like" data-share="true" data-layout="button_count" data-size="large" data-width="450" data-show-faces="true"></div>
     <a id="gp"></a>
     <br><br>
-<style>
-.background-attachment{
-  background-color: #335A8E;
-  background-image: url(/img/exp/2017/taiper101.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 50px 0px;
-  min-height: 480px;
-}
-.background-attachment-mobile{
-  background-image:none!important;
-}
-</style>
     <article>
-    <h3>TL;DR</h3>
-    <p>
-      行動裝置的 <code>background-attachment: fixed;</code> 會有問題，所以把背景圖拿掉，只剩背景色。
-    </p>
+    <h2>TL;DR</h2>
+    <p>行動裝置的 <code>background-attachment: fixed;</code> 會有問題，所以把背景圖拿掉，只剩背景色。</p>
       <div class="background-attachment flex-box flex-center flex-vc">
         <span class="fff-color">background space</span>
       </div>
     </article>
-    <br>
-    <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://https-cjzopen-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </section>
   </main>
   <footer class="text-center fff-color">
     <small>Copyright &copy; 2017 cj. All rights reserved.</small>
   </footer>
 </div>
-<script id="dsq-count-scr" src="//https-cjzopen-github-io.disqus.com/count.js" async></script>
-<script src="/js/exp.js"></script>
-<script src="/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/js/exp.js" defer></script>
+<script src="/js/main.js" defer></script>
 <script>
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    $('.background-attachment').addClass('background-attachment-mobile')
+    $('.background-attachment').addClass('background-attachment-mobile');
   }
 </script>
 </body>
