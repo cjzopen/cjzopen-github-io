@@ -290,7 +290,7 @@ var vue2 = new Vue({
         link: 'http://www.juliet-anime.com/'
       },
       {
-        day: 'w6',
+        day: 'w5',
         img: 'http://www.iroduku.jp/img/common/og.jpg',
         title: '來自繽紛世界的明日',
         link: 'http://www.iroduku.jp/'
