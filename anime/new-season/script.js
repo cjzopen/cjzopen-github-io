@@ -38,7 +38,7 @@ var vue2 = new Vue({
         link: 'https://shucap.cf-anime.com/'
       },
       {
-        day: 'w1',
+        day: 'w7',
         img: 'http://gaikotsu-honda-anime.com/common/images/common/ogp03.jpg',
         title: '書店裡的骷髏店員本田',
         link: 'http://gaikotsu-honda-anime.com/'
@@ -338,7 +338,7 @@ var vue2 = new Vue({
         link: 'http://baki-anime.jp/'
       },
       {
-        day: 'w7',
+        day: 'w6',
         img: 'https://gridman.net/img/ogp.jpg',
         title: 'SSSS.GRIDMAN',
         link: 'https://gridman.net/'
