@@ -272,7 +272,7 @@ var vue2 = new Vue({
         link: 'http://vap.co.jp/chitosechan/'
       },
       {
-        day: 'w6',
+        day: 'w5',
         img: 'http://jojo-animation.com/og_img/og_img5.jpg',
         title: 'JOJO的奇妙冒險 黃金之風',
         link: 'http://jojo-animation.com/'
