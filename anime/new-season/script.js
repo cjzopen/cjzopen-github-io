@@ -32,7 +32,7 @@ var vue2 = new Vue({
         link: 'https://ao-buta.com/'
       },
       {
-        day: 'w1',
+        day: 'w7',
         img: 'https://shucap.cf-anime.com/wp-content/themes/shucap/img/og_image.jpg',
         title: '末班電車後、膠囊旅館、給上司微熱的夜晚。',
         link: 'https://shucap.cf-anime.com/'
@@ -74,7 +74,7 @@ var vue2 = new Vue({
         link: 'http://tiramisu-anime.com/'
       },
       {
-        day: 'w2',
+        day: 'w1',
         img: 'http://xuanyuansword.net/tw/images/sp/img_logo.png',
         title: '軒轅劍 蒼之曜',
         link: 'http://xuanyuansword.net/tw/'
@@ -86,7 +86,7 @@ var vue2 = new Vue({
         link: 'http://www.toei-anim.co.jp/tv/bbh/'
       },
       {
-        day: 'w2',
+        day: 'w1',
         img: 'https://ganma.jp/g/anime/otonabougu/img/fb1200x630.png',
         title: '大人的防具店',
         link: 'https://ganma.jp/g/anime/otonabougu/'
