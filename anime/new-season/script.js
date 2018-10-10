@@ -128,7 +128,7 @@ var vue2 = new Vue({
         link: 'http://kazetsuyo-anime.com/'
       },
       {
-        day: 'w3',
+        day: 'w4',
         img: 'https://www.yte.co.jp/yte/public/assets/img/bangumi/0c4c0d164b1ff05e4b85543a516d272f.jpg',
         title: '喂，看見耳朵啦！',
         link: 'https://www.yte.co.jp/program/detail.php?id=107'
@@ -158,7 +158,7 @@ var vue2 = new Vue({
         link: 'http://ingressanime.com/'
       },
       {
-        day: 'w4',
+        day: 'w3',
         img: 'http://rerided.com/img/top/mainvisual1.png',
         title: 'RErideD-刻越えのデリダ-',
         link: 'http://rerided.com/'
