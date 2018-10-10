@@ -110,7 +110,7 @@ var vue2 = new Vue({
         link: 'http://www.marv.jp/special/tokyoghoul/'
       },
       {
-        day: 'w2',
+        day: 'w1',
         img: 'http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/images/facebook_icon.jpg',
         title: '足球小將翼 中學生篇',
         link: 'http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/'
