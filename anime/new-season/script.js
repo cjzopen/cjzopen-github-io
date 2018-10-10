@@ -92,7 +92,7 @@ var vue2 = new Vue({
         link: 'https://ganma.jp/g/anime/otonabougu/'
       },
       {
-        day: 'w2',
+        day: 'w1',
         img: 'img/2018-aki/走り.jpg',
         title: '走り続けてよかったって。',
         link: 'http://hashiyoka.com/'
@@ -116,13 +116,13 @@ var vue2 = new Vue({
         link: 'http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/'
       },
       {
-        day: 'w3',
+        day: 'w2',
         img: 'img/2018-aki/人外.jpg',
         title: '人外さんの嫁',
         link: 'https://jingaisan.com/'
       },
       {
-        day: 'w3',
+        day: 'w2',
         img: 'http://kazetsuyo-anime.com/images/ogp3.jpg',
         title: '強風吹拂',
         link: 'http://kazetsuyo-anime.com/'
@@ -140,7 +140,7 @@ var vue2 = new Vue({
         link: 'http://soraumi-anime.com/'
       },
       {
-        day: 'w3',
+        day: 'w2',
         img: 'http://conception-anime.com/images/fb_image.png',
         title: 'Conception 產子救世錄',
         link: 'http://conception-anime.com/'
