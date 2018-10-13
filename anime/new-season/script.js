@@ -166,7 +166,7 @@ var vue2 = new Vue({
       {
         day: 'w4',
         img: 'https://zombielandsaga.com/images/ogp2.jpg',
-        title: '殭屍樂園薩加',
+        title: '佐賀偶像是傳奇',
         link: 'https://zombielandsaga.com/'
       },
       {
