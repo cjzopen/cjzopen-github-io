@@ -9,7 +9,7 @@ var vue2 = new Vue({
     items:[
       {
         day: 'w1',
-        img: 'img/2018-aki/あかねさす少女.jpg',
+        img: '../img/2018-aki/あかねさす少女.jpg',
         title: 'あかねさす少女',
         link: 'http://akanesasushojo.com/'
       },
@@ -45,7 +45,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w1',
-        img: 'img/2018-aki/直感.jpg',
+        img: '../img/2018-aki/直感.jpg',
         title: '直感×アルゴリズム',
         link: 'http://project-algorhythm.com/'
       },
@@ -93,7 +93,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w1',
-        img: 'img/2018-aki/走り.jpg',
+        img: '../img/2018-aki/走り.jpg',
         title: '走り続けてよかったって。',
         link: 'http://hashiyoka.com/'
       },
@@ -117,7 +117,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w2',
-        img: 'img/2018-aki/人外.jpg',
+        img: '../img/2018-aki/人外.jpg',
         title: '人外さんの嫁',
         link: 'https://jingaisan.com/'
       },
@@ -147,7 +147,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w3',
-        img: 'img/2018-aki/妹妹.jpg',
+        img: '../img/2018-aki/妹妹.jpg',
         title: '我喜歡的妹妹不是妹妹',
         link: 'http://imo-imo.jp/'
       },
@@ -309,7 +309,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w6',
-        img: 'img/2018-aki/sao.jpg',
+        img: '../img/2018-aki/sao.jpg',
         title: '刀劍神域 Alicization',
         link: 'https://sao-alicization.net/'
       },
@@ -339,7 +339,7 @@ var vue2 = new Vue({
       },
       {
         day: 'w6',
-        img: 'https://gridman.net/img/ogp.jpg',
+        img: '../img/2018-aki/gridman.jpg',
         title: 'SSSS.GRIDMAN',
         link: 'https://gridman.net/'
       },
@@ -388,15 +388,15 @@ var vue2 = new Vue({
     ],
     lasts:[
       {
-        img: 'img/2018-aki/少女歌劇.jpg',
+        img: '../img/2018-aki/少女歌劇.jpg',
         title: '少女☆歌劇レヴュー・スタァライト'
       },
       {
-        img: 'img/2018-aki/高分少女.jpg',
+        img: '../img/2018-aki/高分少女.jpg',
         title: '高分少女'
       },
       {
-        img: 'img/2018-aki/planetwith.jpg',
+        img: '../img/2018-aki/planetwith.jpg',
         title: 'Planet With'
       }
     ]
