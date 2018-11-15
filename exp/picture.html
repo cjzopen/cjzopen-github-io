@@ -67,8 +67,7 @@ gtag('config', 'UA-77969491-3');
       </p>
       <br>
       <h2>現況</h2>
-    	<p>
-    		基本上所有的瀏覽器都支援此 html5 的 tag，除了 IE ( Edge )系列要更新到 Edge 13 之後的版本才能使用。不過就算不支援也只是回到原先的 <code>img</code> 而已，沒有什麼大礙。
+    	<p>基本上所有的瀏覽器都支援此 html5 的 tag，除了 IE ( Edge )系列要更新到 Edge 13 之後的版本才能使用。不過就算不支援也只是回到原先的 <code>img</code> 而已，沒有什麼大礙。
     	</p>
       <figure class="text-center">
         <picture>
@@ -96,6 +95,8 @@ gtag('config', 'UA-77969491-3');
         <figcaption>請試著變動瀏覽器寬度</figcaption>
       </figure>
       <br>
+	<h2>缺點</h2>
+	<p>雖然它還能解決 webp 相容性的問題，但缺點卻顯而易見：無條件載入 img tag 的圖片。就算 browsr 採用了 source tag 的 webp 圖片，它還是會載入 img 裡面設定的圖片，增加不必要的流量，拖慢網頁載入時間。</p>
       
     	<p>
         <a href="https://www.w3schools.com/tags/tag_picture.asp" rel="external">W3C picture</a>
