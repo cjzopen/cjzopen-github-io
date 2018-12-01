@@ -397,253 +397,253 @@ var vue2 = new Vue({
             words:['花守ゆみり','早見沙織','佐藤利奈']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w6',
+            img: 'https://pbs.twimg.com/profile_images/1048119794321387520/foT5eF1v_bigger.jpg',
             title: 'W’z',
             link: 'http://wz-anime.net/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://kemono-friends.jp/wp/wp-content/uploads/2018/09/bnr_footer02_W360H140.png',
             title: '動物朋友 2',
             link: 'http://kemono-friends.jp/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1036539403189936129/VqWsBqCz_bigger.jpg',
             title: '多羅羅',
             link: 'https://dororo-anime.com/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w2',
+            img: 'http://rainycocoa.jp/anime/img/story_05_04.gif',
             title: '雨色可可亞 s5',
             link: 'http://rainycocoa.jp/anime/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://fakeimg.pl/72x72/989898/EAE0D0/?text=X',
             title: '3D女友 s2',
             link: 'http://www.3dkanojo-anime.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://revisions.jp/images/storyimg3.jpg',
             title: 'revisions',
             link: 'http://revisions.jp/',
-            words:['']
+            words:['NETFLIX']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://neverland-anime.com/og.png',
             title: '約定的夢幻島',
             link: 'http://neverland-anime.com/',
-            words:['']
+            words:['這本漫畫真厲害2018男性第1名','内田真礼','伊瀬茉莉也','藤田奈央']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: '../../img/2019-fuyu/煙草.jpg',
             title: '煙草',
             link: 'http://kemurikusa.com/',
-            words:['']
+            words:['たつき','小松未可子']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1027718383968477185/2oJRHfvZ_bigger.jpg',
             title: '臨死！！江古田',
             link: 'http://ekodachan.com/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w7',
+            img: 'https://pbs.twimg.com/profile_images/958557331968659458/MviqVLEc_bigger.jpg',
             title: '琴之森 s2',
             link: 'http://piano-anime.jp/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w4',
+            img: '../../img/2019-fuyu/五等分.jpg',
             title: '五等分の花嫁',
             link: 'http://www.tbs.co.jp/anime/5hanayome/',
-            words:['']
+            words:['松岡禎丞','花澤香菜','竹達彩奈','伊藤美来','佐倉綾音','水瀬いのり','内田彩']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1042217027329417217/VmWXF7uN_bigger.jpg',
             title: '輝夜姬想讓人告白～天才們的戀愛頭腦戰～',
             link: 'http://kaguya.love/',
-            words:['']
+            words:['CHiCO']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w3',
+            img: 'https://hizaue.com/images/ogp.png',
             title: '同居人時而在腿上、時而跑到腦袋上',
             link: 'https://hizaue.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pasumemotv.com/wp-content/themes/pasumemotv/assets/img/pasmemo_ogp.jpg',
             title: '粉彩回憶',
             link: 'https://pasumemotv.com/',
-            words:['']
+            words:['今井麻美']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://www.domekano-anime.com/images/fb_image.png',
             title: '家有女友',
             link: 'http://www.domekano-anime.com/',
-            words:['']
+            words:['内田真礼','日笠陽子']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://date-a-live-anime.com/images/renewal/bnr/bnr01.jpg',
             title: 'DATE A LIVE s3',
             link: 'http://date-a-live-anime.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://miss-ueno.com/wp/wp-content/uploads/2018/10/1.jpg',
             title: '笨拙之極的上野',
             link: 'http://www.miss-ueno.com/',
-            words:['']
+            words:['芹澤優','伊藤美来']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: '../../img/2019-fuyu/荒野.jpg',
             title: '荒野のコトブキ飛行隊',
             link: 'https://kotobuki-anime.com/',
-            words:['']
+            words:['水島努']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w4',
+            img: 'http://www.tbs.co.jp/anime/grimmsnotes/img/banner_gensaku_2.png',
             title: '格林筆記',
             link: 'http://www.tbs.co.jp/anime/grimmsnotes/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://dimension-hs.com/apple-touch-icon.png',
             title: '超次元高校',
             link: 'http://dimension-hs.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/995267826058387456/hgSDbBQk_bigger.jpg',
             title: 'BanG Dream！ s2',
             link: 'https://anime.bang-dream.com/2nd/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1017426482186997760/fOaBunip_bigger.jpg',
             title: '路人超能 100 s2',
             link: 'http://mobpsycho100.com/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w5',
+            img: 'http://magical-five.jp/assets/book/1.jpg',
             title: '魔法少女特殊戰明日香',
             link: 'http://magical-five.jp/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
-            title: 'Endro',
+            day: 'w5',
+            img: '../../img/2019-fuyu/endro.png',
+            title: 'えんどろ〜！',
             link: 'http://endro.jp/',
-            words:['']
+            words:['小澤亜李','水瀬いのり','麻倉もも','久野美咲']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: '../../img/2019-fuyu/幻影.jpeg',
             title: '幻影死神',
             link: 'http://boogiepop-anime.com/',
-            words:['']
+            words:['悠木碧','MYTH&ROID']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://meikoi.com/assets/images/pc/tv-anime/header/header_logo.png',
             title: '明治東京戀伽',
             link: 'http://meikoi.com/tv-anime/',
             words:['']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w5',
+            img: 'https://bpro-anime.com/ogp.png',
             title: 'B-PROJECT～絕頂＊Emotion～',
             link: 'http://bpro-anime.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://colorful-pastrale.com/wp-content/themes/colorful-pastrale/img/og-image.jpg',
             title: '繽紛田園曲～百慕達△～',
             link: 'https://colorful-pastrale.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/media/DsmMpPIVYAI6ZUL.jpg',
             title: '狂賭之淵 s2',
             link: 'http://kakegurui-anime.com/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'http://shieldhero-anime.jp/assets/img/book/book_0_0.jpg',
             title: '盾之勇者成名錄',
             link: 'http://shieldhero-anime.jp/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://manaria.jp/assets/data/character_icon_01.png',
             title: '巴哈姆特之怒 -Manaria Friends-',
             link: 'http://manaria.jp/',
-            words:['']
+            words:['日笠陽子','水樹奈々']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w4',
+            img: 'http://gaf-anime.jp/img/books/novel_pic01.png',
             title: '飛翔吧！戰機少女',
             link: 'http://gaf-anime.jp/',
-            words:['']
+            words:['Lynn']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            day: 'w7',
+            img: 'https://pbs.twimg.com/profile_images/1050594132459061250/npS6AKEX_bigger.jpg',
             title: '不愉快的妖怪庵 s2',
             link: 'http://mononokean.tv/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1007276721169575937/9xuIPHh__bigger.jpg',
             title: '天使降臨到我身邊！',
             link: 'http://watatentv.com/',
-            words:['']
+            words:['上田麗奈','鬼頭明里']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1027449605905047552/tZoDeCFX_bigger.jpg',
             title: 'CIRCLET PRINCESS',
             link: 'http://cirpri-anime.jp/',
             words:['']
           },
           {
             day: 'w1',
-            img: '../../img/2019-fuyu/笑容的代價.jpg',
+            img: 'https://pbs.twimg.com/profile_images/952853299534880769/F4le2vCB_bigger.jpg',
             title: '迷你 刀使巫女',
             link: 'http://minitoji.jp/',
             words:['']
