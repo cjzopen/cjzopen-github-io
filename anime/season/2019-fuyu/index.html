@@ -157,13 +157,13 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   }(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
   <h1>2019冬季新番表</h1>
-  <div>update: <time>2018-12-01</time></div>
+  <div>update: <time>2018-12-16</time></div>
   <div class="mb-5">
     <div class="fb-like" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
   </div>
   <section class="container-fluid mb-5">
     <div class="text-right pb-3">
-      <select name="sel" id="select">
+      <select name="sel" id="select" @change="select_day()" v-model="theday">
         <option value="" selected disabled hidden>DAY</option>
         <option value="w7">週日</option>
         <option value="w1">週一</option>
@@ -176,7 +176,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
     </div>
     <div class="row list">
       <template v-for="(item, index) in items[0]['2019-fuyu']">
-        <div :class="'col-12 col-sm-6 col-md-4 col-lg-4 mb-3 '+ item.day">
+        <div :class="'animes col-12 col-sm-6 col-md-4 col-lg-4 mb-3 '+ item.day">
           <div class="card h-100 flex-row">
             <figure class="col col-md-4 p-0 m-0 h-100">
               <img class="w-100 lazyload" :data-src="item.img" :alt="item.title">

@@ -1,6 +1,7 @@
 var vue2 = new Vue({
   el: '#wrapper',
   data: {
+    theday:'',
     ItemList:'http://schema.org/ItemList',
     ListItem:'http://schema.org/ListItem',
     itemUrl:'item url',
@@ -390,7 +391,7 @@ var vue2 = new Vue({
         ],
         '2019-fuyu':[
           {
-            day: 'w1',
+            day: 'w5',
             img: '../../img/2019-fuyu/笑容的代價.jpg',
             title: '笑容的代價',
             link: 'http://egaonodaika.com/',
@@ -412,10 +413,10 @@ var vue2 = new Vue({
           },
           {
             day: 'w1',
-            img: 'https://pbs.twimg.com/profile_images/1036539403189936129/VqWsBqCz_bigger.jpg',
+            img: 'https://pbs.twimg.com/profile_images/1070605577296928773/kbIJQonL_400x400.jpg',
             title: '多羅羅',
             link: 'https://dororo-anime.com/',
-            words:['']
+            words:['手塚治虫']
           },
           {
             day: 'w2',
@@ -425,35 +426,35 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
-            img: 'https://fakeimg.pl/72x72/989898/EAE0D0/?text=X',
-            title: '3D女友 s2',
+            day: 'w2',
+            img: 'https://pbs.twimg.com/profile_images/955270573172535296/6ATNu-QA_bigger.jpg',
+            title: '3D彼女 s2',
             link: 'http://www.3dkanojo-anime.com/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w3',
             img: 'http://revisions.jp/images/storyimg3.jpg',
             title: 'revisions',
             link: 'http://revisions.jp/',
             words:['NETFLIX']
           },
           {
-            day: 'w1',
+            day: 'w4',
             img: 'https://neverland-anime.com/og.png',
             title: '約定的夢幻島',
             link: 'http://neverland-anime.com/',
             words:['這本漫畫真厲害2018男性第1名','内田真礼','伊瀬茉莉也','藤田奈央']
           },
           {
-            day: 'w1',
-            img: '../../img/2019-fuyu/煙草.jpg',
-            title: '煙草',
+            day: 'w3',
+            img: 'https://pbs.twimg.com/profile_images/1027661323188891649/jLpuQtmS_400x400.jpg',
+            title: '菸草',
             link: 'http://kemurikusa.com/',
             words:['たつき','小松未可子']
           },
           {
-            day: 'w1',
+            day: 'w2',
             img: 'https://pbs.twimg.com/profile_images/1027718383968477185/2oJRHfvZ_bigger.jpg',
             title: '臨死！！江古田',
             link: 'http://ekodachan.com/',
@@ -474,8 +475,8 @@ var vue2 = new Vue({
             words:['松岡禎丞','花澤香菜','竹達彩奈','伊藤美来','佐倉綾音','水瀬いのり','内田彩']
           },
           {
-            day: 'w1',
-            img: 'https://pbs.twimg.com/profile_images/1042217027329417217/VmWXF7uN_bigger.jpg',
+            day: 'w6',
+            img: 'https://pbs.twimg.com/profile_images/1070523819855556609/RFiFaKSU_400x400.jpg',
             title: '輝夜姬想讓人告白～天才們的戀愛頭腦戰～',
             link: 'http://kaguya.love/',
             words:['CHiCO']
@@ -485,7 +486,7 @@ var vue2 = new Vue({
             img: 'https://hizaue.com/images/ogp.png',
             title: '同居人時而在腿上、時而跑到腦袋上',
             link: 'https://hizaue.com/',
-            words:['']
+            words:['南條愛乃']
           },
           {
             day: 'w1',
@@ -495,28 +496,28 @@ var vue2 = new Vue({
             words:['今井麻美']
           },
           {
-            day: 'w1',
+            day: 'w5',
             img: 'http://www.domekano-anime.com/images/fb_image.png',
             title: '家有女友',
             link: 'http://www.domekano-anime.com/',
             words:['内田真礼','日笠陽子']
           },
           {
-            day: 'w1',
+            day: 'w5',
             img: 'http://date-a-live-anime.com/images/renewal/bnr/bnr01.jpg',
             title: 'DATE A LIVE s3',
             link: 'http://date-a-live-anime.com/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w7',
             img: 'http://miss-ueno.com/wp/wp-content/uploads/2018/10/1.jpg',
             title: '笨拙之極的上野',
             link: 'http://www.miss-ueno.com/',
             words:['芹澤優','伊藤美来']
           },
           {
-            day: 'w1',
+            day: 'w7',
             img: '../../img/2019-fuyu/荒野.jpg',
             title: '荒野のコトブキ飛行隊',
             link: 'https://kotobuki-anime.com/',
@@ -530,14 +531,14 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w4',
             img: 'http://dimension-hs.com/apple-touch-icon.png',
             title: '超次元高校',
             link: 'http://dimension-hs.com/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w4',
             img: 'https://pbs.twimg.com/profile_images/995267826058387456/hgSDbBQk_bigger.jpg',
             title: 'BanG Dream！ s2',
             link: 'https://anime.bang-dream.com/2nd/',
@@ -558,21 +559,21 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w5',
+            day: 'w6',
             img: '../../img/2019-fuyu/endro.png',
             title: 'えんどろ〜！',
             link: 'http://endro.jp/',
             words:['小澤亜李','水瀬いのり','麻倉もも','久野美咲']
           },
           {
-            day: 'w1',
+            day: 'w5',
             img: '../../img/2019-fuyu/幻影.jpeg',
             title: '幻影死神',
             link: 'http://boogiepop-anime.com/',
-            words:['悠木碧','MYTH&ROID']
+            words:['第4回電撃ゲーム小説大賞受賞','悠木碧','MYTH&ROID']
           },
           {
-            day: 'w1',
+            day: 'w3',
             img: 'http://meikoi.com/assets/images/pc/tv-anime/header/header_logo.png',
             title: '明治東京戀伽',
             link: 'http://meikoi.com/tv-anime/',
@@ -586,28 +587,28 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w6',
             img: 'https://colorful-pastrale.com/wp-content/themes/colorful-pastrale/img/og-image.jpg',
-            title: '繽紛田園曲～百慕達△～',
+            title: 'Colorful Pastrale ~from Bermuda△~',
             link: 'https://colorful-pastrale.com/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w2',
             img: 'https://pbs.twimg.com/media/DsmMpPIVYAI6ZUL.jpg',
-            title: '狂賭之淵 s2',
+            title: '狂賭之淵 xx',
             link: 'http://kakegurui-anime.com/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w3',
             img: 'http://shieldhero-anime.jp/assets/img/book/book_0_0.jpg',
             title: '盾之勇者成名錄',
             link: 'http://shieldhero-anime.jp/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w7',
             img: 'https://manaria.jp/assets/data/character_icon_01.png',
             title: '巴哈姆特之怒 -Manaria Friends-',
             link: 'http://manaria.jp/',
@@ -628,26 +629,40 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w2',
             img: 'https://pbs.twimg.com/profile_images/1007276721169575937/9xuIPHh__bigger.jpg',
             title: '天使降臨到我身邊！',
             link: 'http://watatentv.com/',
             words:['上田麗奈','鬼頭明里']
           },
           {
-            day: 'w1',
+            day: 'w2',
             img: 'https://pbs.twimg.com/profile_images/1027449605905047552/tZoDeCFX_bigger.jpg',
             title: 'CIRCLET PRINCESS',
             link: 'http://cirpri-anime.jp/',
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w6',
             img: 'https://pbs.twimg.com/profile_images/952853299534880769/F4le2vCB_bigger.jpg',
             title: '迷你 刀使巫女',
             link: 'http://minitoji.jp/',
             words:['']
           },
+          {
+            day: 'w1',
+            img: 'http://fukushimagainax.co.jp/wp/wp-content/uploads/2018/07/IMG_0533-600x425.jpg',
+            title: 'Flying Babies',
+            link: 'http://fukushimagainax.co.jp/fb-audition/',
+            words:['佳村はるか','三森すずこ','伊藤美來']
+          },
+          {
+            day: 'w7',
+            img: 'https://papashita.cf-anime.com/wp-content/themes/papashita/img/character/s_naruse.png',
+            title: 'パパだって、したい',
+            link: 'https://papashita.cf-anime.com/',
+            words:['']
+          }
         ]
       }
     ]
@@ -666,17 +681,17 @@ var vue2 = new Vue({
       }
       $(grp).remove();
       _area.append($(grp));
+    },
+    select_day:function(anime_list='.animes'){
+      let wDay = this.theday;
+      let _list = $('.list');
+      _list.find(anime_list).hide();
+      _list.find('.'+wDay).fadeIn('200');
+      gtag('config', 'UA-77969491-3', {
+        'page_title' : '動畫新番表',
+        'page_path': location.pathname+wDay
+      });
     }
   }
 });
 vue2.reorder();
-$('#select').change(function(){
-  var wDay = $(this).val();
-  var _list = $('.list');
-  _list.find('.col-lg-3').hide();
-  _list.find('.'+wDay).fadeIn('200');
-  gtag('config', 'UA-77969491-3', {
-    'page_title' : '動畫新番表',
-    'page_path': '/anime/new-season/'+ wDay
-  });
-});
