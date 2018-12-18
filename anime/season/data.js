@@ -662,6 +662,13 @@ var vue2 = new Vue({
             title: 'パパだって、したい',
             link: 'https://papashita.cf-anime.com/',
             words:['']
+          },
+          {
+            day: 'w3',
+            img: 'https://pbs.twimg.com/profile_images/1075000760016883712/tB9f0Quy_400x400.jpg',
+            title: 'バーチャルさんはみている',
+            link: 'https://virtualsan-looking.jp/',
+            words:['']
           }
         ]
       }
