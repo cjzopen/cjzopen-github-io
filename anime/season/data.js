@@ -650,10 +650,10 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: 'w4',
             img: 'http://fukushimagainax.co.jp/wp/wp-content/uploads/2018/07/IMG_0533-600x425.jpg',
             title: 'Flying Babies',
-            link: 'http://fukushimagainax.co.jp/fb-audition/',
+            link: 'https://hulaingbabies.com/',
             words:['佳村はるか','三森すずこ','伊藤美來']
           },
           {
