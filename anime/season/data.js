@@ -449,7 +449,7 @@ var vue2 = new Vue({
           {
             day: 'w3',
             img: 'https://pbs.twimg.com/profile_images/1027661323188891649/jLpuQtmS_400x400.jpg',
-            title: '菸草',
+            title: '煙草',
             link: 'http://kemurikusa.com/',
             words:['たつき','小松未可子']
           },
