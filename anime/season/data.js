@@ -669,6 +669,13 @@ var vue2 = new Vue({
             title: 'バーチャルさんはみている',
             link: 'https://virtualsan-looking.jp/',
             words:['']
+          },
+          {
+            day: 'w1',
+            img: 'https://pbs.twimg.com/profile_images/973424093453103105/EuQfVntZ_400x400.jpg',
+            title: '嫌な顔されながらおパンツ見せてもらいたい s2',
+            link: 'http://iyapan-anime.com/',
+            words:['放送時間未知']
           }
         ]
       }
