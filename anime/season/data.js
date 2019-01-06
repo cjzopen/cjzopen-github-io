@@ -476,7 +476,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w6',
-            img: 'https://pbs.twimg.com/profile_images/1070523819855556609/RFiFaKSU_400x400.jpg',
+            img: 'https://pbs.twimg.com/media/DvxS53hV4AE3E5J.jpg',
             title: '輝夜姬想讓人告白～天才們的戀愛頭腦戰～',
             link: 'http://kaguya.love/',
             words:['CHiCO']
@@ -568,7 +568,7 @@ var vue2 = new Vue({
           {
             day: 'w5',
             img: '../../img/2019-fuyu/幻影.jpeg',
-            title: '幻影死神',
+            title: '不吉波普不笑',
             link: 'http://boogiepop-anime.com/',
             words:['第4回電撃ゲーム小説大賞受賞','悠木碧','MYTH&ROID']
           },
