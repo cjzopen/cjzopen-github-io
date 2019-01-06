@@ -622,7 +622,7 @@ var vue2 = new Vue({
             words:['Lynn']
           },
           {
-            day: 'w7',
+            day: 'w6',
             img: 'https://pbs.twimg.com/profile_images/1050594132459061250/npS6AKEX_bigger.jpg',
             title: '不愉快的妖怪庵 s2',
             link: 'http://mononokean.tv/',
