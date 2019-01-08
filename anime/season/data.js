@@ -503,7 +503,7 @@ var vue2 = new Vue({
             words:['内田真礼','日笠陽子']
           },
           {
-            day: 'w5',
+            day: 'w1',
             img: 'http://date-a-live-anime.com/images/renewal/bnr/bnr01.jpg',
             title: 'DATE A LIVE s3',
             link: 'http://date-a-live-anime.com/',
