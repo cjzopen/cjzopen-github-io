@@ -500,7 +500,7 @@ var vue2 = new Vue({
             img: 'http://www.domekano-anime.com/images/fb_image.png',
             title: '家有女友',
             link: 'http://www.domekano-anime.com/',
-            words:['内田真礼','日笠陽子']
+            words:['内田真礼','日笠陽子','美波']
           },
           {
             day: 'w5',
