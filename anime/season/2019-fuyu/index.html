@@ -84,20 +84,62 @@ ul,ol {
   list-style-image: none;
   list-style: none;
 }
-
 ul.disc,ul.decimal,ol.disc,ol.decimal {
   padding: .5rem 0 .5rem 1.375rem;
 }
-
 .disc>li {
   list-style-type: disc;
 }
-
 .decimal>li {
   list-style-type: decimal;
 }
 .card{
   transition: all .4s;
+  position: relative;
+  overflow: hidden;
+}
+.card::after{
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  width: 4rem;
+  height: 4rem;
+  transform-origin: center center;
+  transform: translate(2rem,-2rem) rotate(45deg);
+  color: #f1f1f1;
+  background-color: #323232;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 15%;
+}
+.animes.w1 .card::after{
+  content: '月';
+  background-color: #7a758c;
+}
+.animes.w2 .card::after{
+  content: '火';
+  background-color: #f26565;
+}
+.animes.w3 .card::after{
+  content: '水';
+  background-color: #6ca2e2;
+}
+.animes.w4 .card::after{
+  content: '木';
+  background-color: #e88e4e;
+}
+.animes.w5 .card::after{
+  content: '金';
+  background-color: #e8d34c;
+}
+.animes.w6 .card::after{
+  content: '土';
+  background-color: #a56e30;
+}
+.animes.w7 .card::after{
+  content: '日';
+  background-color: #f473cd;
 }
 .card:hover,.card:focus{
   box-shadow: 0 0 1px 1px #ddd, 4px 4px 5px #d2d2d2, 5px 5px 5px #e2e2e2, 6px 6px 5px #e9e9e9, 7px 7px 5px #efefef, 8px 8px 5px #fafafa;
