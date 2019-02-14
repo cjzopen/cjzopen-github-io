@@ -676,6 +676,13 @@ var vue2 = new Vue({
             title: '嫌な顔されながらおパンツ見せてもらいたい s2',
             link: 'http://iyapan-anime.com/',
             words:['放送時間未知']
+          },
+          {
+            day: 'w4',
+            img: 'https://pbs.twimg.com/profile_images/1065483827064107010/VCLZEEyO_400x400.jpg',
+            title: 'Fight League 交鋒聯盟',
+            link: 'https://anime.fight-league.com/',
+            words:['茅野愛衣','M・A・O','大橋彩香']
           }
         ]
       }
