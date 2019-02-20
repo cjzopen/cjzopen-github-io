@@ -684,6 +684,15 @@ var vue2 = new Vue({
             link: 'https://anime.fight-league.com/',
             words:['茅野愛衣','M・A・O','大橋彩香']
           }
+        ],
+        '2019-haru':[
+          {
+            day: '',
+            img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
+            title: '一拳超人s2',
+            link: 'http://onepunchman-anime.net/',
+            words:['']
+          },
         ]
       }
     ]
