@@ -2,6 +2,36 @@ var vue2 = new Vue({
   el: '#wrapper',
   data: {
     theday:'w7',
+    week:[
+      {
+        code:'w7',
+        chinese:'週日'
+      },
+      {
+        code:'w1',
+        chinese:'週一'
+      },
+      {
+        code:'w2',
+        chinese:'週二'
+      },
+      {
+        code:'w3',
+        chinese:'週三'
+      },
+      {
+        code:'w4',
+        chinese:'週四'
+      },
+      {
+        code:'w5',
+        chinese:'週五'
+      },
+      {
+        code:'w6',
+        chinese:'週六'
+      }
+    ],
     ItemList:'http://schema.org/ItemList',
     ListItem:'http://schema.org/ListItem',
     itemUrl:'item url',
@@ -697,6 +727,19 @@ var vue2 = new Vue({
       }
     ]
   },
+  computed: {
+    _day: function(){
+      let d = new Date();
+      let utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+      let nd = new Date(utc + (3600000*'+8')).getDay()+1;
+      return nd;
+    }
+  },
+  mounted: function() {
+    let d = new Date();
+    let utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+    this.theday ='w' + new Date(utc + (3600000*'+8')).getDay().toLocaleString();
+  },
   methods:{
     reorder:function(){
       var _area = $('.list');
@@ -712,11 +755,18 @@ var vue2 = new Vue({
       $(grp).remove();
       _area.append($(grp));
     },
-    select_day:function(){
-      let wDay = this.theday;
+    _checked:function(e){
+      if(e == this.theday){
+        return true;
+      }else{
+        return false;
+      }
+    },
+    select_day:function(e){
+      var v = e.target.id;
       gtag('config', 'UA-77969491-3', {
         'page_title' : '動畫新番表',
-        'page_path': location.pathname+wDay
+        'page_path': location.pathname+v
       });
     }
   }
