@@ -62,13 +62,13 @@ gtag('config', 'UA-77969491-3');
         <option value="w5">週五</option>
         <option value="w6">週六</option>
       </select> -->
-      <input type="radio" id="w7" class="d-none day-check" name="day-check" value="w7" checked="checked"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w7">週日</label>
-      <input type="radio" id="w1" class="d-none day-check" name="day-check" value="w1"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w1">週一</label>
-      <input type="radio" id="w2" class="d-none day-check" name="day-check" value="w2"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w2">週二</label>
-      <input type="radio" id="w3" class="d-none day-check" name="day-check" value="w3"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w3">週三</label>
-      <input type="radio" id="w4" class="d-none day-check" name="day-check" value="w4"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w4">週四</label>
-      <input type="radio" id="w5" class="d-none day-check" name="day-check" value="w5"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w5">週五</label>
-      <input type="radio" id="w6" class="d-none day-check" name="day-check" value="w6"><label class="d-inline-block mr-3 mb-5 px-4 py-2" for="w6">週六</label>
+      <input type="radio" id="w7" class="d-none day-check" name="day-check" value="w7" checked="checked" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w7">週日</label>
+      <input type="radio" id="w1" class="d-none day-check" name="day-check" value="w1" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w1">週一</label>
+      <input type="radio" id="w2" class="d-none day-check" name="day-check" value="w2" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w2">週二</label>
+      <input type="radio" id="w3" class="d-none day-check" name="day-check" value="w3" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w3">週三</label>
+      <input type="radio" id="w4" class="d-none day-check" name="day-check" value="w4" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w4">週四</label>
+      <input type="radio" id="w5" class="d-none day-check" name="day-check" value="w5" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-2 px-4 py-2" for="w5">週五</label>
+      <input type="radio" id="w6" class="d-none day-check" name="day-check" value="w6" @change="select_day()" v-model="theday"><label class="d-inline-block mr-3 mb-5 px-4 py-2" for="w6">週六</label>
     <!-- </div> -->
     <div class="row list">
       <div class=""></div>

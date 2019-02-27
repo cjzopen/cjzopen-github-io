@@ -1,7 +1,7 @@
 var vue2 = new Vue({
   el: '#wrapper',
   data: {
-    theday:'',
+    theday:'w7',
     ItemList:'http://schema.org/ItemList',
     ListItem:'http://schema.org/ListItem',
     itemUrl:'item url',
@@ -712,16 +712,13 @@ var vue2 = new Vue({
       $(grp).remove();
       _area.append($(grp));
     },
-    // select_day:function(anime_list='.animes'){
-    //   let wDay = this.theday;
-    //   let _list = $('.list');
-    //   _list.find(anime_list).hide();
-    //   _list.find('.'+wDay).fadeIn('200');
-    //   gtag('config', 'UA-77969491-3', {
-    //     'page_title' : '動畫新番表',
-    //     'page_path': location.pathname+wDay
-    //   });
-    // }
+    select_day:function(){
+      let wDay = this.theday;
+      gtag('config', 'UA-77969491-3', {
+        'page_title' : '動畫新番表',
+        'page_path': location.pathname+wDay
+      });
+    }
   }
 });
 vue2.reorder();
