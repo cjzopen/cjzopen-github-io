@@ -1,10 +1,10 @@
 var vue2 = new Vue({
   el: '#wrapper',
   data: {
-    theday:'w7',
+    theday:'w0',
     week:[
       {
-        code:'w7',
+        code:'w0',
         chinese:'週日'
       },
       {
@@ -65,13 +65,13 @@ var vue2 = new Vue({
             link: 'https://ao-buta.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://shucap.cf-anime.com/wp-content/themes/shucap/img/og_image.jpg',
             title: '末班電車後、膠囊旅館、給上司微熱的夜晚。',
             link: 'https://shucap.cf-anime.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://gaikotsu-honda-anime.com/common/images/common/ogp03.jpg',
             title: '書店裡的骷髏店員本田',
             link: 'http://gaikotsu-honda-anime.com/'
@@ -359,13 +359,13 @@ var vue2 = new Vue({
             link: 'http://www.sonokano.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://dabudeka.com/common/images/og_img1809.png',
             title: 'DOUBLE DECKER！道格＆西里爾',
             link: 'http://dabudeka.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://baki-anime.jp/images/common/ogp.png',
             title: '刃牙 2期',
             link: 'http://baki-anime.jp/'
@@ -377,43 +377,43 @@ var vue2 = new Vue({
             link: 'https://gridman.net/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://releasethespyce.jp/img/ogp_3.jpg',
             title: 'RELEASE THE SPYCE',
             link: 'https://releasethespyce.jp/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://www.tv-tokyo.co.jp/anime/aigan_kaiju/images/facebook_icon.jpg',
             title: '愛玩怪獣',
             link: 'http://www.tv-tokyo.co.jp/anime/aigan_kaiju/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://fairytail-tv.com/assets/img/ogp1809_B.png',
             title: 'FAIRY TAIL Final Series',
             link: 'https://www.fairytail-tv.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://ulysses-anime.jp/images/ogp2.jpg',
             title: '尤利西斯 貞德與鍊金騎士',
             link: 'http://ulysses-anime.jp/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://animayell.com/core_sys/images/others/ogp.jpg',
             title: 'Anima Yell!',
             link: 'http://animayell.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://himotehouse.com/wp/wp-content/themes/himotehouse/img/bg_header.png',
             title: 'Himote House',
             link: 'http://himotehouse.com/'
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://tsurune.com/img/social.jpg',
             title: '弦音－風舞高中弓道部－',
             link: 'http://tsurune.com/'
@@ -491,7 +491,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://pbs.twimg.com/profile_images/958557331968659458/MviqVLEc_bigger.jpg',
             title: '琴之森 s2',
             link: 'http://piano-anime.jp/',
@@ -540,14 +540,14 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'http://miss-ueno.com/wp/wp-content/uploads/2018/10/1.jpg',
             title: '笨拙之極的上野',
             link: 'http://www.miss-ueno.com/',
             words:['芹澤優','伊藤美来']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: '../../img/2019-fuyu/荒野.jpg',
             title: '荒野のコトブキ飛行隊',
             link: 'https://kotobuki-anime.com/',
@@ -638,7 +638,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://manaria.jp/assets/data/character_icon_01.png',
             title: '巴哈姆特之怒 -Manaria Friends-',
             link: 'http://manaria.jp/',
@@ -687,7 +687,7 @@ var vue2 = new Vue({
             words:['佳村はるか','三森すずこ','伊藤美來']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://papashita.cf-anime.com/wp-content/themes/papashita/img/character/s_naruse.png',
             title: 'パパだって、したい',
             link: 'https://papashita.cf-anime.com/',
@@ -722,6 +722,13 @@ var vue2 = new Vue({
             title: '一拳超人s2',
             link: 'http://onepunchman-anime.net/',
             words:['']
+          },
+          {
+            day: 'w0',
+            img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
+            title: '進擊的巨人s3 part2',
+            link: 'https://shingeki.tv/season3/',
+            words:['原作目前最精彩之戰役']
           },
         ]
       }

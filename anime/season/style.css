@@ -100,7 +100,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   content: '土';
   background-color: #a56e30;
 }
-.animes.w7 .card::after{
+.animes.w0 .card::after{
   content: '日';
   background-color: #f473cd;
 }
@@ -155,11 +155,11 @@ label[for="w6"]{
 .day-check:checked + label[for="w6"]{
   background-color: #a56e30;
 }
-label[for="w7"]{
+label[for="w0"]{
   border-color: #f473cd;
   color: #f473cd;
 }
-.day-check:checked + label[for="w7"]{
+.day-check:checked + label[for="w0"]{
   background-color: #f473cd;
 }
 .day-check:checked + label{
@@ -173,7 +173,7 @@ label[for="w7"]{
 #w4:not(:checked) ~ .list .animes.w4,
 #w5:not(:checked) ~ .list .animes.w5,
 #w6:not(:checked) ~ .list .animes.w6,
-#w7:not(:checked) ~ .list .animes.w7{
+#w0:not(:checked) ~ .list .animes.w0{
   opacity: 0;
   min-height: 0;
   max-width: 0;
