@@ -30,6 +30,10 @@ var vue2 = new Vue({
       {
         code:'w6',
         chinese:'週六'
+      },
+      {
+        code:'other',
+        chinese:'其它'
       }
     ],
     ItemList:'http://schema.org/ItemList',
@@ -701,7 +705,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: '',
             img: 'https://pbs.twimg.com/profile_images/973424093453103105/EuQfVntZ_400x400.jpg',
             title: '嫌な顔されながらおパンツ見せてもらいたい s2',
             link: 'http://iyapan-anime.com/',
@@ -725,10 +729,143 @@ var vue2 = new Vue({
           },
           {
             day: 'w0',
-            img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
+            img: 'https://shingeki.tv/news/wp-content/uploads/2019/03/69875f7ece1867f0f774d53e01deef5a-281x400.jpg',
             title: '進擊的巨人s3 part2',
             link: 'https://shingeki.tv/season3/',
             words:['原作目前最精彩之戰役']
+          },
+          {
+            day: '',
+            img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
+            title: '異世界四重奏',
+            link: 'http://isekai-quartet.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://bungo-stray-dogs.jp/news/news-contents/news-3rdseason-keyvisual/images/thumb.png',
+            title: '文豪野犬s3',
+            link: 'http://bungo-stray-dogs.jp/',
+            words:['']
+          },
+          {
+            day: 'w3',
+            img: 'http://caroleandtuesday.com/core_sys/images/contents/00000033/base/l1.jpg',
+            title: 'Carole & Tuesday',
+            link: 'http://caroleandtuesday.com/',
+            words:['NETFLIX']
+          },
+          {
+            day: '',
+            img: 'http://caroleandtuesday.com/core_sys/images/contents/00000033/base/l1.jpg',
+            title: 'Fruits Basket',
+            link: 'https://fruba.jp/',
+            words:['']
+          },
+          {
+            day: 'w3',
+            img: 'http://kenja-no-mago.jp/news/img/20190225_1/1.jpg',
+            title: '賢者の孫',
+            link: 'http://kenja-no-mago.jp/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'https://kimetsu.com/anime/assets/img/bnr_radio.jpg',
+            title: '鬼滅の刃',
+            link: 'https://kimetsu.com/anime/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'https://boku-ben.com/news/SYS/CONTENTS/2019022817524039438749/w496',
+            title: '我們真的學不來！',
+            link: 'https://boku-ben.com/',
+            words:['']
+          },
+          {
+            day: 'w5',
+            img: 'http://hitoribocchi.jp/assets/other/stvd-wp/thumb.jpg',
+            title: '一個人的○○小日子',
+            link: 'http://hitoribocchi.jp/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://nankoko-anime.com/img/visual_change01.png',
+            title: '為什麼老師會在這裡!?',
+            link: 'http://nankoko-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: '',
+            title: 'さらざんまい',
+            link: 'http://sarazanmai.com/',
+            words:['幾原邦彦']
+          },
+          {
+            day: 'w5',
+            img: 'http://senryu-girl-official.com/images/comics-image07.jpg',
+            title: '川柳少女',
+            link: 'http://senryu-girl-official.com/',
+            words:['']
+          },
+          {
+            day: 'w7',
+            img: 'https://shoumetsutoshi-anime.com/special/img/thumb_op.jpg',
+            title: '消滅都市',
+            link: 'https://shoumetsutoshi-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w2',
+            img: 'https://pbs.twimg.com/profile_images/1097374667487141888/Q0sWhDA2_400x400.png',
+            title: '在世界盡頭詠唱愛的少女YU-NO',
+            link: 'http://yuno-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://www.konooto-anime.jp/img/music/inst1.jpg',
+            title: '一弦定音！',
+            link: 'http://www.konooto-anime.jp/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://senkosan.com/images/story-intro-fig.png',
+            title: '賢惠幼妻仙狐小姐',
+            link: 'http://senkosan.com/',
+            words:['']
+          },
+          {
+            day: 'w2',
+            img: '',
+            title: '鑽石王牌s2',
+            link: 'https://diaace.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: '',
+            title: 'Fairy Gone',
+            link: 'https://www.fairygone.com/',
+            words:['(K)NoW_NAME']
+          },
+          {
+            day: 'w5',
+            img: 'http://aochan-anime.com/images/story-kv-character02.png',
+            title: '淫らな青ちゃんは勉強ができない',
+            link: 'http://aochan-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: '',
+            title: '歌舞伎町シャーロック ',
+            link: 'http://pipecat-kabukicho.jp/',
+            words:['']
           },
         ]
       }

@@ -62,6 +62,7 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   overflow: hidden;
 }
 .card::after{
+  content: '未知';
   position: absolute;
   display: flex;
   top: 0;
@@ -75,6 +76,10 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   justify-content: center;
   align-items: flex-end;
   border-radius: 15%;
+}
+.animes.w0 .card::after{
+  content: '日';
+  background-color: #f473cd;
 }
 .animes.w1 .card::after{
   content: '月';
@@ -99,10 +104,6 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
 .animes.w6 .card::after{
   content: '土';
   background-color: #a56e30;
-}
-.animes.w0 .card::after{
-  content: '日';
-  background-color: #f473cd;
 }
 .day-check + label{
   border:1px solid;
@@ -162,18 +163,26 @@ label[for="w0"]{
 .day-check:checked + label[for="w0"]{
   background-color: #f473cd;
 }
+label[for="other"]{
+  border-color: rgba(0,0,0,.125);
+  color: rgba(0,0,0,.125);
+}
+.day-check:checked + label[for="other"]{
+  background-color: rgba(0,0,0,.125);
+}
 .day-check:checked + label{
   background-color: currentColor;
   color: #f1f1f1;
   /* border-color: currentColor; */
 }
+#w0:not(:checked) ~ .list .animes.w0,
 #w1:not(:checked) ~ .list .animes.w1,
 #w2:not(:checked) ~ .list .animes.w2,
 #w3:not(:checked) ~ .list .animes.w3,
 #w4:not(:checked) ~ .list .animes.w4,
 #w5:not(:checked) ~ .list .animes.w5,
 #w6:not(:checked) ~ .list .animes.w6,
-#w0:not(:checked) ~ .list .animes.w0{
+#other:not(:checked) ~ .list .animes:not(.w0):not(.w1):not(.w2):not(.w3):not(.w4):not(.w5):not(.w6){
   opacity: 0;
   min-height: 0;
   max-width: 0;
@@ -198,6 +207,11 @@ label[for="w0"]{
 .card-text span{
   white-space: nowrap;
 }
+.animes{
+  max-height:13rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 .ratio-box {
   width: 100%;
   padding-top: 52.5%;
@@ -205,11 +219,6 @@ label[for="w0"]{
   overflow: hidden;
   min-height: 10rem;
   background-color: snow;
-}
-.animes{
-  max-height:13rem;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .ratio-box>img,.ratio-box>iframe{
   position: absolute;
