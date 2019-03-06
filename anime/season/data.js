@@ -721,7 +721,7 @@ var vue2 = new Vue({
         ],
         '2019-haru':[
           {
-            day: '',
+            day: 'w2',
             img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
             title: '一拳超人s2',
             link: 'http://onepunchman-anime.net/',
@@ -871,20 +871,16 @@ var vue2 = new Vue({
       }
     ]
   },
-  computed: {
+  mounted: function() {
+    this.theday ='w' + this._day().toLocaleString();
+  },
+  methods:{
     _day: function(){
       let d = new Date();
       let utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-      let nd = new Date(utc + (3600000*'+8')).getDay()+1;
+      let nd = new Date(utc + (3600000*'+1')).getDay();
       return nd;
-    }
-  },
-  mounted: function() {
-    let d = new Date();
-    let utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-    this.theday ='w' + new Date(utc + (3600000*'+8')).getDay().toLocaleString();
-  },
-  methods:{
+    },
     reorder:function(){
       var _area = $('.list');
       var grp = _area.children('.animes');
