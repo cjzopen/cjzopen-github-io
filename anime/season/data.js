@@ -788,7 +788,7 @@ var vue2 = new Vue({
             img: 'http://hitoribocchi.jp/assets/other/stvd-wp/thumb.jpg',
             title: '一個人的○○小日子',
             link: 'http://hitoribocchi.jp/',
-            words:['']
+            words:['花田十輝']
           },
           {
             day: 'w0',
@@ -816,7 +816,7 @@ var vue2 = new Vue({
             img: 'https://shoumetsutoshi-anime.com/special/img/thumb_op.jpg',
             title: '消滅都市',
             link: 'https://shoumetsutoshi-anime.com/',
-            words:['']
+            words:['花澤香菜']
           },
           {
             day: 'w2',
@@ -993,6 +993,20 @@ var vue2 = new Vue({
             link: 'https://www.monogatari-series.com/zokuowarimonogatari/',
             words:['']
           },
+          {
+            day: 'w1',
+            img: 'https://kinpri.com/assets/img/common/footer/bnr_kop1.jpg',
+            title: 'KING OF PRISM -Shiny Seven Stars-',
+            link: 'https://kinpri.com/',
+            words:['']
+          },
+          {
+            day: 'w0',
+            img: 'http://gunjyo-magumeru.com/news/wp-content/uploads/2019/01/mg_reopen-300x135.jpg',
+            title: '群青のマグメル',
+            link: 'http://gunjyo-magumeru.com/',
+            words:['']
+          }
         ]
       }
     ]
