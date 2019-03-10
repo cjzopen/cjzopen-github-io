@@ -732,11 +732,11 @@ var vue2 = new Vue({
             img: 'https://shingeki.tv/news/wp-content/uploads/2019/03/69875f7ece1867f0f774d53e01deef5a-281x400.jpg',
             title: '進擊的巨人s3 part2',
             link: 'https://shingeki.tv/season3/',
-            words:['原作目前最精彩之戰役']
+            words:['4/28']
           },
           {
-            day: '',
-            img: 'https://pbs.twimg.com/profile_images/876650666973839362/-VaXMbcx_400x400.jpg',
+            day: 'w2',
+            img: 'http://isekai-quartet.com/og-image.jpg',
             title: '異世界四重奏',
             link: 'http://isekai-quartet.com/',
             words:['']
@@ -756,11 +756,11 @@ var vue2 = new Vue({
             words:['NETFLIX']
           },
           {
-            day: '',
-            img: 'http://caroleandtuesday.com/core_sys/images/contents/00000033/base/l1.jpg',
+            day: 'w5',
+            img: 'https://fruba.jp/assets/siteinfo/og_image.jpg',
             title: 'Fruits Basket',
             link: 'https://fruba.jp/',
-            words:['']
+            words:['石見舞菜香','釘宮理惠']
           },
           {
             day: 'w3',
@@ -791,7 +791,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w0',
             img: 'http://nankoko-anime.com/img/visual_change01.png',
             title: '為什麼老師會在這裡!?',
             link: 'http://nankoko-anime.com/',
@@ -799,7 +799,7 @@ var vue2 = new Vue({
           },
           {
             day: '',
-            img: '',
+            img: 'http://sarazanmai.com/img/og.png',
             title: 'さらざんまい',
             link: 'http://sarazanmai.com/',
             words:['幾原邦彦']
@@ -809,10 +809,10 @@ var vue2 = new Vue({
             img: 'http://senryu-girl-official.com/images/comics-image07.jpg',
             title: '川柳少女',
             link: 'http://senryu-girl-official.com/',
-            words:['']
+            words:['花澤香菜','久野美咲','矢作紗友里','上坂すみれ']
           },
           {
-            day: 'w7',
+            day: 'w0',
             img: 'https://shoumetsutoshi-anime.com/special/img/thumb_op.jpg',
             title: '消滅都市',
             link: 'https://shoumetsutoshi-anime.com/',
@@ -826,29 +826,29 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w6',
             img: 'http://www.konooto-anime.jp/img/music/inst1.jpg',
             title: '一弦定音！',
             link: 'http://www.konooto-anime.jp/',
             words:['']
           },
           {
-            day: '',
+            day: 'w3',
             img: 'http://senkosan.com/images/story-intro-fig.png',
             title: '賢惠幼妻仙狐小姐',
             link: 'http://senkosan.com/',
-            words:['']
+            words:['和氣あず未','内田真礼','佐倉綾音','動画工房']
           },
           {
             day: 'w2',
-            img: '',
+            img: 'https://diaace.com/images/banners/diaacefamily.jpg',
             title: '鑽石王牌s2',
             link: 'https://diaace.com/',
             words:['']
           },
           {
-            day: '',
-            img: '',
+            day: 'w0',
+            img: 'https://pbs.twimg.com/media/D1LoZb8UwAAGlCv?format=jpg&name=small',
             title: 'Fairy Gone',
             link: 'https://www.fairygone.com/',
             words:['(K)NoW_NAME']
@@ -862,9 +862,135 @@ var vue2 = new Vue({
           },
           {
             day: '',
-            img: '',
-            title: '歌舞伎町シャーロック ',
+            img: 'http://pipecat-kabukicho.jp/ogp.jpg',
+            title: '歌舞伎町シャーロック',
             link: 'http://pipecat-kabukicho.jp/',
+            words:['']
+          },
+          {
+            day: 'w2',
+            img: 'http://w-witch.jp/501_takeoff/img/img_teaser.jpg',
+            title: '強襲魔女 501部隊発進しますっ！',
+            link: 'http://w-witch.jp/501_takeoff/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'https://pbs.twimg.com/profile_images/1072385563838291968/6M1rxfnp_400x400.jpg',
+            title: '信長老師的幼妻',
+            link: 'http://nobutsuma-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w4',
+            img: 'http://hangyakusei-anime.com/core_sys/images/banner/00000001.jpg',
+            title: '叛逆性ミリオンアーサーs2',
+            link: 'http://hangyakusei-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'https://pbs.twimg.com/profile_images/1087530080383848448/cePswUM__400x400.jpg',
+            title: '女子高中生',
+            link: 'http://joshikau-anime.com/',
+            words:['立花理香']
+          },
+          {
+            day: 'w6',
+            img: 'https://www.ytv.co.jp/mix/sns.jpg',
+            title: 'MIX MEISEI STORY',
+            link: 'https://www.ytv.co.jp/mix/',
+            words:['']
+          },
+          {
+            day: 'w0',
+            img: 'https://anime-hachinai.com/anime-assets/img/footer/app-icon.png',
+            title: '八月的棒球甜心',
+            link: 'https://anime-hachinai.com/',
+            words:['']
+          },
+          {
+            day: 'w1',
+            img: 'https://pbs.twimg.com/profile_images/1095971107721494528/0yEbYDL4_400x400.jpg',
+            title: 'RobiHachi',
+            link: 'https://robihachi.jp/',
+            words:['杉田智和']
+          },
+          {
+            day: 'w4',
+            img: 'https://www.tbs.co.jp/anime/BAKUMATSU/news/img/news20190218_01.png',
+            title: 'BAKUMATSU ~恋愛幕末カレシ 外伝~',
+            link: 'https://www.tbs.co.jp/anime/BAKUMATSU/',
+            words:['']
+          },
+          {
+            day: 'w1',
+            img: 'https://namuami-utena-anime.com/wp-content/uploads/2019/02/namuami_header_1200_630_190226.jpg',
+            title: 'なむあみだ仏っ! -蓮台 UTENA-',
+            link: 'https://namuami-utena-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w4',
+            img: 'https://yatogame.nagoya/wp-content/themes/yatogame_theme/img/update_icon_01.jpg',
+            title: '八十亀ちゃんかんさつにっき',
+            link: 'https://yatogame.nagoya/',
+            words:['戸松遥']
+          },
+          {
+            day: 'w0',
+            img: 'https://araiya.cf-anime.com/wp-content/themes/araiya/img/character/s_aoi.png',
+            title: '洗い屋さん! ~俺とアイツが女湯で!?~',
+            link: 'https://araiya.cf-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'http://choukadou-anime.com/img/top_character_01_btn.png',
+            title: '超可動ガール1/6',
+            link: 'http://choukadou-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://cingeki-anime.com/lib/images/logo.png',
+            title: '灰姑娘女孩劇場s4',
+            link: 'http://cingeki-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w4',
+            img: 'https://pbs.twimg.com/profile_images/991492866068307968/mfpurKSl_400x400.jpg',
+            title: 'CARDFIGHT!! Vanguard s2',
+            link: 'https://anime.cf-vanguard.com/',
+            words:['愛美','南條愛乃']
+          },
+          {
+            day: 'w4',
+            img: 'https://pbs.twimg.com/profile_images/1067251795980836864/3R3-5FE3_400x400.jpg',
+            title: '7Seeds',
+            link: 'http://7seeds.jp/',
+            words:['NETFLIX','6月播出']
+          },
+          {
+            day: 'w6',
+            img: 'https://mirutights.jp/ogp/mirutights_ogp.png',
+            title: 'Miru Tights',
+            link: 'https://mirutights.jp/',
+            words:['5/11']
+          },
+          {
+            day: '',
+            img: 'https://pbs.twimg.com/media/DxKX-tGVYAE5dOY.jpg',
+            title: '巨蟲列島',
+            link: 'http://kyochu-retto.net/',
+            words:['']
+          },
+          {
+            day: 'w6',
+            img: 'https://www.monogatari-series.com/zokuowarimonogatari/assets/img/music/img_kikan.jpg',
+            title: '続・終物語',
+            link: 'https://www.monogatari-series.com/zokuowarimonogatari/',
             words:['']
           },
         ]
