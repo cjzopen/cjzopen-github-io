@@ -742,7 +742,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'http://bungo-stray-dogs.jp/news/news-contents/news-3rdseason-keyvisual/images/thumb.png',
             title: '文豪野犬s3',
             link: 'http://bungo-stray-dogs.jp/',
@@ -798,7 +798,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w4',
             img: 'http://sarazanmai.com/img/og.png',
             title: 'さらざんまい',
             link: 'http://sarazanmai.com/',
@@ -952,7 +952,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w2',
             img: 'http://cingeki-anime.com/lib/images/logo.png',
             title: '灰姑娘女孩劇場s4',
             link: 'http://cingeki-anime.com/',
@@ -974,7 +974,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w6',
-            img: 'https://mirutights.jp/ogp/mirutights_ogp.png',
+            img: 'https://pbs.twimg.com/profile_images/1078726632897110016/rzQnwM53_400x400.jpg',
             title: 'Miru Tights',
             link: 'https://mirutights.jp/',
             words:['5/11']
