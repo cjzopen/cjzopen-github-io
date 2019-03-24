@@ -788,7 +788,7 @@ var vue2 = new Vue({
             img: 'http://hitoribocchi.jp/assets/other/stvd-wp/thumb.jpg',
             title: '一個人的○○小日子',
             link: 'http://hitoribocchi.jp/',
-            words:['花田十輝']
+            words:['花田十輝','カツヲ']
           },
           {
             day: 'w0',
@@ -860,13 +860,13 @@ var vue2 = new Vue({
             link: 'http://aochan-anime.com/',
             words:['']
           },
-          {
-            day: '',
-            img: 'http://pipecat-kabukicho.jp/ogp.jpg',
-            title: '歌舞伎町シャーロック',
-            link: 'http://pipecat-kabukicho.jp/',
-            words:['']
-          },
+          // {
+          //   day: '',
+          //   img: 'http://pipecat-kabukicho.jp/ogp.jpg',
+          //   title: '歌舞伎町シャーロック',
+          //   link: 'http://pipecat-kabukicho.jp/',
+          //   words:['']
+          // },
           {
             day: 'w2',
             img: 'http://w-witch.jp/501_takeoff/img/img_teaser.jpg',
@@ -984,7 +984,7 @@ var vue2 = new Vue({
             img: 'https://pbs.twimg.com/media/DxKX-tGVYAE5dOY.jpg',
             title: '巨蟲列島',
             link: 'http://kyochu-retto.net/',
-            words:['']
+            words:['6/20']
           },
           {
             day: 'w6',
