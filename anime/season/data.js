@@ -870,7 +870,7 @@ var vue2 = new Vue({
           {
             day: 'w2',
             img: 'http://w-witch.jp/501_takeoff/img/img_teaser.jpg',
-            title: '強襲魔女 501部隊発進しますっ！',
+            title: '強襲魔女 501部隊出動！',
             link: 'http://w-witch.jp/501_takeoff/',
             words:['']
           },
@@ -1003,7 +1003,7 @@ var vue2 = new Vue({
           {
             day: 'w0',
             img: 'http://gunjyo-magumeru.com/news/wp-content/uploads/2019/01/mg_reopen-300x135.jpg',
-            title: '群青のマグメル',
+            title: '拾又之國',
             link: 'http://gunjyo-magumeru.com/',
             words:['']
           }
