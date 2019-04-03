@@ -753,7 +753,7 @@ var vue2 = new Vue({
             img: 'http://caroleandtuesday.com/core_sys/images/contents/00000033/base/l1.jpg',
             title: 'Carole & Tuesday',
             link: 'http://caroleandtuesday.com/',
-            words:['NETFLIX']
+            words:['BONES20周年','NETFLIX']
           },
           {
             day: 'w5',
