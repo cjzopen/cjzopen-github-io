@@ -799,7 +799,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w4',
-            img: 'http://sarazanmai.com/img/og.png',
+            img: 'http://sarazanmai.com/img/thumb-lyricmv.jpg',
             title: 'さらざんまい',
             link: 'http://sarazanmai.com/',
             words:['幾原邦彦']
@@ -869,7 +869,7 @@ var vue2 = new Vue({
           // },
           {
             day: 'w2',
-            img: 'http://w-witch.jp/501_takeoff/img/img_teaser.jpg',
+            img: 'http://w-witch.jp/501_takeoff/img/top/mainvisual_pc.jpg',
             title: '強襲魔女 501部隊出動！',
             link: 'http://w-witch.jp/501_takeoff/',
             words:['']
@@ -1012,7 +1012,7 @@ var vue2 = new Vue({
             img: 'http://hoshiiro.jp/ogp.png',
             title: 'POP TEAM EPIC tvsp',
             link: 'http://hoshiiro.jp/',
-            words:['4/1']
+            words:['4/1','花澤香菜自爆']
           }
         ]
       }
