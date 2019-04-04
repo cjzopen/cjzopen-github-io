@@ -1006,6 +1006,13 @@ var vue2 = new Vue({
             title: '拾又之國',
             link: 'http://gunjyo-magumeru.com/',
             words:['']
+          },
+          {
+            day: 'w1',
+            img: 'https://pbs.twimg.com/media/DxKX-tGVYAE5dOY.jpg',
+            title: 'POP TEAM EPIC tvsp',
+            link: 'http://hoshiiro.jp/',
+            words:['4/1']
           }
         ]
       }
