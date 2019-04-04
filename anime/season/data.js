@@ -1009,7 +1009,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w1',
-            img: 'https://pbs.twimg.com/media/DxKX-tGVYAE5dOY.jpg',
+            img: 'http://hoshiiro.jp/ogp.png',
             title: 'POP TEAM EPIC tvsp',
             link: 'http://hoshiiro.jp/',
             words:['4/1']
