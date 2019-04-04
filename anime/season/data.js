@@ -820,7 +820,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w2',
-            img: 'https://pbs.twimg.com/profile_images/1097374667487141888/Q0sWhDA2_400x400.png',
+            img: 'http://yuno-anime.com/wp/wp-content/uploads/2019/03/YU-NO-ep01-0125-cap_0041-1024x576.jpg',
             title: '在世界盡頭詠唱愛的少女YU-NO',
             link: 'http://yuno-anime.com/',
             words:['']
