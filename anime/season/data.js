@@ -987,11 +987,11 @@ var vue2 = new Vue({
             words:['6/20']
           },
           {
-            day: 'w6',
+            day: '',
             img: 'https://www.monogatari-series.com/zokuowarimonogatari/assets/img/music/img_kikan.jpg',
             title: '続・終物語',
             link: 'https://www.monogatari-series.com/zokuowarimonogatari/',
-            words:['']
+            words:['5/18全6集']
           },
           {
             day: 'w1',
