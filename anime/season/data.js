@@ -792,7 +792,7 @@ var vue2 = new Vue({
           },
           {
             day: 'w0',
-            img: 'http://nankoko-anime.com/img/visual_change01.png',
+            img: 'http://nankoko-anime.com/wp/wp-content/themes/nankoko/img/op_anime.png',
             title: '為什麼老師會在這裡!?',
             link: 'http://nankoko-anime.com/',
             words:['']
