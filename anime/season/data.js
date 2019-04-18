@@ -1008,11 +1008,18 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: 'w1',
+            day: '',
             img: 'http://hoshiiro.jp/ogp.png',
             title: 'POP TEAM EPIC tvsp',
             link: 'http://hoshiiro.jp/',
             words:['4/1','花澤香菜自爆']
+          },
+          {
+            day: '',
+            img: 'https://maerchen-anime.com/core_sys/images/contents/00000038/base/l3.jpg',
+            title: '童話魔法使',
+            link: 'https://maerchen-anime.com/',
+            words:['4/25','11,12話']
           }
         ]
       }
