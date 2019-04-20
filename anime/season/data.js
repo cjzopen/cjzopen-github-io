@@ -1020,6 +1020,13 @@ var vue2 = new Vue({
             title: '童話魔法使',
             link: 'https://maerchen-anime.com/',
             words:['4/25','11,12話']
+          },
+          {
+            day: '',
+            img: 'https://kotobuki-game.bn-ent.net/assets/images/character/2/v2/chara.png',
+            title: '荒野のコトブキ飛行隊外伝　大空のハルカゼ飛行隊',
+            link: 'https://kotobuki-anime.com/',
+            words:['4/10','本渡楓','白石晴香','黒沢ともよ']
           }
         ]
       }
