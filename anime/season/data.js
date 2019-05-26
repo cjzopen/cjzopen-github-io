@@ -1028,6 +1028,246 @@ var vue2 = new Vue({
             link: 'https://kotobuki-anime.com/',
             words:['4/10','本渡楓','白石晴香','黒沢ともよ']
           }
+        ],
+        '2019-natsu':[
+          {
+            day: '',
+            img: 'http://danmachi.com/images/main-Img10.jpg',
+            title: 'ダンまちs2',
+            link: 'http://danmachi.com/danmachi2/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://arifureta.com/wp-content/uploads/2018/12/arifureta_kv2_trimming-212x300.jpg',
+            title: '平凡職業造就世界最強',
+            link: 'https://arifureta.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://pbs.twimg.com/profile_images/1064321135746080768/92H3SJwe_400x400.jpg',
+            title: 'Ｄｒ．ＳＴＯＮＥ',
+            link: 'https://dr-stone.jp/',
+            words:['']
+          },
+          {
+            day: 'w5',
+            img: 'https://toaru-project.com/accelerator/core_sys/images/main/top/main_img_2.webp',
+            title: 'とある科学の一方通行',
+            link: 'https://toaru-project.com/accelerator/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://takagi3.me/images/to_first.jpg',
+            title: 'からかい上手の高木さんs2',
+            link: 'http://takagi3.me/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://vinlandsaga.jp/assets/img/common/main-03.jpg',
+            title: 'Vinland Saga',
+            link: 'https://vinlandsaga.jp/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://anime.elmelloi.com/assets/img/ep0_01.jpg',
+            title: 'ロード・エルメロイⅡ世の事件簿 -魔眼蒐集列車 Grace note-',
+            link: 'https://anime.elmelloi.com/',
+            words:['']
+          },
+          {
+            day: 'w5',
+            img: 'http://fireforce-anime.jp/images/special_list_gallery.jpg',
+            title: '炎炎ノ消防隊',
+            link: 'http://fireforce-anime.jp/',
+            words:['']
+          },
+          {
+            day: 'w0',
+            img: 'https://i.ytimg.com/vi/4deqHYYzhwY/maxresdefault.jpg',
+            title: 'あんさんぶるスターズ！ ',
+            link: 'https://ensemblestars-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://isekai-cheat-magician.com/img/ogp.png',
+            title: '異世界チート魔術師',
+            link: 'http://isekai-cheat-magician.com/',
+            words:['高橋李依','田中美海']
+          },
+          {
+            day: '',
+            img: 'https://dumbbell-anime.jp/assets/comics/1.png',
+            title: 'ダンベル何キロ持てる？',
+            link: 'https://dumbbell-anime.jp/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://okaasan-online.com/assets/img/special/thumb_present.jpg',
+            title: '通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？',
+            link: 'https://okaasan-online.com/',
+            words:['茅野愛衣']
+          },
+          {
+            day: '',
+            img: 'https://hensuki.com/img/ogp.png',
+            title: '可愛ければ変態でも好きになってくれますか？',
+            link: 'https://hensuki.com/',
+            words:['大橋彩香']
+          },
+          {
+            day: '',
+            img: 'http://maousama-anime.com/wp/wp-content/themes/maousama/assets/img/top/kv02.jpg',
+            title: '魔王様、リトライ！',
+            link: 'http://maousama-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://www.symphogear-xv.com/img/XVlogo.png',
+            title: '戦姫絶唱シンフォギアXV ',
+            link: 'http://www.symphogear-xv.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://tejina-senpai.jp/images/bg_onair.png',
+            title: '手品先輩',
+            link: 'http://tejina-senpai.jp/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://www.nhg-anime.com/images/visual_main.jpg',
+            title: 'ナカノヒトゲノム【実況中】',
+            link: 'http://www.nhg-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://astra-anime.com/assets/news/kv1.jpg',
+            title: '彼方のアストラ',
+            link: 'http://astra-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w4',
+            img: 'http://uchinoko-anime.com/wp/wp-content/themes/uchinoko/assets/img/page/movie/pv_thumb02.jpg',
+            title: '為了女兒，我說不定連魔王都能幹掉。',
+            link: 'http://uchinoko-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://given-anime.com/special/wallpaper/1024x768.jpg',
+            title: 'Given',
+            link: 'http://given-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://pbs.twimg.com/profile_images/1068437176390578176/cyanMkv2_400x400.jpg',
+            title: '荒ぶる季節の乙女どもよ。',
+            link: 'http://araoto-anime.com/',
+            words:['']
+          },
+          {
+            day: 'w1',
+            img: 'http://copcraft.tv/wp/wp-content/themes/copcraft/images/common/ogimage.jpg',
+            title: 'COP CRAFT',
+            link: 'http://copcraft.tv/',
+            words:['賀東招二']
+          },
+          {
+            day: '',
+            img: 'https://katsu-kami.com/core_sys/images/contents/00000004/block/00000016/00000029.jpg',
+            title: 'かつて神だった獣たちへ',
+            link: 'https://katsu-kami.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://newbem.jp/wp/wp-content/themes/bem/assets/images/introduction_bg.jpg',
+            title: 'BEM',
+            link: 'https://newbem.jp/',
+            words:['']
+          },
+          {
+            day: 'w1',
+            img: 'https://hstar-mu.com/core_sys/images/main/common/logo.png',
+            title: '高校星歌劇',
+            link: 'https://hstar-mu.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://granbelm.com/img/pc_kv.jpg',
+            title: 'グランベルム',
+            link: 'http://granbelm.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://wakanobu.com/img/goods/item/goods_02.png',
+            title: '胡蝶綺 ~若き信長~',
+            link: 'http://wakanobu.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://jyoshimuda.com/images/top/001/shoei/p_001.png',
+            title: '女子高生の無駄づかい',
+            link: 'http://jyoshimuda.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://sounandesuka.jp/images/ogp.png',
+            title: 'ソウナンですか?',
+            link: 'http://sounandesuka.jp/',
+            words:['安野希世乃']
+          },
+          {
+            day: '',
+            img: 'https://www.ntv.co.jp/tryknights/images/ogp_anime.png',
+            title: 'トライナイツ',
+            link: 'https://www.ntv.co.jp/tryknights/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://www.tbs.co.jp/anime/machikado/img/ogp.png',
+            title: '街角魔族',
+            link: 'https://www.tbs.co.jp/anime/machikado/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'https://www.tv-tokyo.co.jp/anime/yamishibai7/images/facebook_icon.jpg',
+            title: '闇芝居s7',
+            link: 'https://www.tv-tokyo.co.jp/anime/yamishibai7/',
+            words:['']
+          },
+          {
+            day: 'w0',
+            img: 'https://rst-anime.com/special/img/thumb_pv_2.jpg',
+            title: 'Re:ステージ! ドリームデイズ♪',
+            link: 'https://rst-anime.com/',
+            words:['']
+          },
+          {
+            day: '',
+            img: 'http://kengan.net/wp/wp-content/uploads/2019/04/main03.jpg',
+            title: '拳願阿修羅',
+            link: 'http://kengan.net/',
+            words:['Netflix']
+          }
         ]
       }
     ]
