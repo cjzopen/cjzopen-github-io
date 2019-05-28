@@ -1046,7 +1046,7 @@ var vue2 = new Vue({
           },
           {
             day: '',
-            img: 'https://pbs.twimg.com/profile_images/1064321135746080768/92H3SJwe_400x400.jpg',
+            img: 'https://dr-stone.jp/wp-content/themes/dr-stone_teaser/img/common/ogpimg.jpg',
             title: 'Ｄｒ．ＳＴＯＮＥ',
             link: 'https://dr-stone.jp/',
             words:['']
@@ -1172,10 +1172,10 @@ var vue2 = new Vue({
           },
           {
             day: '',
-            img: 'https://pbs.twimg.com/profile_images/1068437176390578176/cyanMkv2_400x400.jpg',
+            img: 'http://araoto-anime.com/assets/img/module/OGP_Image.png',
             title: '荒ぶる季節の乙女どもよ。',
             link: 'http://araoto-anime.com/',
-            words:['']
+            words:['岡田麿里','安済知佳','黒沢ともよ','麻倉もも','上坂すみれ']
           },
           {
             day: 'w1',
@@ -1269,8 +1269,8 @@ var vue2 = new Vue({
             words:['Netflix']
           },
           {
-            day: 'http://nep-anime.tv/img/products/img_bd-boxImg.jpg',
-            img: 'http://kengan.net/wp/wp-content/uploads/2019/04/main03.jpg',
+            day: '',
+            img: 'http://nep-anime.tv/img/products/img_bd-boxImg.jpg',
             title: '超次元ゲイム ネプテューヌ ～ねぷのなつやすみ2019～',
             link: 'http://nep-anime.tv/',
             words:['OVA']
