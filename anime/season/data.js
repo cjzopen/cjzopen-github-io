@@ -1267,6 +1267,13 @@ var vue2 = new Vue({
             title: '拳願阿修羅',
             link: 'http://kengan.net/',
             words:['Netflix']
+          },
+          {
+            day: 'http://nep-anime.tv/img/products/img_bd-boxImg.jpg',
+            img: 'http://kengan.net/wp/wp-content/uploads/2019/04/main03.jpg',
+            title: '超次元ゲイム ネプテューヌ ～ねぷのなつやすみ2019～',
+            link: 'http://nep-anime.tv/',
+            words:['OVA']
           }
         ]
       }
