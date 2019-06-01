@@ -1032,8 +1032,8 @@ var vue2 = new Vue({
         '2019-natsu':[
           {
             day: '',
-            img: 'http://danmachi.com/images/main-Img10.jpg',
-            title: 'ダンまちs2',
+            img: 'https://i.imgur.com/wlbXQhs.jpg',
+            title: 'ダンまちⅡ',
             link: 'http://danmachi.com/danmachi2/',
             words:['']
           },
@@ -1059,21 +1059,21 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
-            img: 'http://takagi3.me/images/to_first.jpg',
+            day: 'w0',
+            img: 'https://i.imgur.com/fwCPLKv.jpg',
             title: 'からかい上手の高木さんs2',
             link: 'http://takagi3.me/',
             words:['']
           },
           {
-            day: '',
+            day: 'w0',
             img: 'https://vinlandsaga.jp/assets/img/common/main-03.jpg',
             title: 'Vinland Saga',
             link: 'https://vinlandsaga.jp/',
             words:['']
           },
           {
-            day: '',
+            day: 'w6',
             img: 'https://anime.elmelloi.com/assets/img/ep0_01.jpg',
             title: 'ロード・エルメロイⅡ世の事件簿 -魔眼蒐集列車 Grace note-',
             link: 'https://anime.elmelloi.com/',
@@ -1101,7 +1101,7 @@ var vue2 = new Vue({
             words:['高橋李依','田中美海']
           },
           {
-            day: '',
+            day: 'w3',
             img: 'https://dumbbell-anime.jp/assets/comics/1.png',
             title: 'ダンベル何キロ持てる？',
             link: 'https://dumbbell-anime.jp/',
@@ -1172,14 +1172,14 @@ var vue2 = new Vue({
           },
           {
             day: '',
-            img: 'http://araoto-anime.com/assets/img/module/OGP_Image.png',
+            img: 'https://i.imgur.com/y7nIeRv.jpg',
             title: '荒ぶる季節の乙女どもよ。',
             link: 'http://araoto-anime.com/',
             words:['岡田麿里','安済知佳','黒沢ともよ','麻倉もも','上坂すみれ']
           },
           {
             day: 'w1',
-            img: 'http://copcraft.tv/wp/wp-content/themes/copcraft/images/common/ogimage.jpg',
+            img: 'https://i.imgur.com/6SaXqTe.jpg',
             title: 'COP CRAFT',
             link: 'http://copcraft.tv/',
             words:['賀東招二']
@@ -1192,7 +1192,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w0',
             img: 'https://newbem.jp/wp/wp-content/themes/bem/assets/images/introduction_bg.jpg',
             title: 'BEM',
             link: 'https://newbem.jp/',
@@ -1206,14 +1206,14 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'http://granbelm.com/img/pc_kv.jpg',
             title: 'グランベルム',
             link: 'http://granbelm.com/',
             words:['']
           },
           {
-            day: '',
+            day: 'w1',
             img: 'http://wakanobu.com/img/goods/item/goods_02.png',
             title: '胡蝶綺 ~若き信長~',
             link: 'http://wakanobu.com/',
@@ -1241,7 +1241,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w4',
             img: 'https://www.tbs.co.jp/anime/machikado/img/ogp.png',
             title: '街角魔族',
             link: 'https://www.tbs.co.jp/anime/machikado/',
@@ -1266,7 +1266,7 @@ var vue2 = new Vue({
             img: 'http://kengan.net/wp/wp-content/uploads/2019/04/main03.jpg',
             title: '拳願阿修羅',
             link: 'http://kengan.net/',
-            words:['Netflix']
+            words:['Netflix','7/31']
           },
           {
             day: '',
