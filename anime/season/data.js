@@ -1031,21 +1031,21 @@ var vue2 = new Vue({
         ],
         '2019-natsu':[
           {
-            day: '',
+            day: 'w5',
             img: 'https://i.imgur.com/wlbXQhs.jpg',
-            title: 'ダンまちⅡ',
+            title: '在地下城尋求邂逅是否搞錯了什麼Ⅱ',
             link: 'http://danmachi.com/danmachi2/',
             words:['']
           },
           {
-            day: '',
+            day: 'w1',
             img: 'https://arifureta.com/wp-content/uploads/2018/12/arifureta_kv2_trimming-212x300.jpg',
             title: '平凡職業造就世界最強',
             link: 'https://arifureta.com/',
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'https://dr-stone.jp/wp-content/themes/dr-stone_teaser/img/common/ogpimg.jpg',
             title: 'Ｄｒ．ＳＴＯＮＥ',
             link: 'https://dr-stone.jp/',
@@ -1094,7 +1094,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w3',
             img: 'http://isekai-cheat-magician.com/img/ogp.png',
             title: '異世界チート魔術師',
             link: 'http://isekai-cheat-magician.com/',
@@ -1108,7 +1108,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'https://okaasan-online.com/assets/img/special/thumb_present.jpg',
             title: '通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？',
             link: 'https://okaasan-online.com/',
@@ -1122,21 +1122,21 @@ var vue2 = new Vue({
             words:['大橋彩香']
           },
           {
-            day: '',
+            day: 'w3',
             img: 'http://maousama-anime.com/wp/wp-content/themes/maousama/assets/img/top/kv02.jpg',
             title: '魔王様、リトライ！',
             link: 'http://maousama-anime.com/',
             words:['']
           },
           {
-            day: '',
+            day: 'w6',
             img: 'http://www.symphogear-xv.com/img/XVlogo.png',
             title: '戦姫絶唱シンフォギアXV ',
             link: 'http://www.symphogear-xv.com/',
             words:['']
           },
           {
-            day: '',
+            day: 'w2',
             img: 'http://tejina-senpai.jp/images/bg_onair.png',
             title: '手品先輩',
             link: 'http://tejina-senpai.jp/',
@@ -1171,7 +1171,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'https://i.imgur.com/y7nIeRv.jpg',
             title: '荒ぶる季節の乙女どもよ。',
             link: 'http://araoto-anime.com/',
@@ -1185,7 +1185,7 @@ var vue2 = new Vue({
             words:['賀東招二']
           },
           {
-            day: '',
+            day: 'w1',
             img: 'https://katsu-kami.com/core_sys/images/contents/00000004/block/00000016/00000029.jpg',
             title: 'かつて神だった獣たちへ',
             link: 'https://katsu-kami.com/',
@@ -1227,7 +1227,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w2',
             img: 'http://sounandesuka.jp/images/ogp.png',
             title: 'ソウナンですか?',
             link: 'http://sounandesuka.jp/',
@@ -1267,6 +1267,13 @@ var vue2 = new Vue({
             title: '拳願阿修羅',
             link: 'http://kengan.net/',
             words:['Netflix','7/31']
+          },
+          {
+            day: 'w5',
+            img: 'https://cjzopen.github.io/anime/img/2018-aki/少女歌劇.jpg',
+            title: '少女☆寸劇 オールスタァライト',
+            link: 'https://www.youtube.com/channel/UCpcs9GP_NIBxzDfNTWolNPw',
+            words:['手遊中放送，之後上傳官方']
           },
           {
             day: '',
