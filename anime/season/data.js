@@ -1068,7 +1068,7 @@ var vue2 = new Vue({
           {
             day: 'w0',
             img: 'https://vinlandsaga.jp/assets/img/common/main-03.jpg',
-            title: 'Vinland Saga',
+            title: '海盜戰記',
             link: 'https://vinlandsaga.jp/',
             words:['']
           },
@@ -1105,7 +1105,7 @@ var vue2 = new Vue({
             img: 'https://dumbbell-anime.jp/assets/comics/1.png',
             title: 'ダンベル何キロ持てる？',
             link: 'https://dumbbell-anime.jp/',
-            words:['']
+            words:['雨宮天','石上靜香','東山奈央','堀江由衣']
           },
           {
             day: 'w5',
@@ -1115,7 +1115,7 @@ var vue2 = new Vue({
             words:['茅野愛衣']
           },
           {
-            day: '',
+            day: 'w1',
             img: 'https://hensuki.com/img/ogp.png',
             title: '可愛ければ変態でも好きになってくれますか？',
             link: 'https://hensuki.com/',
@@ -1143,7 +1143,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w0',
             img: 'http://www.nhg-anime.com/images/visual_main.jpg',
             title: 'ナカノヒトゲノム【実況中】',
             link: 'http://www.nhg-anime.com/',
@@ -1154,7 +1154,7 @@ var vue2 = new Vue({
             img: 'http://astra-anime.com/assets/news/kv1.jpg',
             title: '彼方のアストラ',
             link: 'http://astra-anime.com/',
-            words:['']
+            words:['黒沢ともよ']
           },
           {
             day: 'w4',
@@ -1220,7 +1220,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w5',
             img: 'http://jyoshimuda.com/images/top/001/shoei/p_001.png',
             title: '女子高生の無駄づかい',
             link: 'http://jyoshimuda.com/',
@@ -1231,7 +1231,7 @@ var vue2 = new Vue({
             img: 'http://sounandesuka.jp/images/ogp.png',
             title: 'ソウナンですか?',
             link: 'http://sounandesuka.jp/',
-            words:['安野希世乃']
+            words:['安野希世乃','和氣あず未']
           },
           {
             day: '',
@@ -1248,7 +1248,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w0',
             img: 'https://www.tv-tokyo.co.jp/anime/yamishibai7/images/facebook_icon.jpg',
             title: '闇芝居s7',
             link: 'https://www.tv-tokyo.co.jp/anime/yamishibai7/',
@@ -1280,7 +1280,7 @@ var vue2 = new Vue({
             img: 'http://nep-anime.tv/img/products/img_bd-boxImg.jpg',
             title: '超次元ゲイム ネプテューヌ ～ねぷのなつやすみ2019～',
             link: 'http://nep-anime.tv/',
-            words:['OVA']
+            words:['OVA','7/3']
           }
         ]
       }
