@@ -1150,7 +1150,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w3',
             img: 'http://astra-anime.com/assets/news/kv1.jpg',
             title: '彼方のアストラ',
             link: 'http://astra-anime.com/',
@@ -1164,7 +1164,7 @@ var vue2 = new Vue({
             words:['']
           },
           {
-            day: '',
+            day: 'w4',
             img: 'http://given-anime.com/special/wallpaper/1024x768.jpg',
             title: 'Given',
             link: 'http://given-anime.com/',
