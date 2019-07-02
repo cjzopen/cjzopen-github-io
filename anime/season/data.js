@@ -1154,7 +1154,7 @@ var vue2 = new Vue({
             img: 'http://astra-anime.com/assets/news/kv1.jpg',
             title: '彼方のアストラ',
             link: 'http://astra-anime.com/',
-            words:['黒沢ともよ']
+            words:['男性「這本漫畫真厲害2019」第3名','黒沢ともよ']
           },
           {
             day: 'w4',
