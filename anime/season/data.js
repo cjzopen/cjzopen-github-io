@@ -1280,7 +1280,7 @@ var vue2 = new Vue({
             img: 'http://nep-anime.tv/img/products/img_bd-boxImg.jpg',
             title: '超次元ゲイム ネプテューヌ ～ねぷのなつやすみ2019～',
             link: 'http://nep-anime.tv/',
-            words:['OVA','7/3']
+            words:['OVA','7/8']
           }
         ]
       }
