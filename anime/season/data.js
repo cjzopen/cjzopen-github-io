@@ -1234,11 +1234,11 @@ var vue2 = new Vue({
             words:['安野希世乃','和氣あず未']
           },
           {
-            day: '',
-            img: 'https://www.ntv.co.jp/tryknights/images/ogp_anime.png',
+            day: 'w2',
+            img: 'https://www.ntv.co.jp/tryknights/images/ogp_01.png',
             title: 'トライナイツ',
             link: 'https://www.ntv.co.jp/tryknights/',
-            words:['']
+            words:['7/30']
           },
           {
             day: 'w4',
