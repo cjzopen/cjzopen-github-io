@@ -1196,7 +1196,7 @@ var vue2 = new Vue({
             img: 'https://newbem.jp/wp/wp-content/themes/bem/assets/images/introduction_bg.jpg',
             title: 'BEM',
             link: 'https://newbem.jp/',
-            words:['']
+            words:['坂本真綾']
           },
           {
             day: 'w1',
@@ -1207,17 +1207,17 @@ var vue2 = new Vue({
           },
           {
             day: 'w5',
-            img: 'http://granbelm.com/img/pc_kv.jpg',
+            img: 'https://i.imgur.com/qJu4ADx.jpg',
             title: 'グランベルム',
             link: 'http://granbelm.com/',
-            words:['']
+            words:['藍井エイル']
           },
           {
             day: 'w1',
             img: 'http://wakanobu.com/img/goods/item/goods_02.png',
             title: '胡蝶綺 ~若き信長~',
             link: 'http://wakanobu.com/',
-            words:['']
+            words:['May\'n']
           },
           {
             day: 'w5',
@@ -1270,10 +1270,10 @@ var vue2 = new Vue({
           },
           {
             day: 'w5',
-            img: 'https://cjzopen.github.io/anime/img/2018-aki/少女歌劇.jpg',
+            img: 'https://i.imgur.com/bqvlLu8.jpg',
             title: '少女☆寸劇 オールスタァライト',
-            link: 'https://www.youtube.com/channel/UCpcs9GP_NIBxzDfNTWolNPw',
-            words:['手遊中放送，之後上傳官方']
+            link: 'https://revuestarlight.bushimo.jp/allstar/',
+            words:['手遊中放送，看起來應該隔週會上傳官網']
           },
           {
             day: '',
