@@ -33,22 +33,44 @@ gtag('config', 'UA-77969491-3');
 "description": "7月開始播出的深夜動畫，並以每星期的放送時間做區隔，以及不一定會有的上季推薦作品。",
 "sameAs" : "https://www.facebook.com/japaneseanimeshare/",
 "datePublished":"2019-05-31",
-"dateModified":"2019-07-02"
+"dateModified":"2019-07-30"
 }
 </script>
 </head>
 <body>
 <style>
-html{
+#kyoani{
   filter: grayscale(100%);
   animation-name: future;
-  animation-delay: 8s;
+  animation-delay: 4s;
   animation-duration: 6s;
   animation-fill-mode: forwards;
 }
 @keyframes future {
   from {filter: grayscale(100%);}
   to {filter: grayscale(0%);}
+}
+#kyoani figure{
+  max-width:1200px;
+}
+#kyoani figure:hover figcaption{
+  opacity: 1;
+  transition: opacity .4s ease-in-out;
+}
+#kyoani figcaption{
+  transition: opacity .4s ease-in-out;
+  opacity:0;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color:rgba(50,50,50,.7);
+}
+#kyoani a{
+  color:pink;
+}
+#kyoani a:hover{
+  color: pink;
 }
 </style>
 <div id="fb-root"></div>
@@ -61,7 +83,7 @@ html{
   }(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
   <h1>2019夏季新番表</h1>
-  <div>update: <time>2019-07-02</time></div>
+  <div>update: <time>2019-07-30</time></div>
   <div class="mb-5">
     <div class="fb-like" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
   </div>
@@ -110,21 +132,26 @@ html{
     </div>
     <div class="pt-3 text-info"><small>* 週一 18:00~週二04:00 皆視為週一</small></div>
   </section>
-  <section class="container-fluid my-5">
+  <section class="container-fluid my-5" id="kyoani">
     <!-- <h2>上季推薦</h2> -->
-    <div class="row">
-        <!-- <div v-for="(item, index) in lasts" class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3" >
-            <div class="card h-100">
-              <figure class="ratio-box card-img-top">
-                <img class="img-fluid lazyload" :data-src="item.img" :alt="item.title">
-              </figure>
-              <div class="card-body pt-0">
-                <h3 class="card-title h5">{{ item.title }}</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-        </div> -->
-    </div>
+    <!-- <div class="row"> -->
+      <figure class="position-relative mx-auto my-0">
+        <img class="img-fluid" src="../../img/2019/kyoani-1.jpg" alt="to share again">
+        <figcaption class="position-absolute d-flex align-items-center justify-content-center"><a class="stretched-link" href="http://www.kyotoanimation.co.jp/information/?id=3075">Donate to KyoAni</a></figcaption>
+      </figure>
+      <figure class="position-relative mx-auto my-0">
+        <img class="img-fluid" src="../../img/2019/kyoani-2.jpg" alt="to create again">
+        <figcaption class="position-absolute d-flex align-items-center justify-content-center"><a class="stretched-link" href="http://www.kyotoanimation.co.jp/information/?id=3080">The Message from KyoAni</a></figcaption>
+      </figure>
+      <figure class="position-relative mx-auto my-0">
+        <img class="img-fluid" src="../../img/2019/kyoani-3.jpg" alt="to dream again">
+        <figcaption class="position-absolute d-flex align-items-center justify-content-center"><a class="stretched-link" href="https://www.youtube.com/channel/UCpGY2vcoKXf7K6tFzsbSv7w">KyoAni Youtube Channel</a></figcaption>
+      </figure>
+      <figure class="position-relative mx-auto my-0">
+        <img class="img-fluid" src="../../img/2019/kyoani-4.jpg" alt="to grow again">
+      </figure>
+      <cite class="d-block text-right"><small>photo from https://www.artstation.com/artwork/dO6n8X</small></cite>
+    <!-- </div> -->
   </section>
 <!--   <section class="container-fluid my-5">
     <h2>上季推薦</h2>
