@@ -330,7 +330,7 @@ var vue2 = new Vue({
         season:['2019-aki'],
         day: 'w5',
         img: 'https://i.imgur.com/l2P4jiC.jpg',
-        title: 'http://chubyou.net/厨病激発ボーイ',
+        title: '厨病激発ボーイ',
         link: 'http://chubyou.net/',
         words:['']
       },
