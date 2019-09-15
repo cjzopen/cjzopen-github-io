@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+}
+body{
+  font-family:"-apple-system", BlinkMacSystemFont, Microsoft JhengHei, "Yu Gothic Medium", "游ゴシック Medium", YuGothic;
+  font-weight:600;
+  font-size: 16px;
+  color: #494949;
+  background-color: #f9f9f9;
+}
+summary{
+  cursor:pointer;
+}
+#wrapper{
+  max-width:1440px;
+  padding:1rem;
+  margin:0 auto;
+}
+select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  min-width: 15rem;
+  height: 3rem;
+  border-radius: .75rem 1.5rem;
+  border: none;
+  box-shadow: 0 0 2px #ccc;
+  outline: none;
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat;
+  background-position: right .125rem bottom 50%;
+  background-size: 1rem 1.5rem;
+  background-color: #FFF;
+  padding:.5rem .875rem .5rem .5rem;
+  transition: all .2s;
+  &:focus{
+    border-radius: .5rem .5rem 0 0;
+    outline:none;
+    box-shadow: 4px -2px 4px #ccc;
+    transition: all .2s;
+  }
+}
+ul,ol {
+  list-style-image: none;
+  list-style: none;
+}
+ul.disc,ul.decimal,ol.disc,ol.decimal {
+  padding: .5rem 0 .5rem 1.375rem;
+}
+.disc>li {
+  list-style-type: disc;
+}
+.decimal>li {
+  list-style-type: decimal;
+}
+.card{
+  transition: all .4s;
+  position: relative;
+  overflow: hidden;
+  &::after{
+    content: '未知';
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+    transform-origin: center center;
+    transform: translate(2rem,-2rem) rotate(45deg);
+    color: #f1f1f1;
+    background-color: #323232;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15%;
+  }
+}
+
+.animes.w0 .card::after{
+  content: '日';
+  background-color: #f473cd;
+}
+.animes.w1 .card::after{
+  content: '月';
+  background-color: #7a758c;
+}
+.animes.w2 .card::after{
+  content: '火';
+  background-color: #f26565;
+}
+.animes.w3 .card::after{
+  content: '水';
+  background-color: #6ca2e2;
+}
+.animes.w4 .card::after{
+  content: '木';
+  background-color: #e88e4e;
+}
+.animes.w5 .card::after{
+  content: '金';
+  background-color: #e8d34c;
+}
+.animes.w6 .card::after{
+  content: '土';
+  background-color: #a56e30;
+}
+.day-check + label{
+  border:1px solid;
+  border-radius: .25rem;
+  color: #f1f1f1;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+label[for="w1"]{
+  border-color: #7a758c;
+  color: #7a758c;
+}
+.day-check:checked + label[for="w1"]{
+  background-color: #7a758c;
+}
+label[for="w2"]{
+  border-color: #f26565;
+  color: #f26565;
+}
+.day-check:checked + label[for="w2"]{
+  background-color: #f26565;
+}
+label[for="w3"]{
+  border-color: #6ca2e2;
+  color: #6ca2e2;
+}
+.day-check:checked + label[for="w3"]{
+  background-color: #6ca2e2;
+}
+label[for="w4"]{
+  border-color: #e88e4e;
+  color: #e88e4e;
+}
+.day-check:checked + label[for="w4"]{
+  background-color: #e88e4e;
+}
+label[for="w5"]{
+  border-color: #e8d34c;
+  color: #e8d34c;
+}
+.day-check:checked + label[for="w5"]{
+  background-color: #e8d34c;
+}
+label[for="w6"]{
+  border-color: #a56e30;
+  color: #a56e30;
+}
+.day-check:checked + label[for="w6"]{
+  background-color: #a56e30;
+}
+label[for="w0"]{
+  border-color: #f473cd;
+  color: #f473cd;
+}
+.day-check:checked + label[for="w0"]{
+  background-color: #f473cd;
+}
+label[for="other"]{
+  border-color: rgba(0,0,0,.125);
+  color: rgba(0,0,0,.125);
+}
+.day-check:checked + label[for="other"]{
+  background-color: rgba(0,0,0,.125);
+}
+.day-check:checked + label{
+  background-color: currentColor;
+  color: #f1f1f1;
+  /* border-color: currentColor; */
+}
+#w0:not(:checked) ~ .list .animes.w0,
+#w1:not(:checked) ~ .list .animes.w1,
+#w2:not(:checked) ~ .list .animes.w2,
+#w3:not(:checked) ~ .list .animes.w3,
+#w4:not(:checked) ~ .list .animes.w4,
+#w5:not(:checked) ~ .list .animes.w5,
+#w6:not(:checked) ~ .list .animes.w6,
+#other:not(:checked) ~ .list .animes:not(.w0):not(.w1):not(.w2):not(.w3):not(.w4):not(.w5):not(.w6){
+  opacity: 0;
+  min-height: 0;
+  max-width: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.card:hover,.card:focus{
+  box-shadow: 0 0 1px 1px #ddd, 4px 4px 5px #d2d2d2, 5px 5px 5px #e2e2e2, 6px 6px 5px #e9e9e9, 7px 7px 5px #efefef, 8px 8px 5px #fafafa;
+  transition: all .4s;
+}
+.col-sm-6 a{
+  color: dimgrey;
+  &:hover,&:focus{
+    color: currentColor;
+    text-decoration: none;
+  }
+}
+.card-text span{
+  white-space: nowrap;
+}
+.animes{
+  max-height:13rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ratio-box {
+  width: 100%;
+  padding-top: 52.5%;
+  position: relative;
+  overflow: hidden;
+  min-height: 10rem;
+  background-color: snow;
+  &>img,&>iframe{
+    position: absolute;
+    width:100%!important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+@supports (object-fit: cover) {
+  .ratio-box{
+    padding-top: 0;
+    height: 10rem;
+  }
+  .ratio-box>img,.card figure>img{
+    position: static;
+    object-fit: cover;
+    object-position: 50% 46%;
+    height: 100%;
+  }
+  .card figure>img{
+    object-fit: scale-down;
+  }
+}

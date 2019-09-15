@@ -1282,7 +1282,7 @@ var vue2 = new Vue({
             link: 'http://nep-anime.tv/',
             words:['OVA','7/8']
           }
-        ]
+        ]        
       }
     ]
   },
