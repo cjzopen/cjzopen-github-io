@@ -153,7 +153,7 @@ var vue2 = new Vue({
       {
         season:['2019-aki'],
         day: 'w6',
-        img: 'http://www.konooto-anime.jp/img/news/detail/190913.jpg',
+        img: 'https://i.imgur.com/BlBiTW4.jpg',
         title: 'この音とまれ！ s2',
         link: 'http://www.konooto-anime.jp/',
         words:['']
@@ -257,7 +257,7 @@ var vue2 = new Vue({
       {
         season:['2019-aki'],
         day: 'w6',
-        img: 'http://www6.nhk.or.jp/anime/program/common/images/iruma/main.jpg',
+        img: 'https://i.imgur.com/sKQ0CMS.jpg',
         title: '入間同學入魔了！',
         link: 'http://www6.nhk.or.jp/anime/program/detail.html?i=iruma',
         words:['']
@@ -373,6 +373,14 @@ var vue2 = new Vue({
         title: '神田川JET GIRLS',
         link: 'http://kjganime.com/',
         words:['']
+      },
+      {
+        season:['2019-aki'],
+        day: '',
+        img: 'https://yuruyuri.com/miniyuri/img/ogp.jpg',
+        title: 'みにゆり',
+        link: 'https://yuruyuri.com/miniyuri/',
+        words:['9/25','youtube']
       },
       {
         season:['2019-aki'],
