@@ -232,7 +232,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w4',
         img: 'https://i.imgur.com/8x5Yz09.jpg',
         title: 'No Guns Life',
         link: 'http://nogunslife.com/',
@@ -240,7 +240,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w4',
         img: 'https://i.imgur.com/42VitIZ.png',
         title: '星合の空',
         link: 'http://www.tbs.co.jp/anime/hoshiai/',
@@ -352,11 +352,11 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w5',
         img: 'https://i.imgur.com/g8cLHfP.png',
         title: 'ぬるぺた ',
         link: 'https://nullpeta.com/',
-        words:['']
+        words:['上田麗奈','和氣あず未']
       },
       {
         season:['2019-aki'],
@@ -368,7 +368,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w2',
         img: 'https://i.imgur.com/1BIOSO6.jpg',
         title: '神田川JET GIRLS',
         link: 'http://kjganime.com/',
