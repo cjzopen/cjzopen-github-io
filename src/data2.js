@@ -79,7 +79,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2019-aki','2020-fuyu'],
         day: 'w6',
         img: 'https://anime.fate-go.jp/ep7-tv/assets/img/story/00/img_05.jpg',
         title: 'FGO -絶対魔獣戦線バビロニア-',
@@ -144,7 +144,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w4',
         img: 'https://azurlane-anime.jp/images/ogp2.png',
         title: '碧藍航線',
         link: 'https://azurlane-anime.jp/',
@@ -304,7 +304,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
+        day: 'w2',
         img: 'https://i.imgur.com/pFDrT97.png',
         title: 'Z/X Code Reunion',
         link: 'https://www.zxtcg.com/animation/',
