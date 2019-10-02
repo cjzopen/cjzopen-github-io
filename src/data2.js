@@ -64,8 +64,8 @@ var vue2 = new Vue({
       },
       {
         season:['2019-aki'],
-        day: '',
-        img: 'https://psycho-pass.com/images/3rdimage.jpg',
+        day: 'w4',
+        img: 'https://i.imgur.com/IqyOwoX.jpg',
         title: 'PSYCHO-PASS 3',
         link: 'https://psycho-pass.com/3rd/',
         words:['']
