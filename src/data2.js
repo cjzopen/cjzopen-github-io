@@ -389,6 +389,46 @@ var vue2 = new Vue({
         title: '天華百剣 ～めいじ館へようこそ！～',
         link: 'https://tenkahyakken.jp/special/anime/',
         words:['']
+      },
+      {
+        season:['2019-natsu','2019-aki'],
+        day: 'w5',
+        img: 'https://i.imgur.com/WBwtqtg.jpg',
+        title: 'Ｄｒ．ＳＴＯＮＥ',
+        link: 'https://dr-stone.jp/',
+        words:['']
+      },
+      {
+        season:['2019-natsu','2019-aki'],
+        day: 'w5',
+        img: 'https://i.imgur.com/k777xpT.jpg',
+        title: '炎炎ノ消防隊',
+        link: 'http://fireforce-anime.jp/',
+        words:['']
+      },
+      {
+        season:['2019-natsu','2019-aki'],
+        day: 'w0',
+        img: 'https://i.imgur.com/rZ2O2fq.jpg',
+        title: '海盜戰記',
+        link: 'https://vinlandsaga.jp/',
+        words:['']
+      },
+      {
+        season:['2019-natsu','2019-aki'],
+        day: 'w2',
+        img: 'https://i.imgur.com/u8jZRcd.jpg',
+        title: '鑽石王牌Act II',
+        link: 'https://diaace.com/',
+        words:['']
+      },
+      {
+        season:['2019-aki'],
+        day: '',
+        img: 'https://i.imgur.com/RSv1BGv.jpg',
+        title: 'OBSOLETE',
+        link: 'https://project-obsolete.com/',
+        words:['虚淵玄','12月youtube配信']
       }
     ]
   },
