@@ -9,7 +9,7 @@ body{
   font-weight:600;
   font-size: 16px;
   color: #494949;
-  background-color: #f9f9f9;
+  background-color: #334;
 }
 summary{
   cursor:pointer;
@@ -18,6 +18,10 @@ summary{
   max-width:1440px;
   padding:1rem;
   margin:0 auto;
+  color:#f1f1f1;
+  a{
+    color:#f494f7;
+  }
 }
 select{
   -moz-appearance: none;
@@ -60,6 +64,8 @@ ul.disc,ul.decimal,ol.disc,ol.decimal {
   transition: all .4s;
   position: relative;
   overflow: hidden;
+  background-color: #262136;
+  border:none;
   &::after{
     content: '未知';
     position: absolute;
@@ -165,11 +171,12 @@ label[for="w0"]{
   background-color: #f473cd;
 }
 label[for="other"]{
-  border-color: rgba(0,0,0,.125);
-  color: rgba(0,0,0,.125);
+  border-color: #f1f1f1;
+  color: #f1f1f1;
 }
 .day-check:checked + label[for="other"]{
-  background-color: rgba(0,0,0,.125);
+  background-color: #f1f1f1;
+  color: #334;
 }
 .day-check:checked + label{
   background-color: currentColor;

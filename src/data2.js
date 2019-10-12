@@ -87,7 +87,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2019-aki','2020-fuyu'],
         day: 'w2',
         img: 'https://www.ntv.co.jp/chihayafuru/_nuxt/img/ee2916a.jpg',
         title: '花牌情緣3',
@@ -159,7 +159,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2019-aki','2020-fuyu'],
         day: 'w3',
         img: 'https://www.nhk.or.jp/anime/radiant/assets/images/art/popup.png',
         title: 'Radiant s2',
@@ -188,7 +188,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/tdoaX9w.png',
         title: 'BEASTARS',
         link: 'https://bst-anime.com/',
-        words:['NETFLIX']
+        words:['NETFLIX','漫畫大賞2018第1名']
       },
       {
         season:['2019-haru','2019-aki'],
@@ -255,7 +255,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2019-aki','2020-fuyu'],
         day: 'w6',
         img: 'https://i.imgur.com/sKQ0CMS.jpg',
         title: '入間同學入魔了！',
@@ -268,7 +268,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/eG22EW6.gif',
         title: '本好きの下剋上',
         link: 'http://booklove-anime.jp/',
-        words:['']
+        words:['這本輕小說真厲害2018,2019第1名']
       },
       {
         season:['2019-aki'],
@@ -279,7 +279,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2019-aki','2020-fuyu'],
         day: 'w1',
         img: 'https://i.imgur.com/bxhuJLZ.jpg',
         title: 'Phantasy Star Online 2: Episode Oracle',
@@ -415,7 +415,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-natsu','2019-aki'],
+        season:['2019-natsu','2019-aki','2020-fuyu'],
         day: 'w2',
         img: 'https://i.imgur.com/u8jZRcd.jpg',
         title: '鑽石王牌Act II',
