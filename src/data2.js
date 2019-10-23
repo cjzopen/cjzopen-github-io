@@ -429,6 +429,14 @@ var vue2 = new Vue({
         title: 'OBSOLETE',
         link: 'https://project-obsolete.com/',
         words:['虚淵玄','12月youtube配信']
+      },
+      {
+        season:['2019-aki'],
+        day: '',
+        img: 'https://i.imgur.com/NTWIpX9.jpg',
+        title: 'Levius',
+        link: 'http://levius.net/',
+        words:['Netflix','11/28']
       }
     ]
   },
