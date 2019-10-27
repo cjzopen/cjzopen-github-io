@@ -18,6 +18,7 @@
   <meta property="fb:app_id" content="2262828757287171">
   <meta property="og:site_name" content="次元交錯">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" href="./anime.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77969491-3"></script>
 <script>
@@ -101,6 +102,19 @@ gtag('config', 'UA-77969491-3');
     </div>
     <div class="pt-3 text-info"><small>* 週一 18:00~週二04:00 皆視為週一</small></div>
   </section>
+  <div class="container-fluid">
+    <div class="video-wrapper position-relative overflow-hidden">
+      <img src="https://cjzopen.github.io/anime/unlasting.gif" alt="unlasting" class="w-100">
+      <div class="img-a1 position-absolute overflow-hidden w-100 h-50 animate-move">
+         <img class="w-100" src="https://cjzopen.github.io/anime/unlasting.gif" alt="unlasting">
+      </div>    
+      <div class="click-wrapper position-absolute w-100 h-100 d-flex justify-content-center align-items-center animate-move"><a class="text-white position-relative" href="#unlasting" data-fancybox>unlasting</a></div>
+    </div>
+    <video controls id="unlasting" style="display:none;">
+        <source src="https://cjzopen.github.io/anime/unlasting-LiSA.mp4" type="video/mp4">
+        Your browser doesn't support HTML5 video tag.
+    </video>
+  </div>
   <section class="container-fluid my-5">
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3" >
@@ -136,5 +150,6 @@ gtag('config', 'UA-77969491-3');
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js" defer></script>
 <script src="./data2.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" defer></script>
 </body>
 </html>
