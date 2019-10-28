@@ -286,7 +286,8 @@ label[for="other"]{
 @keyframes move{
   50%{ left:0; }
   51%{ left:50%;}
-  53%{ left:0;}
+  53%{ left:-40%;}
+  56%{ left:0; }
 }
 @supports (object-fit: cover) {
   .ratio-box{

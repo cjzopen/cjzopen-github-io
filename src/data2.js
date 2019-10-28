@@ -247,7 +247,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-aki'],
+        season:['2020-fuyu'],
         day: '',
         img: 'https://i.imgur.com/bgjP1WB.jpg',
         title: 'pet',
