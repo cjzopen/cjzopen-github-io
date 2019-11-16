@@ -437,6 +437,30 @@ var vue2 = new Vue({
         title: 'Levius',
         link: 'http://levius.net/',
         words:['Netflix','11/28']
+      },
+      {
+        season:['2019-aki'],
+        day: '',
+        img: 'https://i.imgur.com/NTWIpX9.jpg',
+        title: '嫌な顔されながらおパンツ見せてもらいたい２',
+        link: 'http://iyapan-anime.com/',
+        words:['11/22','ニコニコチャンネル']
+      },
+      {
+        season:['2019-natsu','2019-aki'],
+        day: 'w5',
+        img: 'https://i.imgur.com/NTWIpX9.jpg',
+        title: '少女☆寸劇 オールスタァライト',
+        link: 'https://revuestarlight.bushimo.jp/allstar/',
+        words:['手遊、Youtube放送']
+      },
+      {
+        season:['2020-fuyu'],
+        day: '',
+        img: 'https://yatogame.nagoya/wp-content/themes/yatogame_theme/img/update_icon_01.jpg',
+        title: '八十亀ちゃんかんさつにっき 2期',
+        link: 'https://yatogame.nagoya/',
+        words:['']
       }
     ]
   },
