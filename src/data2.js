@@ -441,7 +441,7 @@ var vue2 = new Vue({
       {
         season:['2019-aki'],
         day: '',
-        img: 'https://i.imgur.com/NTWIpX9.jpg',
+        img: 'https://i.imgur.com/xjFuEsk.jpg',
         title: '嫌な顔されながらおパンツ見せてもらいたい２',
         link: 'http://iyapan-anime.com/',
         words:['11/22','ニコニコチャンネル']
@@ -449,7 +449,7 @@ var vue2 = new Vue({
       {
         season:['2019-natsu','2019-aki'],
         day: 'w5',
-        img: 'https://i.imgur.com/NTWIpX9.jpg',
+        img: 'https://i.imgur.com/bqvlLu8.jpg',
         title: '少女☆寸劇 オールスタァライト',
         link: 'https://revuestarlight.bushimo.jp/allstar/',
         words:['手遊、Youtube放送']
