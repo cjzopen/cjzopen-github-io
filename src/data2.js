@@ -36,7 +36,7 @@ var vue2 = new Vue({
         chinese:'其它'
       }
     ],
-    querySeason:'',
+    querySeason:'n',
     items:[
       {
         season:['2019-10'],
@@ -802,7 +802,7 @@ var vue2 = new Vue({
         return false;
       }
     },
-    _seasons:function(){
+    seasons_select:function(){
       var temp_array=[];
       var temp_item=this.items;
       var temp=temp_item[0].season;
@@ -837,4 +837,4 @@ var vue2 = new Vue({
   }
 });
 vue2.reorder();
-vue2._seasons();
+vue2.seasons_select();
