@@ -36,7 +36,7 @@ var vue2 = new Vue({
         chinese:'其它'
       }
     ],
-    querySeason:'n',
+    querySeason:'default',
     items:[
       {
         season:['2019-10'],
@@ -805,7 +805,6 @@ var vue2 = new Vue({
     seasons_select:function(){
       var temp_array=[];
       var temp_item=this.items;
-      var temp=temp_item[0].season;
       temp_array=temp_item[0].season;
       for(key in temp_item){
         for(var i=0;i<temp_item.length;i++){
