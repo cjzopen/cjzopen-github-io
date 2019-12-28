@@ -39,6 +39,14 @@ var vue2 = new Vue({
     querySeason:'default',
     items:[
       {
+        season:[''],
+        day: '',
+        img: 'https://cjzopen.github.io/anime/img/og.jpg',
+        title: '次元交錯',
+        link: 'https://www.facebook.com/japaneseanimeshare/',
+        words:['粉絲團宣傳']
+      },
+      {
         season:['2019-10'],
         day: 'w6',
         img: 'https://i.imgur.com/rV7TBeF.jpg',
