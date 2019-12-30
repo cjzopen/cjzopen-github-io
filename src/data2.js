@@ -829,10 +829,13 @@ var vue2 = new Vue({
       for (let s of all_season){
         $('#seasons').append('<option value="'+s+'">'+s+'</option>');
       }
-      $('#seasons').on('change',function(){
-        let v= $(this).val();
-        document.location.href='./?se='+v;
-      })
+      // $('#seasons').on('change',function(){
+      //   let v= $(this).val();
+      //   document.location.href='./?se='+v;
+      // })
+    },
+    seasonChange(event) {
+      console.log(event.target.value);
     },
     select_day:function(e){
       var v = e.target.id;

@@ -57,7 +57,7 @@ gtag('config', 'UA-77969491-3');
       </select>
     </div> -->
     <div class="p-4">
-      <select name="" id="seasons">
+      <select name="" id="seasons" @change="seasonChange($event)" v-model="querySeason">
         <option value="" disabled selected>season</option>
       </select>
     </div>
@@ -157,7 +157,7 @@ gtag('config', 'UA-77969491-3');
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js" defer></script>
 <!-- <script src="./data2.js" defer></script> -->
-<script src="../../src/data2.js" defer></script>
+<script src="data2.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" defer></script>
 </body>
