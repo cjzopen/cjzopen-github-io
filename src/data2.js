@@ -836,6 +836,7 @@ var vue2 = new Vue({
     },
     seasonChange(event) {
       this.querySeason = event.target.value;
+      history.replaceState({se:this.querySeason}, '', '?se='+this.querySeason);
     },
     select_day:function(e){
       var v = e.target.id;
