@@ -835,7 +835,7 @@ var vue2 = new Vue({
       // })
     },
     seasonChange(event) {
-      console.log(event.target.value);
+      this.querySeason = event.target.value;
     },
     select_day:function(e){
       var v = e.target.id;
@@ -846,5 +846,5 @@ var vue2 = new Vue({
     }
   }
 });
-vue2.reorder();
+// vue2.reorder();
 vue2.seasons_select();
