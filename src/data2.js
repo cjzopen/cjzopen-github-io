@@ -588,7 +588,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/pZIJGag.jpg',
         title: '恋する小惑星',
         link: 'http://koiastv.com/',
-        words:['']
+        words:['芳文社','動画工房']
       },
       {
         season:['2020-01'],
@@ -836,6 +836,7 @@ var vue2 = new Vue({
     },
     seasonChange(event) {
       this.querySeason = event.target.value;
+      $('.lazyloaded').removeClass('lazyloaded').addClass('lazyload');
       history.replaceState({se:this.querySeason}, '', '?se='+this.querySeason);
     },
     select_day:function(e){
