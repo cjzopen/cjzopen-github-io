@@ -538,7 +538,7 @@ var vue2 = new Vue({
         season:['2020-01'],
         day: 'w1',
         img: 'https://www.a3-animation.jp/images/ogp.png',
-        title: 'A3! SEASON SPRING & SUMMER',
+        title: 'A3!',
         link: 'https://www.a3-animation.jp/',
         words:['']
       },
@@ -688,11 +688,11 @@ var vue2 = new Vue({
       },
       {
         season:['2020-01'],
-        day: 'w4',
+        day: 'w2',
         img: 'https://i.imgur.com/sHi0Ll9.jpg',
         title: 'BanG Dream! 3rd Season',
         link: 'https://anime.bang-dream.com/3rd/',
-        words:['']
+        words:['台灣週二放送']
       },
       {
         season:['2020-01'],
