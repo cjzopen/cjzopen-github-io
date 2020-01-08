@@ -55,7 +55,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-04','2019-10'],
+        season:['2019-04','2019-10','2020-04'],
         day: 'w6',
         img: 'https://i.imgur.com/RKuH9x6.jpg',
         title: 'SAO Alicization - War of Underworld',
@@ -239,7 +239,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-10'],
+        season:['2019-10','2020-04'],
         day: 'w4',
         img: 'https://i.imgur.com/8x5Yz09.jpg',
         title: 'No Guns Life',
@@ -271,7 +271,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-10'],
+        season:['2019-10','2020-04'],
         day: 'w3',
         img: 'https://i.imgur.com/eG22EW6.gif',
         title: '本好きの下剋上',
@@ -695,7 +695,7 @@ var vue2 = new Vue({
         words:['台灣週二放送']
       },
       {
-        season:['2020-01'],
+        season:['2020-01','2020-04'],
         day: 'w3',
         img: 'https://i.imgur.com/5YKACWO.jpg',
         title: '掠奪者',

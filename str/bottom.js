@@ -42,6 +42,13 @@ var dcss = {
         "title": "background-attachment: fixed",
         "date": "2017-06-30",
         "preface": "note"
+    },
+    a7:{
+        "img": noImg,
+        "link": "/exp/2019-seo-to-2020-note.html",
+        "title": "回顧2019年的SEO，並邁向2020",
+        "date": "2020-01-07",
+        "preface": "note"
     }
 }
 var hcss='';
