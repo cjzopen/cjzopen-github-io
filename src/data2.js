@@ -836,7 +836,7 @@ var vue2 = new Vue({
     },
     seasonChange(event) {
       this.querySeason = event.target.value;
-      $('.lazyloaded').addr('src','');
+      $('.lazyloaded').attr('src','');
       $('.lazyloaded').removeClass('lazyloaded').addClass('lazyload');
       history.replaceState({se:this.querySeason}, '', '?se='+this.querySeason);
     },
