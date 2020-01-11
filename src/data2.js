@@ -119,7 +119,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-10'],
+        season:['2019-10','2020-01'],
         day: 'w5',
         img: 'https://i.imgur.com/vg9RhQz.jpg',
         title: '歌舞伎町シャーロック',
@@ -431,7 +431,7 @@ var vue2 = new Vue({
         words:['']
       },
       {
-        season:['2019-10'],
+        season:['2019-10','2020-01'],
         day: '',
         img: 'https://i.imgur.com/RSv1BGv.jpg',
         title: 'OBSOLETE',
@@ -836,6 +836,7 @@ var vue2 = new Vue({
     },
     seasonChange(event) {
       this.querySeason = event.target.value;
+      $('.lazyloaded').addr('src','');
       $('.lazyloaded').removeClass('lazyloaded').addClass('lazyload');
       history.replaceState({se:this.querySeason}, '', '?se='+this.querySeason);
     },
