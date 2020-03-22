@@ -833,7 +833,7 @@ var vue2 = new Vue({
       {
         season:['2020-04'],
         day: 'w6',
-        img: '',
+        img: 'https://i.imgur.com/c2mhD18.jpg',
         title: '昨日之歌',
         link: 'https://singyesterday.com/',
         words:['']
@@ -880,7 +880,7 @@ var vue2 = new Vue({
       },
       {
         season:['2020-04'],
-        day: 'w7',
+        day: 'w0',
         img: 'https://i.imgur.com/AORDfgV.jpg',
         title: '継つぐもも',
         link: 'http://tsugumomo.com/',
