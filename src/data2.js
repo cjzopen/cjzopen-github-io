@@ -60,7 +60,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/RKuH9x6.jpg',
         title: 'SAO Alicization - War of Underworld',
         link: 'https://sao-alicization.net/',
-        words:['']
+        words:['4/25']
       },
       {
         season:['2019-10'],
@@ -772,6 +772,118 @@ var vue2 = new Vue({
         img: 'https://rebirth-fy.com/wordpress/wp-content/themes/rebirth/image/anime/kv.png',
         title: 'りばあす',
         link: 'https://rebirth-fy.com/anime/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w4',
+        img: 'https://i.imgur.com/ARhMTlW.jpg',
+        title: 'やはり俺の青春ラブコメはまちがっている。完',
+        link: 'https://www.tbs.co.jp/anime/oregairu/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w6',
+        img: 'https://i.imgur.com/V4vumHX.jpg',
+        title: 'かぐや様は告らせたい？',
+        link: 'https://kaguya.love/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/vBAV5ZV.jpg',
+        title: '食戟のソーマ 豪ノ皿',
+        link: 'http://shokugekinosoma.com/5thplate/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w1',
+        img: 'https://fruba.jp/assets/img/top/ph_mainvisual.jpg',
+        title: 'フルーツバスケット s2',
+        link: 'https://fruba.jp/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w2',
+        img: 'https://i.imgur.com/plmQuL5.jpg',
+        title: 'Gleipnir',
+        link: 'http://gleipnir-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w3',
+        img: 'https://i.imgur.com/2OJfAKi.jpg',
+        title: 'BNA',
+        link: 'https://bna-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w6',
+        img: 'https://i.imgur.com/d9gc6CQ.jpg',
+        title: '乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…',
+        link: 'https://hamehura-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w6',
+        img: '',
+        title: '昨日之歌',
+        link: 'https://singyesterday.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w1',
+        img: 'https://i.imgur.com/1F4rEQ0.jpg',
+        title: '超異域公主連結 Re:Dive',
+        link: 'https://anime.priconne-redive.jp/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w4',
+        img: 'https://i.imgur.com/IrhGnl1.jpg',
+        title: '隱瞞之事',
+        link: 'https://kakushigoto-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: '',
+        img: 'https://ore.ski/_assets/siteinfo/og_image.jpg',
+        title: '俺を好きなのはお前だけかよ',
+        link: 'https://ore.ski/',
+        words:['OVA','5/23']
+      },
+      {
+        season:['2020-04'],
+        day: '',
+        img: 'https://i.imgur.com/bUjAjkj.jpg',
+        title: 'Strike the Blood IV',
+        link: 'http://www.strike-the-blood.com/fourth/',
+        words:['OVA']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/FtgvROq.jpg',
+        title: '天晴爛漫！',
+        link: 'http://appareranman.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w7',
+        img: 'https://i.imgur.com/AORDfgV.jpg',
+        title: '継つぐもも',
+        link: 'http://tsugumomo.com/',
         words:['']
       }
     ]
