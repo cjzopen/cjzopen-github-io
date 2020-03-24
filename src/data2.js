@@ -885,6 +885,126 @@ var vue2 = new Vue({
         title: '継つぐもも',
         link: 'http://tsugumomo.com/',
         words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/9os1NeM.jpg',
+        title: '碧藍幻想 姬塔篇',
+        link: 'https://anime.granbluefantasy.jp/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w4',
+        img: 'https://i.imgur.com/MacsxB6.jpg',
+        title: '八男？別鬧了！',
+        link: 'http://hachinan-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w4',
+        img: 'https://i.imgur.com/EFDst9D.jpg',
+        title: '富豪刑事 Balance:UNLIMITED',
+        link: 'https://fugoukeiji-bul.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w6',
+        img: 'https://i.imgur.com/VgvlBDY.jpg',
+        title: 'アルテ',
+        link: 'http://arte-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/0hQVzbz.jpg',
+        title: 'LISTENERS',
+        link: 'https://listeners.rocks/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w1',
+        img: 'https://i.imgur.com/B7XWzkN.jpg',
+        title: '邪神ちゃんドロップキック\'',
+        link: 'http://jashinchan.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w1',
+        img: 'https://i.imgur.com/XKy4xuE.jpg',
+        title: '白猫プロジェクトZERO CHRONICLE',
+        link: 'https://colopl.co.jp/shironekoproject/animation/zero_chronicle/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://namiyo-anime.com/wp/wp-content/themes/namiyo-re/assets/img/common/ogp.jpg',
+        title: '波よ聞いてくれ',
+        link: 'https://namiyo-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w3',
+        img: 'https://i.imgur.com/Mj0UX2s.jpg',
+        title: '球詠',
+        link: 'https://tamayomi.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w1',
+        img: 'https://kimikoe.com/kitsutsuki/images/og3.png',
+        title: '啄木鳥探偵處',
+        link: 'https://kimikoe.com/kitsutsuki/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w2',
+        img: 'https://i.imgur.com/MOcdWdJ.jpg',
+        title: '放課後ていぼう日誌',
+        link: 'https://teibotv.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://www.tv-tokyo.co.jp/anime/bungo-alchemist/images/facebook_icon.jpg',
+        title: '文豪とアルケミスト 〜審判ノ歯車〜 ',
+        link: 'https://www.tv-tokyo.co.jp/anime/bungo-alchemist/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/dznOdut.jpg',
+        title: '新サクラ大戦',
+        link: 'https://sakura-taisen-theanimation.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w0',
+        img: 'https://shachibato-anime.com/img/ogp-official.jpg',
+        title: '社長、バトルの時間です！',
+        link: 'https://shachibato-anime.com/',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: '',
+        img: 'https://i.imgur.com/KkdaLLl.jpg',
+        title: 'ガルパ☆ピコ ~大盛り~ ',
+        link: 'https://anime.bang-dream.com/pico/',
+        words:['5/7']
       }
     ]
   },
