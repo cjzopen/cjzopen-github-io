@@ -1002,9 +1002,17 @@ var vue2 = new Vue({
         season:['2020-04'],
         day: '',
         img: 'https://i.imgur.com/KkdaLLl.jpg',
-        title: 'ガルパ☆ピコ ~大盛り~ ',
+        title: 'ガルパ☆ピコ ~大盛り~',
         link: 'https://anime.bang-dream.com/pico/',
         words:['5/7']
+      },
+      {
+        season:['2020-04'],
+        day: 'w3',
+        img: 'http://cingeki-anime.com/lib/images/main.jpg',
+        title: '偶像大師灰姑娘女孩劇場 Extra Stage',
+        link: 'https://twitter.com/cingeki_anime',
+        words:['']
       }
     ]
   },
