@@ -272,7 +272,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-10','2020-04'],
-        day: 'w3',
+        day: 'w6',
         img: 'https://i.imgur.com/eG22EW6.gif',
         title: '本好きの下剋上',
         link: 'http://booklove-anime.jp/',
