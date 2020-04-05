@@ -272,7 +272,7 @@ var vue2 = new Vue({
       },
       {
         season:['2019-10','2020-04'],
-        day: 'w6',
+        day: 'w6F',
         img: 'https://i.imgur.com/eG22EW6.gif',
         title: '本好きの下剋上',
         link: 'http://booklove-anime.jp/',
@@ -808,7 +808,7 @@ var vue2 = new Vue({
       },
       {
         season:['2020-04'],
-        day: 'w2',
+        day: 'w0',
         img: 'https://i.imgur.com/plmQuL5.jpg',
         title: 'Gleipnir',
         link: 'http://gleipnir-anime.com/',
@@ -1012,6 +1012,14 @@ var vue2 = new Vue({
         img: 'http://cingeki-anime.com/lib/images/main.jpg',
         title: '偶像大師灰姑娘女孩劇場 Extra Stage',
         link: 'https://twitter.com/cingeki_anime',
+        words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w0',
+        img: 'https://i.imgur.com/iRygniD.png',
+        title: 'IDOLiSH7 s2',
+        link: 'https://idolish7.com/aninana/',
         words:['']
       }
     ]
