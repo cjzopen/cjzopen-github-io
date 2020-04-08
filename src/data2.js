@@ -244,7 +244,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/8x5Yz09.jpg',
         title: 'No Guns Life',
         link: 'http://nogunslife.com/',
-        words:['']
+        words:['延期']
       },
       {
         season:['2019-10'],
@@ -780,7 +780,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/ARhMTlW.jpg',
         title: 'やはり俺の青春ラブコメはまちがっている。完',
         link: 'https://www.tbs.co.jp/anime/oregairu/',
-        words:['']
+        words:['延期']
       },
       {
         season:['2020-04'],
@@ -1021,6 +1021,14 @@ var vue2 = new Vue({
         title: 'IDOLiSH7 s2',
         link: 'https://idolish7.com/aninana/',
         words:['']
+      },
+      {
+        season:['2020-04'],
+        day: 'w0',
+        img: 'https://i.imgur.com/nu2p01c.gif',
+        title: '辣妹與恐龍',
+        link: 'http://galkyo.com/',
+        words:['神風動畫']
       }
     ]
   },
