@@ -1029,6 +1029,14 @@ var vue2 = new Vue({
         title: '辣妹與恐龍',
         link: 'http://galkyo.com/',
         words:['神風動畫']
+      },
+      {
+        season:['2020-04'],
+        day: 'w5',
+        img: 'https://i.imgur.com/DMY4TnD.jpg',
+        title: 'ARGONAVIS',
+        link: 'https://anime.argo-bdp.com/',
+        words:['']
       }
     ]
   },
