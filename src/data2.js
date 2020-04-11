@@ -1024,7 +1024,7 @@ var vue2 = new Vue({
       },
       {
         season:['2020-04'],
-        day: 'w0',
+        day: 'w6',
         img: 'https://i.imgur.com/nu2p01c.gif',
         title: '辣妹與恐龍',
         link: 'http://galkyo.com/',
