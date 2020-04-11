@@ -60,7 +60,7 @@ var vue2 = new Vue({
         img: 'https://i.imgur.com/RKuH9x6.jpg',
         title: 'SAO Alicization - War of Underworld',
         link: 'https://sao-alicization.net/',
-        words:['4/25']
+        words:['延期']
       },
       {
         season:['2019-10'],
