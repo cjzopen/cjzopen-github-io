@@ -1,2 +1,1 @@
 User-agent: *
-Sitemap: https://cjzopen.github.io/sitemap.xml
