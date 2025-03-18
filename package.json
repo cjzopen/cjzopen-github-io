@@ -1,0 +1,33 @@
+{
+  "name": "cjzopen.github.io",
+  "version": "1.0.0",
+  "description": "1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile1": "webpack --mode development",
+    "compile2": "webpack --mode production",
+    "scss": "node-sass -r src/ -o anime/season/ --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjzopen/cjzopen.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjzopen/cjzopen.github.io/issues"
+  },
+  "homepage": "https://github.com/cjzopen/cjzopen.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.0",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "npm": "^6.14.4"
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube 頻道訂閱數成長曲線</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>YouTube</h1>
+  <canvas id="subscriberGrowthChart" width="800" height="400"></canvas>
+
+  <script>
+    const apiKey = '';
+    const channelIds = [
+      'UC1DCedRgGHBdm81E1llLhOQ',
+      'UC-hM6YJuNYVAmUWxeIr9FeA',
+    ];
+
+    async function fetchChannelSubscribers() {
+      const promises = channelIds.map(async (channelId) => {
+        const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=${channelId}&key=${apiKey}`);
+        const data = await response.json();
+        if (data.items && data.items.length > 0) {
+          return {
+            channelId: channelId,
+            channelName: data.items[0].snippet.title,
+            subscriberCount: parseInt(data.items[0].statistics.subscriberCount, 10),
+            date: new Date().toISOString().split('T')[0]  // YYYY-MM-DD
+          };
+        }
+      });
+
+      const subscriberData = await Promise.all(promises);
+
+      // 從 localStorage 獲取已保存的數據
+      let storedData = JSON.parse(localStorage.getItem('subscriberData')) || [];
+
+      // 獲取今天的日期和過去一年每個月的 1 號
+      const today = new Date();
+      const yearAgo = new Date(today.getFullYear(), today.getMonth() - 12, 1); // 一年前的當月 1 號
+
+      // 每次加載時檢查是否需要記錄數據
+      if (today.getDate() === 1) {
+        subscriberData.forEach(newEntry => {
+          const existingEntry = storedData.find(d => d.channelId === newEntry.channelId && d.date === newEntry.date);
+          if (!existingEntry) {
+            storedData.push(newEntry);
+          }
+        });
+        // 更新 localStorage
+        localStorage.setItem('subscriberData', JSON.stringify(storedData));
+      }
+
+      // 清理數據，只保留過去一年內每個月的 1 號數據
+      storedData = storedData.filter(d => new Date(d.date) >= yearAgo && new Date(d.date) <= today);
+      localStorage.setItem('subscriberData', JSON.stringify(storedData));
+    }
+
+    function drawChart() {
+      // 從 localStorage 獲取數據
+      const storedData = JSON.parse(localStorage.getItem('subscriberData')) || [];
+      if (storedData.length === 0) {
+        console.log('沒有可用的數據');
+        return;
+      }
+
+      // 將數據轉換為 Chart.js 所需的格式
+      const labels = [...new Set(storedData.map(d => d.date.substring(0, 7)))]; // YYYY-MM
+      const uniqueChannels = [...new Set(storedData.map(d => d.channelId))];
+      const datasets = uniqueChannels.map(channelId => {
+        const channelData = storedData.filter(d => d.channelId === channelId);
+        const channelName = channelData[0]?.channelName || channelId;
+
+        return {
+          label: channelName,
+          data: labels.map(date => {
+            const entry = channelData.find(d => d.date.startsWith(date));
+            return entry ? entry.subscriberCount : null;
+          }),
+          borderColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`, 
+          fill: false
+        };
+      });
+
+      // 使用 Chart.js 繪製折線圖
+      const ctx = document.getElementById('subscriberGrowthChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: datasets
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: '（每月1日）'
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        }
+      });
+    }
+    fetchChannelSubscribers().then(drawChart);
+  </script>
+</body>
+</html>
