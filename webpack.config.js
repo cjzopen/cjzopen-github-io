@@ -5,9 +5,9 @@ module.exports = {
   entry: path.resolve(__dirname, 'src/data2.js'),
   // entry: './src/data2.js',
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, 'anime/season/'),
     filename: 'data2.js',
-    // publicPath: '/'
   },
   module: {
     rules: [
